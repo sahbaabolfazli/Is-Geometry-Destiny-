@@ -1,0 +1,58 @@
+{
+  "model": "Unbabel/TowerBase-7B-v0.1",
+  "category": "translation_specialized",
+  "primary_layer": 16,
+  "monitored_layers": [
+    16,
+    20,
+    24,
+    28,
+    29,
+    31
+  ],
+  "n_en_tokens_raw": 9329,
+  "n_zh_tokens_raw": 17723,
+  "pr1_raw": {
+    "en": 1.04429292678833,
+    "zh": 1.05975341796875
+  },
+  "pr2_equalized_debiased": {
+    "n_per_language": 9329,
+    "en_mean": 282.4644470214844,
+    "en_std": 0.0,
+    "zh_mean": 228.7971663979923,
+    "zh_std": 1.3110902378154856
+  },
+  "cka_by_layer": {
+    "16": {
+      "raw": 0.9641352295875549,
+      "debiased": 0.923306405544281,
+      "n_pairs": 48
+    },
+    "20": {
+      "raw": 0.9505268931388855,
+      "debiased": 0.9357851147651672,
+      "n_pairs": 48
+    },
+    "24": {
+      "raw": 0.9132682681083679,
+      "debiased": 0.6420331001281738,
+      "n_pairs": 48
+    },
+    "28": {
+      "raw": 0.9108167290687561,
+      "debiased": 0.6285030245780945,
+      "n_pairs": 48
+    },
+    "29": {
+      "raw": 0.9198226928710938,
+      "debiased": 0.6923554539680481,
+      "n_pairs": 48
+    },
+    "31": {
+      "raw": 0.9003403782844543,
+      "debiased": 0.8752868175506592,
+      "n_pairs": 48
+    }
+  }
+}

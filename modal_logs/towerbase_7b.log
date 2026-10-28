@@ -1,0 +1,135 @@
+Sun Oct 25 20:56:30 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:00:07.0 Off |                    0 |
+| N/A   29C    P0             59W /  400W |       4MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+===== [towerbase_7b] cuda check =====
+2.8.0+cu128 NVIDIA A100-SXM4-80GB 79 GiB
+
+===== [towerbase_7b] MODELS=towerbase_7b bash run_analysis.sh gpu =====
+towerbase_7b READY
+[info] 48 approved item(s) going into Phase 3.
+[info] Loading Unbabel/TowerBase-7B-v0.1 on device=cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+[config] active model=Unbabel/TowerBase-7B-v0.1  category=translation_specialized  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_towerbase_7b
+[tokens] N_en_total=9377  N_zh_total=17771  ratio(en/zh)=0.528
+[info] Extracted representations across layers: [16, 20, 24, 28, 29, 31]
+
+[info] Computing CKA across layers ([16, 20, 24, 28, 29, 31]):
+    Layer 16 -> raw CKA: 0.9641 | debiased CKA: 0.9233
+    Layer 20 -> raw CKA: 0.9505 | debiased CKA: 0.9358
+    Layer 24 -> raw CKA: 0.9133 | debiased CKA: 0.6420
+    Layer 28 -> raw CKA: 0.9108 | debiased CKA: 0.6285
+    Layer 29 -> raw CKA: 0.9198 | debiased CKA: 0.6924
+    Layer 31 -> raw CKA: 0.9003 | debiased CKA: 0.8753
+
+[done] Comprehensive report with multi-layer CKA written to phase3_report_towerbase_7b.json
+[info] Ingested into ChromaDB at ./phase3_chroma_db_towerbase_7b
+[info] Loading Unbabel/TowerBase-7B-v0.1 (category=translation_specialized) on cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+[config] active model=Unbabel/TowerBase-7B-v0.1  category=translation_specialized  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_towerbase_7b
+  syn_01 [math_physics]: en_ppl=18.00 (nats=514.5) | zh_ppl=14.64 (nats=799.8) | ratio(en/zh)=1.229
+  syn_02 [math_physics]: en_ppl=12.52 (nats=490.3) | zh_ppl=11.36 (nats=811.6) | ratio(en/zh)=1.102
+  syn_03 [math_physics]: en_ppl=11.68 (nats=464.5) | zh_ppl=8.40 (nats=798.1) | ratio(en/zh)=1.390
+  syn_04 [math_physics]: en_ppl=12.06 (nats=463.1) | zh_ppl=11.76 (nats=872.5) | ratio(en/zh)=1.026
+  syn_05 [math_physics]: en_ppl=12.88 (nats=498.3) | zh_ppl=13.51 (nats=887.7) | ratio(en/zh)=0.953
+  syn_06 [math_physics]: en_ppl=15.67 (nats=506.3) | zh_ppl=11.13 (nats=898.8) | ratio(en/zh)=1.408
+  syn_07 [math_physics]: en_ppl=9.55 (nats=460.4) | zh_ppl=14.59 (nats=830.9) | ratio(en/zh)=0.655
+  syn_08 [math_physics]: en_ppl=14.21 (nats=517.5) | zh_ppl=11.98 (nats=913.8) | ratio(en/zh)=1.186
+  syn_09 [math_physics]: en_ppl=9.45 (nats=494.1) | zh_ppl=13.20 (nats=1011.4) | ratio(en/zh)=0.716
+  syn_10 [math_physics]: en_ppl=11.93 (nats=490.9) | zh_ppl=14.41 (nats=923.1) | ratio(en/zh)=0.828
+  syn_11 [philosophy]: en_ppl=17.03 (nats=558.4) | zh_ppl=13.86 (nats=962.3) | ratio(en/zh)=1.228
+  syn_12 [philosophy]: en_ppl=16.60 (nats=553.4) | zh_ppl=13.14 (nats=906.7) | ratio(en/zh)=1.263
+  syn_13 [philosophy]: en_ppl=11.11 (nats=462.3) | zh_ppl=8.21 (nats=787.6) | ratio(en/zh)=1.353
+  syn_14 [philosophy]: en_ppl=12.33 (nats=482.2) | zh_ppl=9.62 (nats=774.3) | ratio(en/zh)=1.281
+  syn_15 [philosophy]: en_ppl=11.97 (nats=523.9) | zh_ppl=7.40 (nats=844.5) | ratio(en/zh)=1.619
+  syn_16 [philosophy]: en_ppl=13.95 (nats=524.5) | zh_ppl=11.30 (nats=858.3) | ratio(en/zh)=1.235
+  syn_17 [philosophy]: en_ppl=15.77 (nats=529.6) | zh_ppl=9.93 (nats=927.4) | ratio(en/zh)=1.588
+  syn_18 [philosophy]: en_ppl=11.79 (nats=530.4) | zh_ppl=13.71 (nats=1039.4) | ratio(en/zh)=0.860
+  syn_19 [philosophy]: en_ppl=14.43 (nats=547.2) | zh_ppl=11.39 (nats=905.1) | ratio(en/zh)=1.267
+  syn_20 [philosophy]: en_ppl=9.77 (nats=492.3) | zh_ppl=8.39 (nats=846.8) | ratio(en/zh)=1.164
+  syn_21 [complex_systems]: en_ppl=20.02 (nats=644.3) | zh_ppl=8.03 (nats=931.2) | ratio(en/zh)=2.493
+  syn_22 [complex_systems]: en_ppl=17.62 (nats=642.7) | zh_ppl=7.62 (nats=942.3) | ratio(en/zh)=2.313
+  syn_23 [complex_systems]: en_ppl=12.98 (nats=525.4) | zh_ppl=9.25 (nats=867.6) | ratio(en/zh)=1.403
+  syn_24 [complex_systems]: en_ppl=11.76 (nats=522.5) | zh_ppl=8.08 (nats=867.3) | ratio(en/zh)=1.455
+  syn_25 [complex_systems]: en_ppl=15.88 (nats=536.4) | zh_ppl=10.06 (nats=833.3) | ratio(en/zh)=1.579
+  syn_26 [complex_systems]: en_ppl=18.63 (nats=564.5) | zh_ppl=8.71 (nats=857.0) | ratio(en/zh)=2.140
+  syn_27 [complex_systems]: en_ppl=20.32 (nats=511.9) | zh_ppl=8.14 (nats=756.9) | ratio(en/zh)=2.496
+  syn_28 [complex_systems]: en_ppl=17.74 (nats=534.9) | zh_ppl=9.69 (nats=826.7) | ratio(en/zh)=1.830
+  syn_29 [complex_systems]: en_ppl=11.40 (nats=520.8) | zh_ppl=10.69 (nats=935.9) | ratio(en/zh)=1.067
+  syn_30 [complex_systems]: en_ppl=17.68 (nats=586.0) | zh_ppl=12.62 (nats=940.6) | ratio(en/zh)=1.401
+  syn_31 [syntax_baseline]: en_ppl=5.92 (nats=377.0) | zh_ppl=5.19 (nats=696.4) | ratio(en/zh)=1.141
+  syn_32 [syntax_baseline]: en_ppl=9.37 (nats=474.3) | zh_ppl=5.64 (nats=718.0) | ratio(en/zh)=1.661
+  syn_33 [syntax_baseline]: en_ppl=11.25 (nats=450.2) | zh_ppl=5.18 (nats=647.8) | ratio(en/zh)=2.174
+  syn_34 [syntax_baseline]: en_ppl=7.01 (nats=393.3) | zh_ppl=6.16 (nats=676.6) | ratio(en/zh)=1.137
+  syn_35 [syntax_baseline]: en_ppl=9.39 (nats=450.1) | zh_ppl=5.62 (nats=697.8) | ratio(en/zh)=1.669
+  syn_36 [syntax_baseline]: en_ppl=4.15 (nats=270.2) | zh_ppl=3.57 (nats=496.3) | ratio(en/zh)=1.161
+  syn_37 [syntax_baseline]: en_ppl=7.41 (nats=380.5) | zh_ppl=6.23 (nats=646.0) | ratio(en/zh)=1.189
+  syn_38 [syntax_baseline]: en_ppl=7.85 (nats=416.3) | zh_ppl=5.04 (nats=619.5) | ratio(en/zh)=1.558
+  syn_39 [syntax_baseline]: en_ppl=10.25 (nats=463.2) | zh_ppl=6.81 (nats=740.8) | ratio(en/zh)=1.505
+  syn_40 [syntax_baseline]: en_ppl=8.50 (nats=451.6) | zh_ppl=5.21 (nats=744.0) | ratio(en/zh)=1.633
+  hum_01 [math_physics]: en_ppl=13.81 (nats=496.3) | zh_ppl=8.94 (nats=687.9) | ratio(en/zh)=1.545
+  hum_02 [math_physics]: en_ppl=26.35 (nats=441.7) | zh_ppl=10.11 (nats=626.9) | ratio(en/zh)=2.607
+  hum_03 [complex_systems]: en_ppl=11.18 (nats=393.6) | zh_ppl=6.81 (nats=640.9) | ratio(en/zh)=1.642
+  hum_04 [complex_systems]: en_ppl=9.17 (nats=421.1) | zh_ppl=6.18 (nats=643.0) | ratio(en/zh)=1.484
+  hum_05 [philosophy]: en_ppl=8.76 (nats=377.5) | zh_ppl=5.31 (nats=549.6) | ratio(en/zh)=1.648
+  hum_06 [philosophy]: en_ppl=5.73 (nats=279.3) | zh_ppl=5.17 (nats=463.2) | ratio(en/zh)=1.108
+  hum_07 [syntax_baseline]: en_ppl=6.78 (nats=344.4) | zh_ppl=6.02 (nats=608.5) | ratio(en/zh)=1.126
+  hum_08 [syntax_baseline]: en_ppl=6.26 (nats=287.9) | zh_ppl=7.10 (nats=576.2) | ratio(en/zh)=0.882
+[done] Wrote 48 per-concept perplexity & total nats pairs to phase3_perplexity_towerbase_7b.json
+[config] Using universal pad token: '<unk>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+[config] active model=Unbabel/TowerBase-7B-v0.1  category=translation_specialized  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_towerbase_7b
+[info] Running latent injection on 48 concept(s).
+[done] Wrote injection report to phase3b_injection_report_towerbase_7b.json
+[info] Loading injection report from phase3b_injection_report_towerbase_7b.json ...
+[done] Wrote fully corrected significance report to phase3b_significance_report_towerbase_7b.json
+[config] Using universal pad token: '<unk>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+[config] active model=Unbabel/TowerBase-7B-v0.1  category=translation_specialized  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_towerbase_7b
+[3d] Unbabel/TowerBase-7B-v0.1 concepts=48 layer=16 pos=4 carrier='<unk>' role=primary
+  [en2en] 8/48 (18s)
+  [en2en] 16/48 (26s)
+  [en2en] 24/48 (34s)
+  [en2en] 32/48 (42s)
+  [en2en] 40/48 (51s)
+  [en2en] 48/48 (59s)
+[3d] en2en: diag=4.7097 offdiag=4.7100 noise=4.6838 none=4.7098
+  [en2zh] 8/48 (84s)
+  [en2zh] 16/48 (100s)
+  [en2zh] 24/48 (116s)
+  [en2zh] 32/48 (132s)
+  [en2zh] 40/48 (148s)
+  [en2zh] 48/48 (164s)
+[3d] en2zh: diag=3.5852 offdiag=3.5851 noise=3.6466 none=3.5850
+  [zh2en] 8/48 (190s)
+  [zh2en] 16/48 (199s)
+  [zh2en] 24/48 (207s)
+  [zh2en] 32/48 (215s)
+  [zh2en] 40/48 (223s)
+  [zh2en] 48/48 (231s)
+[3d] zh2en: diag=4.7119 offdiag=4.7121 noise=4.6843 none=4.7098
+  [zh2zh] 8/48 (257s)
+  [zh2zh] 16/48 (273s)
+  [zh2zh] 24/48 (289s)
+  [zh2zh] 32/48 (305s)
+  [zh2zh] 40/48 (321s)
+  [zh2zh] 48/48 (337s)
+[3d] zh2zh: diag=3.5791 offdiag=3.5795 noise=3.6165 none=3.5850
+[done] phase3d_interference_towerbase_7b.npz (355s)

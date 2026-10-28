@@ -1,0 +1,307 @@
+{
+  "model": "google/gemma-2-9b",
+  "key": "gemma2_9b",
+  "layer_idx": 21,
+  "exclude_leading_n_in_config": 2,
+  "mode": "pinned",
+  "environment": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "device": "mps:0",
+    "param_dtype": "torch.bfloat16",
+    "expected_dtype": "torch.bfloat16",
+    "model_type": "gemma2",
+    "attn_impl": "eager",
+    "n_layers": 42,
+    "hidden_size": 3584,
+    "vocab_size": 256000,
+    "dtype_ok": true,
+    "attn_ok": true
+  },
+  "reference": {
+    "ref_norm": 234.0727996826172,
+    "ref_norm_nm": 157.0735626220703,
+    "sink_norm": 2023.29150390625,
+    "ord_sink_cos": 0.5314055681228638,
+    "n_massive_dims": 25
+  },
+  "carrier": {
+    "plain_nll_tail": {
+      "en": 2.7963100348909697,
+      "zh": 3.3215593149264655
+    },
+    "uniform_nll": 12.4529327234617,
+    "default_id": 0,
+    "candidates": [
+      {
+        "token": "<pad>",
+        "id": 0,
+        "finite": true,
+        "norm_ratio": 1.4164371490478516,
+        "pos0_norm_ratio": 1.412756085395813,
+        "inj_site_norm_ratio": 1.4178991317749023,
+        "sink_cos": 0.26349279284477234,
+        "pos0_sink_cos": 0.26206618547439575,
+        "nm_ratio": 1.8891854286193848,
+        "norm_by_position": [
+          1.41,
+          1.41,
+          1.42,
+          1.41,
+          1.42,
+          1.42,
+          1.42,
+          1.42,
+          1.42,
+          1.42
+        ],
+        "sink_cos_by_position": [
+          0.262,
+          0.262,
+          0.261,
+          0.262,
+          0.264,
+          0.264,
+          0.265,
+          0.264,
+          0.264,
+          0.265
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 7.534632205963135,
+        "top1_prob": 0.06983395665884018,
+        "top5": [
+          "cmdline",
+          "etts",
+          " \u0631\u062c",
+          "Karel",
+          "\u5973\u58eb"
+        ],
+        "en": {
+          "nll_all": 7.666566371917725,
+          "nll_tail": 7.583019256591797,
+          "nll_std": 1.0750725269317627,
+          "ratio_to_plain": 2.711794853210449
+        },
+        "zh": {
+          "nll_all": 8.053568840026855,
+          "nll_tail": 8.01452350616455,
+          "nll_std": 0.5380344986915588,
+          "ratio_to_plain": 2.412879705429077
+        },
+        "flags": [],
+        "pass": true,
+        "label": "<pad>"
+      }
+    ]
+  },
+  "functional": {
+    "hook_vs_hidden_states_max_abs_diff": 0.0,
+    "inject_exact_vs_cast_vector_max_abs_diff": 0.0,
+    "inject_rel_err_vs_fp32_vector": 0.0026251752860844135,
+    "layerL_other_positions_rel_change": 0.0,
+    "layerL1_before_pos_rel_change": 0.0,
+    "layerL1_at_pos_rel_change": 1.0017609596252441,
+    "layerL1_after_pos_rel_change": 0.0593884103000164,
+    "final_logits_max_abs_change": 10.296875
+  },
+  "batch_equivalence": {
+    "lengths": [
+      123,
+      128,
+      135,
+      167,
+      167,
+      177
+    ],
+    "no_injection": {
+      "max_abs_diff": 0.019346237182617188,
+      "mean_nll_single": 7.549476623535156
+    },
+    "with_injection": {
+      "max_abs_diff": 0.01848125457763672,
+      "mean_nll_single": 7.336151599884033
+    }
+  },
+  "concept_vectors": {
+    "en": {
+      "norm_ratio_to_ordinary": 0.8650201559066772,
+      "cos_to_sink_dir": 0.6928060054779053,
+      "mean_pairwise_cos_raw": 0.9031630754470825,
+      "mean_pairwise_cos_centered": -0.018898140639066696
+    },
+    "zh": {
+      "norm_ratio_to_ordinary": 0.7202088236808777,
+      "cos_to_sink_dir": 0.6639455556869507,
+      "mean_pairwise_cos_raw": 0.909328281879425,
+      "mean_pairwise_cos_centered": -0.019069066271185875
+    },
+    "cross_raw": {
+      "same_concept_cos": 0.9711917042732239,
+      "different_concept_cos": 0.8876678347587585,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    },
+    "cross_centered": {
+      "same_concept_cos": 0.8849043846130371,
+      "different_concept_cos": -0.016736626625061035,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    }
+  },
+  "position_sweep": {
+    "en": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "Within",
+          "\u2581non"
+        ],
+        [
+          "<bos>",
+          "In",
+          "\u2581measurable"
+        ],
+        [
+          "<bos>",
+          "Ch",
+          "ern"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        8.003419876098633,
+        5.5716986656188965,
+        0.8298380970954895,
+        0.9226431250572205,
+        0.9881778359413147,
+        1.0130809545516968
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.9375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 2,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0,
+      "late_outlier_top_tokens": [],
+      "sweep": {
+        "0": {
+          "n_tokens": 7341,
+          "pr_raw": 3.640798807144165,
+          "pr_filtered": 96.66793060302734,
+          "frac_removed_by_filter": 0.012804794987058984
+        },
+        "1": {
+          "n_tokens": 7293,
+          "pr_raw": 10.86220645904541,
+          "pr_filtered": 96.66793060302734,
+          "frac_removed_by_filter": 0.006307418072123955
+        },
+        "2": {
+          "n_tokens": 7245,
+          "pr_raw": 106.52716064453125,
+          "pr_filtered": 106.52716064453125,
+          "frac_removed_by_filter": 0.0
+        },
+        "3": {
+          "n_tokens": 7197,
+          "pr_raw": 107.54361724853516,
+          "pr_filtered": 107.54361724853516,
+          "frac_removed_by_filter": 0.0
+        },
+        "4": {
+          "n_tokens": 7149,
+          "pr_raw": 108.01252746582031,
+          "pr_filtered": 108.01252746582031,
+          "frac_removed_by_filter": 0.0
+        }
+      }
+    },
+    "zh": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "\u5728",
+          "\u975e"
+        ],
+        [
+          "<bos>",
+          "\u5728",
+          "\u53ef"
+        ],
+        [
+          "<bos>",
+          "\u9648",
+          "-"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        9.196577072143555,
+        5.780587673187256,
+        0.8940260410308838,
+        0.8710215091705322,
+        0.9208417534828186,
+        0.9552717804908752
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.9791666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 2,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0,
+      "late_outlier_top_tokens": [],
+      "sweep": {
+        "0": {
+          "n_tokens": 8621,
+          "pr_raw": 3.5293407440185547,
+          "pr_filtered": 102.34896850585938,
+          "frac_removed_by_filter": 0.011019603294281406
+        },
+        "1": {
+          "n_tokens": 8573,
+          "pr_raw": 12.307093620300293,
+          "pr_filtered": 102.34896850585938,
+          "frac_removed_by_filter": 0.005482328239822699
+        },
+        "2": {
+          "n_tokens": 8525,
+          "pr_raw": 102.3086166381836,
+          "pr_filtered": 102.3086166381836,
+          "frac_removed_by_filter": 0.0
+        },
+        "3": {
+          "n_tokens": 8477,
+          "pr_raw": 102.52924346923828,
+          "pr_filtered": 102.52924346923828,
+          "frac_removed_by_filter": 0.0
+        },
+        "4": {
+          "n_tokens": 8429,
+          "pr_raw": 102.9407958984375,
+          "pr_filtered": 102.9407958984375,
+          "frac_removed_by_filter": 0.0
+        }
+      }
+    }
+  },
+  "verdict": {
+    "status": "READY",
+    "fail": [],
+    "warn": [
+      "en: concept vectors share a dominant direction (pairwise cos 0.90); uncentered cosine metrics will be uninformative, rely on the mismatch matrix",
+      "zh: concept vectors share a dominant direction (pairwise cos 0.91); uncentered cosine metrics will be uninformative, rely on the mismatch matrix"
+    ],
+    "mode": "pinned"
+  }
+}

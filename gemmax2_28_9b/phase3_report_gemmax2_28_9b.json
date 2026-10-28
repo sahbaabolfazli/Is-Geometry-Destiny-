@@ -1,0 +1,58 @@
+{
+  "model": "ModelSpace/GemmaX2-28-9B-Pretrain",
+  "category": "translation_specialized",
+  "primary_layer": 21,
+  "monitored_layers": [
+    21,
+    26,
+    31,
+    36,
+    38,
+    41
+  ],
+  "n_en_tokens_raw": 7245,
+  "n_zh_tokens_raw": 8525,
+  "pr1_raw": {
+    "en": 106.08247375488281,
+    "zh": 90.91456604003906
+  },
+  "pr2_equalized_debiased": {
+    "n_per_language": 7245,
+    "en_mean": 240.92044067382812,
+    "en_std": 0.0,
+    "zh_mean": 269.01015798531324,
+    "zh_std": 0.716833126284342
+  },
+  "cka_by_layer": {
+    "21": {
+      "raw": 0.9786028265953064,
+      "debiased": 0.8409024477005005,
+      "n_pairs": 48
+    },
+    "26": {
+      "raw": 0.9821627140045166,
+      "debiased": 0.9118072390556335,
+      "n_pairs": 48
+    },
+    "31": {
+      "raw": 0.9804432988166809,
+      "debiased": 0.9712120890617371,
+      "n_pairs": 48
+    },
+    "36": {
+      "raw": 0.9694105386734009,
+      "debiased": 0.9750100374221802,
+      "n_pairs": 48
+    },
+    "38": {
+      "raw": 0.9678125977516174,
+      "debiased": 0.9671255350112915,
+      "n_pairs": 48
+    },
+    "41": {
+      "raw": 0.9354966282844543,
+      "debiased": 0.8859185576438904,
+      "n_pairs": 48
+    }
+  }
+}

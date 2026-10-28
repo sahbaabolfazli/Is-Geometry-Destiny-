@@ -1,0 +1,147 @@
+Sun Oct 25 20:56:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:DD:00.0 Off |                    0 |
+| N/A   29C    P0             59W /  500W |       4MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+===== [gemmax2_28_9b] cuda check =====
+2.8.0+cu128 NVIDIA A100-SXM4-80GB 79 GiB
+
+===== [gemmax2_28_9b] MODELS=gemmax2_28_9b bash run_analysis.sh gpu =====
+gemmax2_28_9b READY
+[info] 48 approved item(s) going into Phase 3.
+[info] Loading ModelSpace/GemmaX2-28-9B-Pretrain on device=cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 124.68it/s]
+[config] active model=ModelSpace/GemmaX2-28-9B-Pretrain  category=translation_specialized  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemmax2_28_9b
+[tokens] N_en_total=7341  N_zh_total=8621  ratio(en/zh)=0.852
+[info] Extracted representations across layers: [21, 26, 31, 36, 38, 41]
+
+[info] Computing CKA across layers ([21, 26, 31, 36, 38, 41]):
+    Layer 21 -> raw CKA: 0.9786 | debiased CKA: 0.8409
+    Layer 26 -> raw CKA: 0.9822 | debiased CKA: 0.9118
+    Layer 31 -> raw CKA: 0.9804 | debiased CKA: 0.9712
+    Layer 36 -> raw CKA: 0.9694 | debiased CKA: 0.9750
+    Layer 38 -> raw CKA: 0.9678 | debiased CKA: 0.9671
+    Layer 41 -> raw CKA: 0.9355 | debiased CKA: 0.8859
+
+[done] Comprehensive report with multi-layer CKA written to phase3_report_gemmax2_28_9b.json
+[info] Ingested into ChromaDB at ./phase3_chroma_db_gemmax2_28_9b
+[info] Loading ModelSpace/GemmaX2-28-9B-Pretrain (category=translation_specialized) on cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 127.49it/s]
+[config] active model=ModelSpace/GemmaX2-28-9B-Pretrain  category=translation_specialized  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemmax2_28_9b
+  syn_01 [math_physics]: en_ppl=30.64 (nats=506.5) | zh_ppl=46.57 (nats=649.1) | ratio(en/zh)=0.658
+  syn_02 [math_physics]: en_ppl=20.51 (nats=483.3) | zh_ppl=24.69 (nats=548.3) | ratio(en/zh)=0.830
+  syn_03 [math_physics]: en_ppl=13.97 (nats=421.9) | zh_ppl=21.43 (nats=579.3) | ratio(en/zh)=0.652
+  syn_04 [math_physics]: en_ppl=17.75 (nats=448.7) | zh_ppl=36.65 (nats=651.9) | ratio(en/zh)=0.484
+  syn_05 [math_physics]: en_ppl=17.75 (nats=460.2) | zh_ppl=26.08 (nats=639.2) | ratio(en/zh)=0.681
+  syn_06 [math_physics]: en_ppl=21.53 (nats=469.6) | zh_ppl=28.53 (nats=666.8) | ratio(en/zh)=0.755
+  syn_07 [math_physics]: en_ppl=25.37 (nats=481.8) | zh_ppl=31.83 (nats=643.6) | ratio(en/zh)=0.797
+  syn_08 [math_physics]: en_ppl=20.93 (nats=477.5) | zh_ppl=24.97 (nats=621.0) | ratio(en/zh)=0.838
+  syn_09 [math_physics]: en_ppl=15.56 (nats=485.8) | zh_ppl=40.35 (nats=758.0) | ratio(en/zh)=0.386
+  syn_10 [math_physics]: en_ppl=24.95 (nats=537.2) | zh_ppl=48.98 (nats=727.7) | ratio(en/zh)=0.509
+  syn_11 [philosophy]: en_ppl=28.70 (nats=557.3) | zh_ppl=50.39 (nats=783.9) | ratio(en/zh)=0.570
+  syn_12 [philosophy]: en_ppl=31.01 (nats=525.5) | zh_ppl=41.93 (nats=694.9) | ratio(en/zh)=0.740
+  syn_13 [philosophy]: en_ppl=16.89 (nats=441.0) | zh_ppl=28.34 (nats=591.9) | ratio(en/zh)=0.596
+  syn_14 [philosophy]: en_ppl=22.73 (nats=459.2) | zh_ppl=28.22 (nats=567.8) | ratio(en/zh)=0.806
+  syn_15 [philosophy]: en_ppl=24.65 (nats=522.4) | zh_ppl=32.74 (nats=669.8) | ratio(en/zh)=0.753
+  syn_16 [philosophy]: en_ppl=32.49 (nats=525.6) | zh_ppl=40.34 (nats=661.8) | ratio(en/zh)=0.805
+  syn_17 [philosophy]: en_ppl=29.95 (nats=509.9) | zh_ppl=35.05 (nats=693.6) | ratio(en/zh)=0.854
+  syn_18 [philosophy]: en_ppl=26.86 (nats=536.3) | zh_ppl=58.36 (nats=845.9) | ratio(en/zh)=0.460
+  syn_19 [philosophy]: en_ppl=30.55 (nats=571.1) | zh_ppl=37.37 (nats=753.2) | ratio(en/zh)=0.818
+  syn_20 [philosophy]: en_ppl=18.52 (nats=452.5) | zh_ppl=39.09 (nats=681.9) | ratio(en/zh)=0.474
+  syn_21 [complex_systems]: en_ppl=68.18 (nats=637.6) | zh_ppl=43.41 (nats=735.3) | ratio(en/zh)=1.571
+  syn_22 [complex_systems]: en_ppl=49.95 (nats=621.9) | zh_ppl=34.95 (nats=725.0) | ratio(en/zh)=1.429
+  syn_23 [complex_systems]: en_ppl=29.11 (nats=509.0) | zh_ppl=29.55 (nats=626.4) | ratio(en/zh)=0.985
+  syn_24 [complex_systems]: en_ppl=29.37 (nats=500.3) | zh_ppl=28.96 (nats=636.2) | ratio(en/zh)=1.014
+  syn_25 [complex_systems]: en_ppl=33.74 (nats=513.7) | zh_ppl=42.63 (nats=652.9) | ratio(en/zh)=0.791
+  syn_26 [complex_systems]: en_ppl=46.32 (nats=544.6) | zh_ppl=39.11 (nats=656.3) | ratio(en/zh)=1.184
+  syn_27 [complex_systems]: en_ppl=31.88 (nats=498.5) | zh_ppl=40.16 (nats=609.3) | ratio(en/zh)=0.794
+  syn_28 [complex_systems]: en_ppl=47.13 (nats=520.1) | zh_ppl=41.22 (nats=621.1) | ratio(en/zh)=1.143
+  syn_29 [complex_systems]: en_ppl=25.16 (nats=516.0) | zh_ppl=32.55 (nats=686.1) | ratio(en/zh)=0.773
+  syn_30 [complex_systems]: en_ppl=42.54 (nats=566.3) | zh_ppl=64.61 (nats=758.7) | ratio(en/zh)=0.658
+  syn_31 [syntax_baseline]: en_ppl=9.58 (nats=377.3) | zh_ppl=12.34 (nats=492.6) | ratio(en/zh)=0.776
+  syn_32 [syntax_baseline]: en_ppl=24.82 (nats=488.2) | zh_ppl=20.04 (nats=536.6) | ratio(en/zh)=1.238
+  syn_33 [syntax_baseline]: en_ppl=21.60 (nats=439.4) | zh_ppl=23.22 (nats=515.8) | ratio(en/zh)=0.930
+  syn_34 [syntax_baseline]: en_ppl=14.45 (nats=395.3) | zh_ppl=19.29 (nats=515.0) | ratio(en/zh)=0.749
+  syn_35 [syntax_baseline]: en_ppl=19.11 (nats=442.6) | zh_ppl=22.29 (nats=515.3) | ratio(en/zh)=0.858
+  syn_36 [syntax_baseline]: en_ppl=5.71 (nats=264.7) | zh_ppl=6.74 (nats=320.7) | ratio(en/zh)=0.846
+  syn_37 [syntax_baseline]: en_ppl=14.00 (nats=380.0) | zh_ppl=15.49 (nats=454.9) | ratio(en/zh)=0.904
+  syn_38 [syntax_baseline]: en_ppl=13.48 (nats=416.1) | zh_ppl=12.72 (nats=455.2) | ratio(en/zh)=1.059
+  syn_39 [syntax_baseline]: en_ppl=19.98 (nats=449.2) | zh_ppl=20.41 (nats=530.9) | ratio(en/zh)=0.979
+  syn_40 [syntax_baseline]: en_ppl=21.50 (nats=457.1) | zh_ppl=18.86 (nats=558.0) | ratio(en/zh)=1.140
+  hum_01 [math_physics]: en_ppl=20.88 (nats=483.2) | zh_ppl=35.22 (nats=601.9) | ratio(en/zh)=0.593
+  hum_02 [math_physics]: en_ppl=29.69 (nats=417.1) | zh_ppl=25.60 (nats=463.7) | ratio(en/zh)=1.160
+  hum_03 [complex_systems]: en_ppl=18.05 (nats=390.6) | zh_ppl=33.11 (nats=521.5) | ratio(en/zh)=0.545
+  hum_04 [complex_systems]: en_ppl=15.54 (nats=427.9) | zh_ppl=21.64 (nats=479.6) | ratio(en/zh)=0.718
+  hum_05 [philosophy]: en_ppl=12.44 (nats=365.5) | zh_ppl=13.43 (nats=420.8) | ratio(en/zh)=0.926
+  hum_06 [philosophy]: en_ppl=7.27 (nats=277.8) | zh_ppl=20.16 (nats=360.5) | ratio(en/zh)=0.361
+  hum_07 [syntax_baseline]: en_ppl=12.77 (nats=374.4) | zh_ppl=18.66 (nats=462.3) | ratio(en/zh)=0.684
+  hum_08 [syntax_baseline]: en_ppl=9.38 (nats=286.5) | zh_ppl=18.35 (nats=419.0) | ratio(en/zh)=0.511
+[done] Wrote 48 per-concept perplexity & total nats pairs to phase3_perplexity_gemmax2_28_9b.json
+[config] Using universal pad token: '<pad>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 128.44it/s]
+[config] active model=ModelSpace/GemmaX2-28-9B-Pretrain  category=translation_specialized  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemmax2_28_9b
+[info] Running latent injection on 48 concept(s).
+[done] Wrote injection report to phase3b_injection_report_gemmax2_28_9b.json
+[info] Loading injection report from phase3b_injection_report_gemmax2_28_9b.json ...
+[done] Wrote fully corrected significance report to phase3b_significance_report_gemmax2_28_9b.json
+[config] Using universal pad token: '<pad>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 133.74it/s]
+[config] active model=ModelSpace/GemmaX2-28-9B-Pretrain  category=translation_specialized  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemmax2_28_9b
+[3d] ModelSpace/GemmaX2-28-9B-Pretrain concepts=48 layer=21 pos=4 carrier='<pad>' role=primary
+  [en2en] 8/48 (30s)
+  [en2en] 16/48 (48s)
+  [en2en] 24/48 (66s)
+  [en2en] 32/48 (83s)
+  [en2en] 40/48 (101s)
+  [en2en] 48/48 (119s)
+[3d] en2en: diag=3.3247 offdiag=3.3290 noise=3.3574 none=3.3788
+  [en2zh] 8/48 (159s)
+  [en2zh] 16/48 (178s)
+  [en2zh] 24/48 (198s)
+  [en2zh] 32/48 (218s)
+  [en2zh] 40/48 (238s)
+  [en2zh] 48/48 (257s)
+[3d] en2zh: diag=3.5781 offdiag=3.5818 noise=3.6010 none=3.6047
+  [zh2en] 8/48 (297s)
+  [zh2en] 16/48 (315s)
+  [zh2en] 24/48 (333s)
+  [zh2en] 32/48 (351s)
+  [zh2en] 40/48 (369s)
+  [zh2en] 48/48 (387s)
+[3d] zh2en: diag=3.3272 offdiag=3.3297 noise=3.3555 none=3.3788
+  [zh2zh] 8/48 (426s)
+  [zh2zh] 16/48 (446s)
+  [zh2zh] 24/48 (466s)
+  [zh2zh] 32/48 (485s)
+  [zh2zh] 40/48 (505s)
+  [zh2zh] 48/48 (525s)
+[3d] zh2zh: diag=3.5775 offdiag=3.5800 noise=3.6021 none=3.6047
+[done] phase3d_interference_gemmax2_28_9b.npz (547s)

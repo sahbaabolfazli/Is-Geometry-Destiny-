@@ -1,0 +1,156 @@
+Sun Oct 25 20:56:23 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   37C    P0             69W /  500W |       4MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+===== [llama2_7b] cuda check =====
+2.8.0+cu128 NVIDIA A100-SXM4-80GB 79 GiB
+
+===== [llama2_7b] MODELS=llama2_7b bash run_analysis.sh gpu =====
+llama2_7b READY
+[info] 48 approved item(s) going into Phase 3.
+[info] Loading meta-llama/Llama-2-7b-hf on device=cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.29s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.25it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.15it/s]
+[config] active model=meta-llama/Llama-2-7b-hf  category=general_purpose  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_llama2_7b
+[tokens] N_en_total=9377  N_zh_total=17771  ratio(en/zh)=0.528
+[info] Extracted representations across layers: [16, 20, 24, 28, 29, 31]
+
+[info] Computing CKA across layers ([16, 20, 24, 28, 29, 31]):
+    Layer 16 -> raw CKA: 0.9432 | debiased CKA: 0.9267
+    Layer 20 -> raw CKA: 0.9243 | debiased CKA: 0.9309
+    Layer 24 -> raw CKA: 0.8836 | debiased CKA: 0.5134
+    Layer 28 -> raw CKA: 0.8897 | debiased CKA: 0.5364
+    Layer 29 -> raw CKA: 0.8987 | debiased CKA: 0.5909
+    Layer 31 -> raw CKA: 0.8897 | debiased CKA: 0.7847
+
+[done] Comprehensive report with multi-layer CKA written to phase3_report_llama2_7b.json
+[info] Ingested into ChromaDB at ./phase3_chroma_db_llama2_7b
+[info] Loading meta-llama/Llama-2-7b-hf (category=general_purpose) on cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.34s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.64s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.89s/it]
+[config] active model=meta-llama/Llama-2-7b-hf  category=general_purpose  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_llama2_7b
+  syn_01 [math_physics]: en_ppl=16.09 (nats=494.5) | zh_ppl=11.67 (nats=732.1) | ratio(en/zh)=1.379
+  syn_02 [math_physics]: en_ppl=10.58 (nats=457.7) | zh_ppl=9.63 (nats=756.3) | ratio(en/zh)=1.100
+  syn_03 [math_physics]: en_ppl=9.21 (nats=419.6) | zh_ppl=7.19 (nats=739.7) | ratio(en/zh)=1.281
+  syn_04 [math_physics]: en_ppl=11.18 (nats=449.0) | zh_ppl=8.37 (nats=752.0) | ratio(en/zh)=1.336
+  syn_05 [math_physics]: en_ppl=9.81 (nats=445.2) | zh_ppl=10.20 (nats=792.0) | ratio(en/zh)=0.961
+  syn_06 [math_physics]: en_ppl=12.27 (nats=461.3) | zh_ppl=9.09 (nats=823.2) | ratio(en/zh)=1.350
+  syn_07 [math_physics]: en_ppl=8.39 (nats=434.0) | zh_ppl=12.20 (nats=775.5) | ratio(en/zh)=0.688
+  syn_08 [math_physics]: en_ppl=10.48 (nats=458.2) | zh_ppl=9.26 (nats=819.1) | ratio(en/zh)=1.132
+  syn_09 [math_physics]: en_ppl=8.02 (nats=457.9) | zh_ppl=10.61 (nats=925.8) | ratio(en/zh)=0.756
+  syn_10 [math_physics]: en_ppl=11.16 (nats=477.6) | zh_ppl=11.47 (nats=844.1) | ratio(en/zh)=0.973
+  syn_11 [philosophy]: en_ppl=15.10 (nats=534.8) | zh_ppl=11.57 (nats=896.2) | ratio(en/zh)=1.305
+  syn_12 [philosophy]: en_ppl=13.42 (nats=511.5) | zh_ppl=11.75 (nats=867.2) | ratio(en/zh)=1.142
+  syn_13 [philosophy]: en_ppl=10.02 (nats=442.5) | zh_ppl=7.37 (nats=746.9) | ratio(en/zh)=1.360
+  syn_14 [philosophy]: en_ppl=10.94 (nats=459.4) | zh_ppl=8.27 (nats=722.6) | ratio(en/zh)=1.323
+  syn_15 [philosophy]: en_ppl=11.30 (nats=511.6) | zh_ppl=7.12 (nats=828.1) | ratio(en/zh)=1.588
+  syn_16 [philosophy]: en_ppl=11.48 (nats=485.7) | zh_ppl=9.38 (nats=792.5) | ratio(en/zh)=1.224
+  syn_17 [philosophy]: en_ppl=14.41 (nats=512.3) | zh_ppl=8.38 (nats=858.8) | ratio(en/zh)=1.720
+  syn_18 [philosophy]: en_ppl=10.08 (nats=496.7) | zh_ppl=12.60 (nats=1006.0) | ratio(en/zh)=0.800
+  syn_19 [philosophy]: en_ppl=12.73 (nats=521.5) | zh_ppl=10.84 (nats=886.6) | ratio(en/zh)=1.174
+  syn_20 [philosophy]: en_ppl=8.60 (nats=464.7) | zh_ppl=7.22 (nats=786.8) | ratio(en/zh)=1.191
+  syn_21 [complex_systems]: en_ppl=16.48 (nats=602.5) | zh_ppl=7.25 (nats=885.3) | ratio(en/zh)=2.274
+  syn_22 [complex_systems]: en_ppl=15.83 (nats=618.6) | zh_ppl=7.76 (nats=950.8) | ratio(en/zh)=2.039
+  syn_23 [complex_systems]: en_ppl=12.22 (nats=513.1) | zh_ppl=7.87 (nats=804.7) | ratio(en/zh)=1.552
+  syn_24 [complex_systems]: en_ppl=10.18 (nats=492.0) | zh_ppl=7.69 (nats=846.7) | ratio(en/zh)=1.323
+  syn_25 [complex_systems]: en_ppl=13.68 (nats=507.5) | zh_ppl=9.13 (nats=798.2) | ratio(en/zh)=1.500
+  syn_26 [complex_systems]: en_ppl=16.96 (nats=546.4) | zh_ppl=8.07 (nats=827.1) | ratio(en/zh)=2.101
+  syn_27 [complex_systems]: en_ppl=16.39 (nats=475.4) | zh_ppl=7.11 (nats=708.2) | ratio(en/zh)=2.304
+  syn_28 [complex_systems]: en_ppl=15.65 (nats=511.6) | zh_ppl=8.21 (nats=766.4) | ratio(en/zh)=1.906
+  syn_29 [complex_systems]: en_ppl=10.16 (nats=496.2) | zh_ppl=9.86 (nats=903.8) | ratio(en/zh)=1.031
+  syn_30 [complex_systems]: en_ppl=15.47 (nats=558.8) | zh_ppl=11.64 (nats=910.5) | ratio(en/zh)=1.330
+  syn_31 [syntax_baseline]: en_ppl=5.53 (nats=362.5) | zh_ppl=5.05 (nats=685.1) | ratio(en/zh)=1.094
+  syn_32 [syntax_baseline]: en_ppl=8.91 (nats=463.7) | zh_ppl=5.13 (nats=678.8) | ratio(en/zh)=1.736
+  syn_33 [syntax_baseline]: en_ppl=10.01 (nats=428.5) | zh_ppl=5.10 (nats=642.2) | ratio(en/zh)=1.961
+  syn_34 [syntax_baseline]: en_ppl=6.23 (nats=369.6) | zh_ppl=6.32 (nats=686.0) | ratio(en/zh)=0.986
+  syn_35 [syntax_baseline]: en_ppl=8.71 (nats=435.0) | zh_ppl=6.30 (nats=743.3) | ratio(en/zh)=1.383
+  syn_36 [syntax_baseline]: en_ppl=4.12 (nats=268.8) | zh_ppl=4.14 (nats=553.8) | ratio(en/zh)=0.995
+  syn_37 [syntax_baseline]: en_ppl=6.44 (nats=353.8) | zh_ppl=5.79 (nats=620.1) | ratio(en/zh)=1.111
+  syn_38 [syntax_baseline]: en_ppl=7.40 (nats=404.2) | zh_ppl=5.01 (nats=617.2) | ratio(en/zh)=1.477
+  syn_39 [syntax_baseline]: en_ppl=9.74 (nats=452.9) | zh_ppl=6.19 (nats=703.5) | ratio(en/zh)=1.573
+  syn_40 [syntax_baseline]: en_ppl=7.84 (nats=434.4) | zh_ppl=5.37 (nats=757.9) | ratio(en/zh)=1.460
+  hum_01 [math_physics]: en_ppl=12.99 (nats=484.7) | zh_ppl=8.65 (nats=677.5) | ratio(en/zh)=1.502
+  hum_02 [math_physics]: en_ppl=21.94 (nats=416.9) | zh_ppl=7.23 (nats=536.0) | ratio(en/zh)=3.036
+  hum_03 [complex_systems]: en_ppl=9.94 (nats=374.3) | zh_ppl=6.44 (nats=622.1) | ratio(en/zh)=1.543
+  hum_04 [complex_systems]: en_ppl=8.52 (nats=407.0) | zh_ppl=5.99 (nats=632.1) | ratio(en/zh)=1.421
+  hum_05 [philosophy]: en_ppl=7.81 (nats=357.7) | zh_ppl=4.05 (nats=460.4) | ratio(en/zh)=1.928
+  hum_06 [philosophy]: en_ppl=5.39 (nats=269.6) | zh_ppl=4.84 (nats=444.7) | ratio(en/zh)=1.114
+  hum_07 [syntax_baseline]: en_ppl=5.51 (nats=307.2) | zh_ppl=5.60 (nats=583.8) | ratio(en/zh)=0.985
+  hum_08 [syntax_baseline]: en_ppl=4.31 (nats=229.5) | zh_ppl=6.22 (nats=537.6) | ratio(en/zh)=0.693
+[done] Wrote 48 per-concept perplexity & total nats pairs to phase3_perplexity_llama2_7b.json
+[config] Using universal pad token: '<unk>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.34s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.22it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]
+[config] active model=meta-llama/Llama-2-7b-hf  category=general_purpose  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_llama2_7b
+[info] Running latent injection on 48 concept(s).
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[done] Wrote injection report to phase3b_injection_report_llama2_7b.json
+[info] Loading injection report from phase3b_injection_report_llama2_7b.json ...
+[done] Wrote fully corrected significance report to phase3b_significance_report_llama2_7b.json
+[config] Using universal pad token: '<unk>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.33s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.65s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.90s/it]
+[config] active model=meta-llama/Llama-2-7b-hf  category=general_purpose  n_layers=32  layer_idx=16  probe_layers=[20, 24, 28, 29, 31]  db=./phase3_chroma_db_llama2_7b
+[3d] meta-llama/Llama-2-7b-hf concepts=48 layer=16 pos=4 carrier='<unk>' role=primary
+  [en2en] 8/48 (19s)
+  [en2en] 16/48 (26s)
+  [en2en] 24/48 (34s)
+  [en2en] 32/48 (42s)
+  [en2en] 40/48 (50s)
+  [en2en] 48/48 (58s)
+[3d] en2en: diag=4.6342 offdiag=4.6343 noise=4.5903 none=4.6339
+  [en2zh] 8/48 (82s)
+  [en2zh] 16/48 (98s)
+  [en2zh] 24/48 (113s)
+  [en2zh] 32/48 (129s)
+  [en2zh] 40/48 (144s)
+  [en2zh] 48/48 (160s)
+[3d] en2zh: diag=4.8753 offdiag=4.8753 noise=4.9091 none=4.8752
+  [zh2en] 8/48 (185s)
+  [zh2en] 16/48 (193s)
+  [zh2en] 24/48 (201s)
+  [zh2en] 32/48 (209s)
+  [zh2en] 40/48 (217s)
+  [zh2en] 48/48 (225s)
+[3d] zh2en: diag=4.6342 offdiag=4.6344 noise=4.5909 none=4.6339
+  [zh2zh] 8/48 (249s)
+  [zh2zh] 16/48 (264s)
+  [zh2zh] 24/48 (280s)
+  [zh2zh] 32/48 (295s)
+  [zh2zh] 40/48 (311s)
+  [zh2zh] 48/48 (326s)
+[3d] zh2zh: diag=4.8752 offdiag=4.8753 noise=4.9060 none=4.8752
+[done] phase3d_interference_llama2_7b.npz (344s)

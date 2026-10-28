@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "hum_01",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7044196195851611,
+        "31": 0.5736503883163118,
+        "36": 0.4510058765976674,
+        "38": 0.25460381295841217,
+        "41": 0.03448925635346053
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.711014603799968,
+        "31": 0.5989277858437432,
+        "36": 0.49215772773373084,
+        "38": 0.25828236156966927,
+        "41": 0.023803423896706314
+      },
+      "generated_text": "女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.43143083980288166,
+        "31": 0.19477483318464683,
+        "36": 0.1011724312127516,
+        "38": 0.07182334781246316,
+        "41": 0.05247701021047355
+      },
+      "generated_text": "ج00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6999626200839463,
+        "31": 0.5914676985055084,
+        "36": 0.4921690450353476,
+        "38": 0.2867276043635768,
+        "41": 0.036871776490972875
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと",
+      "vector_of": "hum_02"
+    }
+  },
+  {
+    "id": "hum_02",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6999626200839463,
+        "31": 0.5914676985055084,
+        "36": 0.4921690450353476,
+        "38": 0.2867276043635768,
+        "41": 0.036871776490972875
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7005479661230816,
+        "31": 0.5915187607597435,
+        "36": 0.47836264178799437,
+        "38": 0.24651969512959396,
+        "41": 0.01112996799544406
+      },
+      "generated_text": "رج生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成于生成"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.46233153223894646,
+        "31": 0.2347341128922343,
+        "36": 0.15728928832429773,
+        "38": 0.12204088218226138,
+        "41": 0.0724707043561343
+      },
+      "generated_text": "ไฟdtimi.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7023013570247264,
+        "31": 0.5748810051397772,
+        "36": 0.4636483478524404,
+        "38": 0.2723738645876451,
+        "41": 0.0308110793456011
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "hum_03"
+    }
+  },
+  {
+    "id": "hum_03",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7023013570247264,
+        "31": 0.5748810051397772,
+        "36": 0.4636483478524404,
+        "38": 0.2723738645876451,
+        "41": 0.0308110793456011
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7193244707487353,
+        "31": 0.585411337027609,
+        "36": 0.49403832681151544,
+        "38": 0.260861685927224,
+        "41": 0.02669548158837519
+      },
+      "generated_text": " 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.432364282819116,
+        "31": 0.12386598506839823,
+        "36": 0.061328257341228404,
+        "38": 0.03156961556722981,
+        "41": 0.00872617743244307
+      },
+      "generated_text": "其他人=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6955674174295687,
+        "31": 0.6196261430332698,
+        "36": 0.5451727457435787,
+        "38": 0.30902882336965876,
+        "41": 0.04062995268142312
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus",
+      "vector_of": "hum_04"
+    }
+  },
+  {
+    "id": "hum_04",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6955674174295687,
+        "31": 0.6196261430332698,
+        "36": 0.5451727457435787,
+        "38": 0.30902882336965876,
+        "41": 0.04062995268142312
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6991668573478602,
+        "31": 0.5924348369644694,
+        "36": 0.49723208498517624,
+        "38": 0.2652861358628585,
+        "41": 0.01044625980176027
+      },
+      "generated_text": "SNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPajSNPaj"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.509271507302565,
+        "31": 0.24363648074051422,
+        "36": 0.13503691379672755,
+        "38": 0.12803403232727642,
+        "41": 0.08972058196652394
+      },
+      "generated_text": "客服aldw[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]\n[r]"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6762934869275429,
+        "31": 0.5717692105612122,
+        "36": 0.4380329633673951,
+        "38": 0.27248250645167216,
+        "41": 0.03445032157455403
+      },
+      "generated_text": " رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと",
+      "vector_of": "hum_05"
+    }
+  },
+  {
+    "id": "hum_05",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6762934869275429,
+        "31": 0.5717692105612122,
+        "36": 0.4380329633673951,
+        "38": 0.27248250645167216,
+        "41": 0.03445032157455403
+      },
+      "generated_text": " رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6798385577044942,
+        "31": 0.5885165736259867,
+        "36": 0.4748373519933095,
+        "38": 0.2776091541749968,
+        "41": 0.021718386027524163
+      },
+      "generated_text": "さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得さんは得"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.39475694122765437,
+        "31": 0.12310316247249467,
+        "36": 0.06605613532435785,
+        "38": 0.059739978923075344,
+        "41": 0.01995291543394728
+      },
+      "generated_text": " the over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and then over and"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6520279215616919,
+        "31": 0.5450550402815508,
+        "36": 0.4381334841807611,
+        "38": 0.2779792577475732,
+        "41": 0.03624624655727071
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus",
+      "vector_of": "hum_06"
+    }
+  },
+  {
+    "id": "hum_06",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6520279215616919,
+        "31": 0.5450550402815508,
+        "36": 0.4381334841807611,
+        "38": 0.2779792577475732,
+        "41": 0.03624624655727071
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6978669578838961,
+        "31": 0.5767436503348031,
+        "36": 0.4612882896859018,
+        "38": 0.26215974499037725,
+        "41": 0.021117874873304538
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4397642779871991,
+        "31": 0.22443287151217492,
+        "36": 0.12503963152459077,
+        "38": 0.10295308364422016,
+        "41": 0.06531547967473314
+      },
+      "generated_text": "ː線1999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.649903228428635,
+        "31": 0.5029806415592083,
+        "36": 0.4589074886390091,
+        "38": 0.2952280610558232,
+        "41": 0.04552048843986746
+      },
+      "generated_text": "cmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineous",
+      "vector_of": "hum_07"
+    }
+  },
+  {
+    "id": "hum_07",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.649903228428635,
+        "31": 0.5029806415592083,
+        "36": 0.4589074886390091,
+        "38": 0.2952280610558232,
+        "41": 0.04552048843986746
+      },
+      "generated_text": "cmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineous"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6723586178236716,
+        "31": 0.5173756194747434,
+        "36": 0.43303745914253405,
+        "38": 0.23601676419251405,
+        "41": 0.011330616743323958
+      },
+      "generated_text": "رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.450405458488114,
+        "31": 0.22240803347159221,
+        "36": 0.11466419863728877,
+        "38": 0.07828608775462102,
+        "41": 0.05941432421010228
+      },
+      "generated_text": "LPWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDWANDW"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6889420616704396,
+        "31": 0.5614792236881324,
+        "36": 0.4721788972292032,
+        "38": 0.27384900068859325,
+        "41": 0.04659818866125702
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと",
+      "vector_of": "hum_08"
+    }
+  },
+  {
+    "id": "hum_08",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6889420616704396,
+        "31": 0.5614792236881324,
+        "36": 0.4721788972292032,
+        "38": 0.27384900068859325,
+        "41": 0.04659818866125702
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6910438097225853,
+        "31": 0.5549503450139927,
+        "36": 0.4647473686527268,
+        "38": 0.2501511153964863,
+        "41": 0.016179111875168448
+      },
+      "generated_text": "رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明رج说明"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.415835472675064,
+        "31": 0.17263007392118496,
+        "36": 0.09618331688652579,
+        "38": 0.06580645477519685,
+        "41": 0.031435326945541894
+      },
+      "generated_text": "版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6887104092452847,
+        "31": 0.5612350826697629,
+        "36": 0.4177049415483094,
+        "38": 0.20791941120096655,
+        "41": 0.014837203367552497
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_01"
+    }
+  },
+  {
+    "id": "syn_01",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6887104092452847,
+        "31": 0.5612350826697629,
+        "36": 0.4177049415483094,
+        "38": 0.20791941120096655,
+        "41": 0.014837203367552497
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6947101135389838,
+        "31": 0.5492493762024577,
+        "36": 0.46923592320952406,
+        "38": 0.23041501012282525,
+        "41": -0.004177411894505141
+      },
+      "generated_text": "دد枚ددددددددdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.5264556377559133,
+        "31": 0.32415218436912596,
+        "36": 0.20394598328798502,
+        "38": 0.18363577849373033,
+        "41": 0.15192316914925233
+      },
+      "generated_text": "πεgresequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequequeque"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6840419502439025,
+        "31": 0.5733491451977443,
+        "36": 0.45210749190514465,
+        "38": 0.22923895441296893,
+        "41": 0.01721489348427241
+      },
+      "generated_text": " رجددرجددrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjdd",
+      "vector_of": "syn_02"
+    }
+  },
+  {
+    "id": "syn_02",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6840419502439025,
+        "31": 0.5733491451977443,
+        "36": 0.45210749190514465,
+        "38": 0.22923895441296893,
+        "41": 0.01721489348427241
+      },
+      "generated_text": " رجددرجددrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjddrjdd"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6993464161093637,
+        "31": 0.5637556839494314,
+        "36": 0.4731382462042515,
+        "38": 0.24069182818336565,
+        "41": 0.003727457555114164
+      },
+      "generated_text": "员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد员دد"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.39902370974407,
+        "31": 0.14285371965644394,
+        "36": 0.04966717483713957,
+        "38": 0.021112616348346346,
+        "41": 0.0147633387394211
+      },
+      "generated_text": ". to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to the left. to"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7065105344915712,
+        "31": 0.5324443108082307,
+        "36": 0.3797141897334652,
+        "38": 0.18876204196761068,
+        "41": 0.009762306768670348
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_03"
+    }
+  },
+  {
+    "id": "syn_03",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7065105344915712,
+        "31": 0.5324443108082307,
+        "36": 0.3797141897334652,
+        "38": 0.18876204196761068,
+        "41": 0.009762306768670348
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6871162432746161,
+        "31": 0.5090223081045284,
+        "36": 0.4418340811488046,
+        "38": 0.21582415564669857,
+        "41": -0.0023418366580172907
+      },
+      "generated_text": "女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.43184600942853935,
+        "31": 0.17201547157613253,
+        "36": 0.09450825751698698,
+        "38": 0.06919180930093848,
+        "41": 0.027366656447113683
+      },
+      "generated_text": ", Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh, Suresh"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6920425281391148,
+        "31": 0.5576707901738451,
+        "36": 0.43604133199982215,
+        "38": 0.20517144103283858,
+        "41": 0.010940884361693111
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_04"
+    }
+  },
+  {
+    "id": "syn_04",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6920425281391148,
+        "31": 0.5576707901738451,
+        "36": 0.43604133199982215,
+        "38": 0.20517144103283858,
+        "41": 0.010940884361693111
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6856687193884878,
+        "31": 0.557533739713044,
+        "36": 0.46985773638644396,
+        "38": 0.23435746072163366,
+        "41": -0.002888334536415464
+      },
+      "generated_text": "رج同步جدringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringringring"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.39421873880485997,
+        "31": 0.1510774385304668,
+        "36": 0.0797277662690445,
+        "38": 0.06030433119090462,
+        "41": 0.03733643549411685
+      },
+      "generated_text": " after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night after that night"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6802982149057581,
+        "31": 0.5491509699288436,
+        "36": 0.4452663829230757,
+        "38": 0.2237018545208157,
+        "41": 0.016004884252509555
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_05"
+    }
+  },
+  {
+    "id": "syn_05",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6802982149057581,
+        "31": 0.5491509699288436,
+        "36": 0.4452663829230757,
+        "38": 0.2237018545208157,
+        "41": 0.016004884252509555
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6706999662093303,
+        "31": 0.5216096769961109,
+        "36": 0.4556435330021115,
+        "38": 0.2337654121189441,
+        "41": -0.0045707291633312825
+      },
+      "generated_text": "员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表员دد表"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.424654858934566,
+        "31": 0.1397709744076755,
+        "36": 0.08214167298771947,
+        "38": 0.05569403584357921,
+        "41": 0.04886192053900576
+      },
+      "generated_text": ".\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď.\nď"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6867027152929235,
+        "31": 0.5336753696983152,
+        "36": 0.38923051448152035,
+        "38": 0.18248348220805044,
+        "41": 0.0067368614268715895
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_06"
+    }
+  },
+  {
+    "id": "syn_06",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6867027152929235,
+        "31": 0.5336753696983152,
+        "36": 0.38923051448152035,
+        "38": 0.18248348220805044,
+        "41": 0.0067368614268715895
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6904225409504748,
+        "31": 0.5366994773896208,
+        "36": 0.4626928713897619,
+        "38": 0.2286617731147836,
+        "41": -0.007307845118234528
+      },
+      "generated_text": "دد枚دد枚دد枚dd枚dd枚dd枚ddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddědděddě"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.43119697715187977,
+        "31": 0.17512000138589473,
+        "36": 0.10259483856035113,
+        "38": 0.0824550775622808,
+        "41": 0.02695602618665457
+      },
+      "generated_text": ", then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not, then not"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.691233897162709,
+        "31": 0.5575401759981858,
+        "36": 0.4304887547544951,
+        "38": 0.21682904722715904,
+        "41": 0.03151442966255779
+      },
+      "generated_text": "cmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoff",
+      "vector_of": "syn_07"
+    }
+  },
+  {
+    "id": "syn_07",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.691233897162709,
+        "31": 0.5575401759981858,
+        "36": 0.4304887547544951,
+        "38": 0.21682904722715904,
+        "41": 0.03151442966255779
+      },
+      "generated_text": "cmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoffcmdlinecutoff"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6854830876433939,
+        "31": 0.5637712439848306,
+        "36": 0.4660991631972387,
+        "38": 0.24491203492403127,
+        "41": 0.004140379418552592
+      },
+      "generated_text": "دد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วนدد่วน"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4075532864142182,
+        "31": 0.12067500842880799,
+        "36": 0.0561269758425115,
+        "38": 0.05631411543752288,
+        "41": 0.03361220968011883
+      },
+      "generated_text": "︵omethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl çizomethyl"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6721365907635901,
+        "31": 0.5228262257245742,
+        "36": 0.3916095117666523,
+        "38": 0.1991160540709692,
+        "41": 0.0015906722473156322
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_08"
+    }
+  },
+  {
+    "id": "syn_08",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6721365907635901,
+        "31": 0.5228262257245742,
+        "36": 0.3916095117666523,
+        "38": 0.1991160540709692,
+        "41": 0.0015906722473156322
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6665246043257612,
+        "31": 0.4975045511577118,
+        "36": 0.4192456735373077,
+        "38": 0.21176669739926413,
+        "41": -0.017292507553247186
+      },
+      "generated_text": "رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈رجτώ圈"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4909274973020221,
+        "31": 0.2643063006041942,
+        "36": 0.17724272998024515,
+        "38": 0.1497295874332931,
+        "41": 0.11468671956554949
+      },
+      "generated_text": "τό-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-ée-aa-"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6822985437180853,
+        "31": 0.5014984538858388,
+        "36": 0.3663420479397689,
+        "38": 0.1866630098368596,
+        "41": 0.01604032374523006
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_09"
+    }
+  },
+  {
+    "id": "syn_09",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6822985437180853,
+        "31": 0.5014984538858388,
+        "36": 0.3663420479397689,
+        "38": 0.1866630098368596,
+        "41": 0.01604032374523006
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6847691568439577,
+        "31": 0.5363938911860267,
+        "36": 0.4596820521872397,
+        "38": 0.24276414385003378,
+        "41": 0.001910362250986997
+      },
+      "generated_text": "رج同步�رج同步�jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4419073556072678,
+        "31": 0.1511909709476722,
+        "36": 0.07514460095144053,
+        "38": 0.05807875281440825,
+        "41": 0.03349938185254558
+      },
+      "generated_text": "888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6909423009581941,
+        "31": 0.542621988107868,
+        "36": 0.41763472760998815,
+        "38": 0.22822056295373538,
+        "41": 0.030302581810023984
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻",
+      "vector_of": "syn_10"
+    }
+  },
+  {
+    "id": "syn_10",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6909423009581941,
+        "31": 0.542621988107868,
+        "36": 0.41763472760998815,
+        "38": 0.22822056295373538,
+        "41": 0.030302581810023984
+      },
+      "generated_text": "cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻cmdline┻"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6954760379043025,
+        "31": 0.5423735217387902,
+        "36": 0.45202006480815354,
+        "38": 0.23086915842001407,
+        "41": 0.002134266378409075
+      },
+      "generated_text": "دد量子دد量子دد量子ددquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantydéquantyd"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4152475485762901,
+        "31": 0.15461307224077786,
+        "36": 0.08743437230320593,
+        "38": 0.06604003939174935,
+        "41": -0.0075834185258450435
+      },
+      "generated_text": " MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe MiRe"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6726709350316353,
+        "31": 0.5497221121470861,
+        "36": 0.43171602822661337,
+        "38": 0.2295569319863897,
+        "41": 0.029498846059056397
+      },
+      "generated_text": " رجקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישורים",
+      "vector_of": "syn_11"
+    }
+  },
+  {
+    "id": "syn_11",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6726709350316353,
+        "31": 0.5497221121470861,
+        "36": 0.43171602822661337,
+        "38": 0.2295569319863897,
+        "41": 0.029498846059056397
+      },
+      "generated_text": " رجקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישוריםקישורים"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7020809127122395,
+        "31": 0.5745811041701053,
+        "36": 0.476470126855169,
+        "38": 0.25740758158033167,
+        "41": 0.019577327767133924
+      },
+      "generated_text": " 20222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.38965734052407364,
+        "31": 0.17326943504112907,
+        "36": 0.09658857326328359,
+        "38": 0.08399838202999063,
+        "41": 0.04694346976836367
+      },
+      "generated_text": " هيqt هيqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt hiqt"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.687282329615611,
+        "31": 0.5836691772129192,
+        "36": 0.47831042052594597,
+        "38": 0.27345762485886865,
+        "41": 0.04528277766745636
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus",
+      "vector_of": "syn_12"
+    }
+  },
+  {
+    "id": "syn_12",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.687282329615611,
+        "31": 0.5836691772129192,
+        "36": 0.47831042052594597,
+        "38": 0.27345762485886865,
+        "41": 0.04528277766745636
+      },
+      "generated_text": "cmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineuscmdlineus"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7153693589109207,
+        "31": 0.5831366945365597,
+        "36": 0.4757796919175083,
+        "38": 0.2590200841168848,
+        "41": 0.021237361170516573
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.44635867587673256,
+        "31": 0.14641170730686626,
+        "36": 0.05284124902064308,
+        "38": 0.038902654556057584,
+        "41": 0.01482810446951639
+      },
+      "generated_text": "."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6970478162747833,
+        "31": 0.6175917801421184,
+        "36": 0.4961040121970834,
+        "38": 0.2807535308623412,
+        "41": 0.0613808600776422
+      },
+      "generated_text": "رجקישוריםرجקישוריםرجocorrjrcrjrcrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcn",
+      "vector_of": "syn_13"
+    }
+  },
+  {
+    "id": "syn_13",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6970478162747833,
+        "31": 0.6175917801421184,
+        "36": 0.4961040121970834,
+        "38": 0.2807535308623412,
+        "41": 0.0613808600776422
+      },
+      "generated_text": "رجקישוריםرجקישוריםرجocorrjrcrjrcrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcnrjcn"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7081424924348347,
+        "31": 0.5861265684728058,
+        "36": 0.4821722488918095,
+        "38": 0.2630257105835731,
+        "41": 0.035085899426330044
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4599214585539885,
+        "31": 0.12322365222234288,
+        "36": 0.0485175648837792,
+        "38": 0.027257506190317006,
+        "41": 0.00484070545966502
+      },
+      "generated_text": ":00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.696217072187866,
+        "31": 0.6032845267221072,
+        "36": 0.479989399733174,
+        "38": 0.28253015068303156,
+        "41": 0.06297671903511254
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_14"
+    }
+  },
+  {
+    "id": "syn_14",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.696217072187866,
+        "31": 0.6032845267221072,
+        "36": 0.479989399733174,
+        "38": 0.28253015068303156,
+        "41": 0.06297671903511254
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7178849405807943,
+        "31": 0.5862449128980692,
+        "36": 0.4905931012415387,
+        "38": 0.2721376073730192,
+        "41": 0.026922183394185617
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.5120101353391304,
+        "31": 0.2477230190950982,
+        "36": 0.15747952848626298,
+        "38": 0.13679726287090715,
+        "41": 0.08376678543540073
+      },
+      "generated_text": " in chan san\n\n<h2><a href=\"mailto:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a:a"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6663921581072657,
+        "31": 0.5876028005436171,
+        "36": 0.4170571144615289,
+        "38": 0.23850691844422361,
+        "41": 0.04696055211174416
+      },
+      "generated_text": "رجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώ",
+      "vector_of": "syn_15"
+    }
+  },
+  {
+    "id": "syn_15",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6663921581072657,
+        "31": 0.5876028005436171,
+        "36": 0.4170571144615289,
+        "38": 0.23850691844422361,
+        "41": 0.04696055211174416
+      },
+      "generated_text": "رجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώرجτώ"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6836055689650147,
+        "31": 0.5731322207422472,
+        "36": 0.4668108447786664,
+        "38": 0.2537765481162353,
+        "41": 0.019426944402500555
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4259921252161802,
+        "31": 0.15701272957842402,
+        "36": 0.07974988201579114,
+        "38": 0.057037344629188934,
+        "41": -0.0072580969705093425
+      },
+      "generated_text": " Maud, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK,"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6994417005889293,
+        "31": 0.590454949404685,
+        "36": 0.4397892390689448,
+        "38": 0.23536984506539013,
+        "41": 0.03717052503776332
+      },
+      "generated_text": " رجoodoojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojo",
+      "vector_of": "syn_16"
+    }
+  },
+  {
+    "id": "syn_16",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6994417005889293,
+        "31": 0.590454949404685,
+        "36": 0.4397892390689448,
+        "38": 0.23536984506539013,
+        "41": 0.03717052503776332
+      },
+      "generated_text": " رجoodoojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojo"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7161216370758852,
+        "31": 0.5786798282210498,
+        "36": 0.4818892923538702,
+        "38": 0.25625140117205647,
+        "41": 0.014310928443863552
+      },
+      "generated_text": "女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4664054580445519,
+        "31": 0.1689447402900857,
+        "36": 0.09383950072028772,
+        "38": 0.07760351169952696,
+        "41": 0.031374326681318114
+      },
+      "generated_text": " până/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/super/"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6808021069471031,
+        "31": 0.5423681080588303,
+        "36": 0.4393668511711522,
+        "38": 0.24894685467549926,
+        "41": 0.044055937329373275
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_17"
+    }
+  },
+  {
+    "id": "syn_17",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6808021069471031,
+        "31": 0.5423681080588303,
+        "36": 0.4393668511711522,
+        "38": 0.24894685467549926,
+        "41": 0.044055937329373275
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7095304055788697,
+        "31": 0.5597243167148193,
+        "36": 0.47328017383191323,
+        "38": 0.2537397365366926,
+        "41": 0.01784335138745608
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.47150990488229183,
+        "31": 0.1393620808135167,
+        "36": 0.06771293096247091,
+        "38": 0.063022260622366,
+        "41": 0.02595160155858416
+      },
+      "generated_text": "�ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ员ẫyจบ"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7106583436800448,
+        "31": 0.6038363300061137,
+        "36": 0.4763958362399176,
+        "38": 0.2816275524470524,
+        "41": 0.04529637008756707
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_18"
+    }
+  },
+  {
+    "id": "syn_18",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7106583436800448,
+        "31": 0.6038363300061137,
+        "36": 0.4763958362399176,
+        "38": 0.2816275524470524,
+        "41": 0.04529637008756707
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7061886280868073,
+        "31": 0.5890066157032997,
+        "36": 0.4775602738537074,
+        "38": 0.2672677922688721,
+        "41": 0.017413061409831756
+      },
+      "generated_text": "存在 Mumfordinginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4343922142087713,
+        "31": 0.1942423344221047,
+        "36": 0.10500694428745899,
+        "38": 0.06526754382386299,
+        "41": 0.02609520370806051
+      },
+      "generated_text": "Tá=MsingTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTáTá"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6795999710107508,
+        "31": 0.5684663774130655,
+        "36": 0.44234794565349794,
+        "38": 0.24140824944527534,
+        "41": 0.03139109264705866
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步",
+      "vector_of": "syn_19"
+    }
+  },
+  {
+    "id": "syn_19",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6795999710107508,
+        "31": 0.5684663774130655,
+        "36": 0.44234794565349794,
+        "38": 0.24140824944527534,
+        "41": 0.03139109264705866
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步rj同步"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7043666753878238,
+        "31": 0.5899930395173503,
+        "36": 0.4812159122006097,
+        "38": 0.2576198155493185,
+        "41": 0.018795511671184623
+      },
+      "generated_text": "员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.40167854385311835,
+        "31": 0.12663293885078386,
+        "36": 0.06661360963739762,
+        "38": 0.04493759004424067,
+        "41": 0.03722082062136754
+      },
+      "generated_text": " z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z. z."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7137662768715124,
+        "31": 0.612938281817052,
+        "36": 0.5142533815061445,
+        "38": 0.2962324707863016,
+        "41": 0.042903328711347305
+      },
+      "generated_text": "رجفوajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoaj",
+      "vector_of": "syn_20"
+    }
+  },
+  {
+    "id": "syn_20",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7137662768715124,
+        "31": 0.612938281817052,
+        "36": 0.5142533815061445,
+        "38": 0.2962324707863016,
+        "41": 0.042903328711347305
+      },
+      "generated_text": "رجفوajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoajrfjoaj"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7286949549950628,
+        "31": 0.6044422362390088,
+        "36": 0.49569400924814894,
+        "38": 0.2680120656108546,
+        "41": 0.02225021653303437
+      },
+      "generated_text": "员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成员生成"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.46876307927063204,
+        "31": 0.13787564619968826,
+        "36": 0.07062357052858959,
+        "38": 0.04909535696412128,
+        "41": 0.00042276155044061
+      },
+      "generated_text": "ːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːددːدد"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7164079235696494,
+        "31": 0.6079388975536109,
+        "36": 0.478063039422934,
+        "38": 0.2598901929980359,
+        "41": 0.02353435631056609
+      },
+      "generated_text": " رجفو رجفو رجfujojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojo",
+      "vector_of": "syn_21"
+    }
+  },
+  {
+    "id": "syn_21",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7164079235696494,
+        "31": 0.6079388975536109,
+        "36": 0.478063039422934,
+        "38": 0.2598901929980359,
+        "41": 0.02353435631056609
+      },
+      "generated_text": " رجفو رجفو رجfujojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojojo"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7139637546884621,
+        "31": 0.5878479405029117,
+        "36": 0.48022427298305403,
+        "38": 0.25058514478141514,
+        "41": 0.004267204048573293
+      },
+      "generated_text": " 20222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4494956125992983,
+        "31": 0.2110085217413844,
+        "36": 0.05611516669247994,
+        "38": 0.06069343104652874,
+        "41": 0.04563344534314239
+      },
+      "generated_text": "ید, 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.710723727310649,
+        "31": 0.575173336870665,
+        "36": 0.46561241079967014,
+        "38": 0.22396164911288113,
+        "41": 0.021091268908653777
+      },
+      "generated_text": "رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止",
+      "vector_of": "syn_22"
+    }
+  },
+  {
+    "id": "syn_22",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.710723727310649,
+        "31": 0.575173336870665,
+        "36": 0.46561241079967014,
+        "38": 0.22396164911288113,
+        "41": 0.021091268908653777
+      },
+      "generated_text": "رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止رجτώ停止"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.710863572577016,
+        "31": 0.5783436694556455,
+        "36": 0.4822064260803543,
+        "38": 0.24608623220307246,
+        "41": -0.0012227071466183426
+      },
+      "generated_text": " 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.44685468724372185,
+        "31": 0.15421027247590882,
+        "36": 0.09789655211896116,
+        "38": 0.07902286759404677,
+        "41": 0.05341678773666046
+      },
+      "generated_text": "黨నుetderetunedetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuningdetuning"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7094697247387985,
+        "31": 0.589299075702822,
+        "36": 0.47921702690869233,
+        "38": 0.2549634155272997,
+        "41": 0.028430283149171513
+      },
+      "generated_text": "رجفوantityرجfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantity",
+      "vector_of": "syn_23"
+    }
+  },
+  {
+    "id": "syn_23",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7094697247387985,
+        "31": 0.589299075702822,
+        "36": 0.47921702690869233,
+        "38": 0.2549634155272997,
+        "41": 0.028430283149171513
+      },
+      "generated_text": "رجفوantityرجfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantity"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6946928674155713,
+        "31": 0.5579058795942416,
+        "36": 0.46307504697170654,
+        "38": 0.24190575898469682,
+        "41": 0.01195852955524859
+      },
+      "generated_text": " 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4661950104678137,
+        "31": 0.25257732428683605,
+        "36": 0.11796827156020308,
+        "38": 0.10169288694487999,
+        "41": 0.08060882301406093
+      },
+      "generated_text": "וּ: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7218918426964522,
+        "31": 0.6102551395585348,
+        "36": 0.4781631853152146,
+        "38": 0.2582110152717217,
+        "41": 0.02933138788111896
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_24"
+    }
+  },
+  {
+    "id": "syn_24",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7218918426964522,
+        "31": 0.6102551395585348,
+        "36": 0.4781631853152146,
+        "38": 0.2582110152717217,
+        "41": 0.02933138788111896
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7021946619832886,
+        "31": 0.5818090867683304,
+        "36": 0.4805097593577228,
+        "38": 0.25562843819907993,
+        "41": 0.01314496843329987
+      },
+      "generated_text": "员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4925552702334458,
+        "31": 0.27049255642894815,
+        "36": 0.14998184542219561,
+        "38": 0.12353594164518325,
+        "41": 0.07963255423204126
+      },
+      "generated_text": ".\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7009802632902967,
+        "31": 0.5997002121226409,
+        "36": 0.4849938702479912,
+        "38": 0.2687172795176629,
+        "41": 0.0335009483636545
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_25"
+    }
+  },
+  {
+    "id": "syn_25",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7009802632902967,
+        "31": 0.5997002121226409,
+        "36": 0.4849938702479912,
+        "38": 0.2687172795176629,
+        "41": 0.0335009483636545
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7190852228164982,
+        "31": 0.595491038721236,
+        "36": 0.48631560990278055,
+        "38": 0.25385768821597443,
+        "41": 0.01033115206047861
+      },
+      "generated_text": "员誤员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误员误"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.5487290911876436,
+        "31": 0.24151729343688547,
+        "36": 0.11580551552106089,
+        "38": 0.09657495206321895,
+        "41": 0.07243108145607892
+      },
+      "generated_text": " CFP orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf orni bsf or"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7056940314726885,
+        "31": 0.6002006240841905,
+        "36": 0.4839246819066072,
+        "38": 0.25257565224830686,
+        "41": 0.033309304004288096
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_26"
+    }
+  },
+  {
+    "id": "syn_26",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7056940314726885,
+        "31": 0.6002006240841905,
+        "36": 0.4839246819066072,
+        "38": 0.25257565224830686,
+        "41": 0.033309304004288096
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.705846965975553,
+        "31": 0.5788320510638737,
+        "36": 0.48945967475200725,
+        "38": 0.2558972265660737,
+        "41": 0.010270980524206948
+      },
+      "generated_text": " 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.45841414970640854,
+        "31": 0.16177144516205527,
+        "36": 0.07940594483821628,
+        "38": 0.08071568531234688,
+        "41": 0.045425171655722456
+      },
+      "generated_text": " Keesn = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ="
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7038772983146581,
+        "31": 0.595149037059289,
+        "36": 0.4857223176205378,
+        "38": 0.25579036474277056,
+        "41": 0.015317135521729707
+      },
+      "generated_text": " رجددرجددrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijdd",
+      "vector_of": "syn_27"
+    }
+  },
+  {
+    "id": "syn_27",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7038772983146581,
+        "31": 0.595149037059289,
+        "36": 0.4857223176205378,
+        "38": 0.25579036474277056,
+        "41": 0.015317135521729707
+      },
+      "generated_text": " رجددرجددrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijddrijdd"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7112276656435658,
+        "31": 0.5770016552692726,
+        "36": 0.48862575886255893,
+        "38": 0.24557418555113483,
+        "41": 0.0021777699972534126
+      },
+      "generated_text": " 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.44747852469248783,
+        "31": 0.1951019312114131,
+        "36": 0.10702640476661489,
+        "38": 0.09973593969644812,
+        "41": 0.048517609481873364
+      },
+      "generated_text": ".\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2></h2>\n\n<h2>"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6870553358603056,
+        "31": 0.6150619260485727,
+        "36": 0.49641365106867397,
+        "38": 0.2795885081565614,
+        "41": 0.052908555417381264
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rij同步rijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchron",
+      "vector_of": "syn_28"
+    }
+  },
+  {
+    "id": "syn_28",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6870553358603056,
+        "31": 0.6150619260485727,
+        "36": 0.49641365106867397,
+        "38": 0.2795885081565614,
+        "41": 0.052908555417381264
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rij同步rijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchronijsynchron"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7023382831942642,
+        "31": 0.5750518006149282,
+        "36": 0.4662591437684246,
+        "38": 0.253494230968747,
+        "41": 0.01724487198926673
+      },
+      "generated_text": "员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步员同步"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4903048880577618,
+        "31": 0.24847601841251096,
+        "36": 0.1691397066498136,
+        "38": 0.1459414956336728,
+        "41": 0.06609897400625098
+      },
+      "generated_text": "版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版版"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7207155955764495,
+        "31": 0.6065860940541958,
+        "36": 0.506068180285827,
+        "38": 0.27709801549956475,
+        "41": 0.038658796825883184
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "syn_29"
+    }
+  },
+  {
+    "id": "syn_29",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7207155955764495,
+        "31": 0.6065860940541958,
+        "36": 0.506068180285827,
+        "38": 0.27709801549956475,
+        "41": 0.038658796825883184
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7045350396430778,
+        "31": 0.5652215178660284,
+        "36": 0.4895366388752996,
+        "38": 0.27226958723441685,
+        "41": 0.023305630272428345
+      },
+      "generated_text": " 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.5027813551273907,
+        "31": 0.21898394521780115,
+        "36": 0.11421561532721924,
+        "38": 0.08246921347049956,
+        "41": 0.0537143094632914
+      },
+      "generated_text": " vòngist.com.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it.it"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6984090759308474,
+        "31": 0.5647290491246658,
+        "36": 0.45858863691088925,
+        "38": 0.2368254330070682,
+        "41": 0.024824435953479385
+      },
+      "generated_text": "رجفوantityرجfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantity",
+      "vector_of": "syn_30"
+    }
+  },
+  {
+    "id": "syn_30",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6984090759308474,
+        "31": 0.5647290491246658,
+        "36": 0.45858863691088925,
+        "38": 0.2368254330070682,
+        "41": 0.024824435953479385
+      },
+      "generated_text": "رجفوantityرجfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantityfoquantity"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7028961541216489,
+        "31": 0.5738808059423062,
+        "36": 0.49177871278947116,
+        "38": 0.2560655960875027,
+        "41": 0.00315959952957864
+      },
+      "generated_text": "رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残رجτώ残"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.44280118927666207,
+        "31": 0.15479541308952235,
+        "36": 0.07588738608070601,
+        "38": 0.051059722501777725,
+        "41": 0.036301764337857347
+      },
+      "generated_text": " <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup> <sup>"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7082763549109057,
+        "31": 0.6158251140013817,
+        "36": 0.5395325905017052,
+        "38": 0.32465859859402174,
+        "41": 0.06282698462625685
+      },
+      "generated_text": "رج Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lyt",
+      "vector_of": "syn_31"
+    }
+  },
+  {
+    "id": "syn_31",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7082763549109057,
+        "31": 0.6158251140013817,
+        "36": 0.5395325905017052,
+        "38": 0.32465859859402174,
+        "41": 0.06282698462625685
+      },
+      "generated_text": "رج Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lyt"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6802658692545261,
+        "31": 0.5829464799021317,
+        "36": 0.47671201505962646,
+        "38": 0.2722662179340132,
+        "41": 0.022360729015349943
+      },
+      "generated_text": " 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当 該当"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.337880305627909,
+        "31": 0.12635943367179447,
+        "36": 0.0528821907535483,
+        "38": 0.05650060819564404,
+        "41": 0.023684199031802227
+      },
+      "generated_text": " Maud.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js.js."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7124862206893187,
+        "31": 0.6427006818151236,
+        "36": 0.5206310402766473,
+        "38": 0.2958855520504685,
+        "41": 0.059889621165476505
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rij同步rij同步rijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijong",
+      "vector_of": "syn_32"
+    }
+  },
+  {
+    "id": "syn_32",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7124862206893187,
+        "31": 0.6427006818151236,
+        "36": 0.5206310402766473,
+        "38": 0.2958855520504685,
+        "41": 0.059889621165476505
+      },
+      "generated_text": "رج同步رج同步رج同步رج同步rij同步rij同步rijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijongrijong"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7194010685286817,
+        "31": 0.6001879826757037,
+        "36": 0.4977797375195588,
+        "38": 0.27743072852034645,
+        "41": 0.028265767117404823
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4471530911692166,
+        "31": 0.14518556535170646,
+        "36": 0.07470017271361494,
+        "38": 0.0542177129732004,
+        "41": 0.034649832381181314
+      },
+      "generated_text": ".e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e.e"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7196807533739565,
+        "31": 0.6104493527141136,
+        "36": 0.48872311361294335,
+        "38": 0.27419141319092144,
+        "41": 0.052988947884966706
+      },
+      "generated_text": "رجτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langford",
+      "vector_of": "syn_33"
+    }
+  },
+  {
+    "id": "syn_33",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7196807533739565,
+        "31": 0.6104493527141136,
+        "36": 0.48872311361294335,
+        "38": 0.27419141319092144,
+        "41": 0.052988947884966706
+      },
+      "generated_text": "رجτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langfordrjτώ Langford"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7218126461653586,
+        "31": 0.5828318295988436,
+        "36": 0.48207731534368503,
+        "38": 0.25840452883756804,
+        "41": 0.019118899475625964
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4444644022222872,
+        "31": 0.1721357496790868,
+        "36": 0.10542263602982149,
+        "38": 0.06599235559235626,
+        "41": 0.03842622451674344
+      },
+      "generated_text": " wereto0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7084819932740725,
+        "31": 0.6034122699037672,
+        "36": 0.5273607741666306,
+        "38": 0.3106126628129159,
+        "41": 0.0497420848422834
+      },
+      "generated_text": "cmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineous",
+      "vector_of": "syn_34"
+    }
+  },
+  {
+    "id": "syn_34",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7084819932740725,
+        "31": 0.6034122699037672,
+        "36": 0.5273607741666306,
+        "38": 0.3106126628129159,
+        "41": 0.0497420848422834
+      },
+      "generated_text": "cmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineouscmdlineous"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6912360786010674,
+        "31": 0.5776638280896621,
+        "36": 0.47985342632751077,
+        "38": 0.2684093051133485,
+        "41": 0.01644468318256651
+      },
+      "generated_text": " 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.3940000773610467,
+        "31": 0.14680397969466807,
+        "36": 0.04658252916682017,
+        "38": 0.03850590244420582,
+        "41": -0.010853187877099189
+      },
+      "generated_text": "女士áňďáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáňáň"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7191112428960772,
+        "31": 0.6150955123716763,
+        "36": 0.4758431488747553,
+        "38": 0.2473328628151225,
+        "41": 0.049392296533392645
+      },
+      "generated_text": "رجفوantityرجfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantity",
+      "vector_of": "syn_35"
+    }
+  },
+  {
+    "id": "syn_35",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7191112428960772,
+        "31": 0.6150955123716763,
+        "36": 0.4758431488747553,
+        "38": 0.2473328628151225,
+        "41": 0.049392296533392645
+      },
+      "generated_text": "رجفوantityرجfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantity"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7105280620462631,
+        "31": 0.5852728243786275,
+        "36": 0.4966961318565044,
+        "38": 0.2662239638543385,
+        "41": 0.01405484363793055
+      },
+      "generated_text": "رجفوantityرجfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantityfoantity"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4443740518417234,
+        "31": 0.1511932619652729,
+        "36": 0.07970964934329862,
+        "38": 0.05308487840209876,
+        "41": 0.009848619113180775
+      },
+      "generated_text": "Mit der neuen <strong>Kollektion</strong> <strong>„</strong><strong>The</strong> <strong>New</strong> <strong>Normal</strong><strong>“</strong> von <strong>H&M</strong> wird der <strong>Sommer</strong> <strong>2021</strong> eingeläutet. Die Kollektion ist eine Hommage an die <strong>Mode</strong> <strong>der</strong> <strong>1970er</strong> <strong>Jahre</strong> und bietet eine <strong>Vielfalt</strong> <strong>an</strong> <strong>Farben</strong>, <strong>Mustern</strong> <strong>und</strong> <strong>Silhouetten</strong>.\n\nDie Kollektion ist eine Hommage an die Mode der 1970er Jahre und bietet eine Vielfalt an Farben, Mustern und Silhouetten."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6736091533272538,
+        "31": 0.5810071123882423,
+        "36": 0.5146754603346024,
+        "38": 0.3172563872015718,
+        "41": 0.08729345874097788
+      },
+      "generated_text": "رج Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lyt",
+      "vector_of": "syn_36"
+    }
+  },
+  {
+    "id": "syn_36",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6736091533272538,
+        "31": 0.5810071123882423,
+        "36": 0.5146754603346024,
+        "38": 0.3172563872015718,
+        "41": 0.08729345874097788
+      },
+      "generated_text": "رج Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lytjor Lyt"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6466507677653475,
+        "31": 0.5503730047409955,
+        "36": 0.4685853634970595,
+        "38": 0.2728710414288485,
+        "41": 0.03795341111636844
+      },
+      "generated_text": "员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后员最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4064114287207625,
+        "31": 0.2095529806873651,
+        "36": 0.11536142833859109,
+        "38": 0.09110168024746802,
+        "41": 0.07376328253670905
+      },
+      "generated_text": "UTC55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7151345775721973,
+        "31": 0.5938560260656505,
+        "36": 0.5184510046016108,
+        "38": 0.30203137521886764,
+        "41": 0.04783902268507398
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと",
+      "vector_of": "syn_37"
+    }
+  },
+  {
+    "id": "syn_37",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7151345775721973,
+        "31": 0.5938560260656505,
+        "36": 0.5184510046016108,
+        "38": 0.30203137521886764,
+        "41": 0.04783902268507398
+      },
+      "generated_text": "رجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんとرجさんと"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7210187275046172,
+        "31": 0.6035817985192501,
+        "36": 0.4915301240129805,
+        "38": 0.2648415276864183,
+        "41": 0.00904871698774366
+      },
+      "generated_text": "رجفو停止رجfujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujosefujo"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.42616267790754475,
+        "31": 0.1299689897505194,
+        "36": 0.054413323215371186,
+        "38": 0.04034595034716542,
+        "41": 0.030336566215654656
+      },
+      "generated_text": "είτε. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject. localObject."
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7130362979102278,
+        "31": 0.6234695489626015,
+        "36": 0.539179364215999,
+        "38": 0.3026208014960557,
+        "41": 0.0582192044850027
+      },
+      "generated_text": "رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套",
+      "vector_of": "syn_38"
+    }
+  },
+  {
+    "id": "syn_38",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7130362979102278,
+        "31": 0.6234695489626015,
+        "36": 0.539179364215999,
+        "38": 0.3026208014960557,
+        "41": 0.0582192044850027
+      },
+      "generated_text": "رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套رج套"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7147794031790391,
+        "31": 0.5874948727314743,
+        "36": 0.49290902926124147,
+        "38": 0.266263277380882,
+        "41": 0.025833212995176432
+      },
+      "generated_text": "非授权非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非非"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.4000223708124891,
+        "31": 0.14912173552749217,
+        "36": 0.07506128498428788,
+        "38": 0.06113559367817778,
+        "41": 0.04208244201161528
+      },
+      "generated_text": ", übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig, übrig"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7022639117885036,
+        "31": 0.5821519689002832,
+        "36": 0.5144711177677295,
+        "38": 0.29174300603104764,
+        "41": 0.06618813983430176
+      },
+      "generated_text": "cmdlineoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyorigin",
+      "vector_of": "syn_39"
+    }
+  },
+  {
+    "id": "syn_39",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7022639117885036,
+        "31": 0.5821519689002832,
+        "36": 0.5144711177677295,
+        "38": 0.29174300603104764,
+        "41": 0.06618813983430176
+      },
+      "generated_text": "cmdlineoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyoriginallycreatedonlyorigin"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.6936417906313105,
+        "31": 0.5718123948476588,
+        "36": 0.48450797923539257,
+        "38": 0.2600345233064903,
+        "41": 0.014254936329839834
+      },
+      "generated_text": "员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit员生成quit"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.38709938989973747,
+        "31": 0.14280371512395792,
+        "36": 0.03325284982335922,
+        "38": 0.03099710253480093,
+        "41": 0.018460142813461304
+      },
+      "generated_text": ".Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type.Type"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7213964819033998,
+        "31": 0.6204078403148755,
+        "36": 0.5060848531904072,
+        "38": 0.27470398553013176,
+        "41": 0.044129010263436345
+      },
+      "generated_text": "فينرجفينرجفينرجفينرجينرجinrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrij",
+      "vector_of": "syn_40"
+    }
+  },
+  {
+    "id": "syn_40",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7213964819033998,
+        "31": 0.6204078403148755,
+        "36": 0.5060848531904072,
+        "38": 0.27470398553013176,
+        "41": 0.044129010263436345
+      },
+      "generated_text": "فينرجفينرجفينرجفينرجينرجinrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrijnrij"
+    },
+    "zh": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7172451107070615,
+        "31": 0.5959541091447339,
+        "36": 0.4867498544626472,
+        "38": 0.26848932123325336,
+        "41": 0.013243745659947877
+      },
+      "generated_text": "cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后cmdline最后"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.46993384296165586,
+        "31": 0.20562000220765597,
+        "36": 0.10651214005877763,
+        "38": 0.07262759285346379,
+        "41": 0.05319441509751677
+      },
+      "generated_text": "huitmaistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistopistop"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "21": 1.0,
+        "26": 0.7044196195851611,
+        "31": 0.5736503883163118,
+        "36": 0.4510058765976674,
+        "38": 0.25460381295841217,
+        "41": 0.03448925635346053
+      },
+      "generated_text": "cmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuucmdlinekuu",
+      "vector_of": "hum_01"
+    }
+  }
+]

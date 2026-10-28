@@ -1,0 +1,779 @@
+{
+  "model": "ModelSpace/GemmaX2-28-9B-Pretrain",
+  "key": "gemmax2_28_9b",
+  "layer_idx": 21,
+  "exclude_leading_n_in_config": 2,
+  "mode": "explore",
+  "environment": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "device": "mps:0",
+    "param_dtype": "torch.bfloat16",
+    "expected_dtype": "torch.bfloat16",
+    "model_type": "gemma2",
+    "attn_impl": "eager",
+    "n_layers": 42,
+    "hidden_size": 3584,
+    "vocab_size": 256000,
+    "dtype_ok": true,
+    "attn_ok": true
+  },
+  "reference": {
+    "ref_norm": 234.41647338867188,
+    "ref_norm_nm": 163.50115966796875,
+    "sink_norm": 2118.270751953125,
+    "ord_sink_cos": 0.5849599838256836,
+    "n_massive_dims": 20
+  },
+  "position_sweep": {
+    "en": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "Within",
+          "\u2581non"
+        ],
+        [
+          "<bos>",
+          "In",
+          "\u2581measurable"
+        ],
+        [
+          "<bos>",
+          "Ch",
+          "ern"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        8.658073425292969,
+        0.9484556317329407,
+        0.8797639012336731,
+        0.9191519618034363,
+        0.961409330368042,
+        1.0008548498153687
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0005484711367064308,
+      "late_outlier_top_tokens": [
+        [
+          "B",
+          1
+        ],
+        [
+          "-",
+          1
+        ],
+        [
+          "\u2581",
+          1
+        ],
+        [
+          "\u2581of",
+          1
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 7341,
+          "pr_raw": 3.8965327739715576,
+          "pr_filtered": 147.6517791748047,
+          "frac_removed_by_filter": 0.007083503609862416
+        },
+        "1": {
+          "n_tokens": 7293,
+          "pr_raw": 105.53070068359375,
+          "pr_filtered": 147.6517791748047,
+          "frac_removed_by_filter": 0.0005484711367064308
+        },
+        "2": {
+          "n_tokens": 7245,
+          "pr_raw": 105.47001647949219,
+          "pr_filtered": 147.6409454345703,
+          "frac_removed_by_filter": 0.0005521048999309869
+        },
+        "3": {
+          "n_tokens": 7197,
+          "pr_raw": 105.4522705078125,
+          "pr_filtered": 147.9385223388672,
+          "frac_removed_by_filter": 0.0005557871335278589
+        },
+        "4": {
+          "n_tokens": 7149,
+          "pr_raw": 105.40217590332031,
+          "pr_filtered": 148.22018432617188,
+          "frac_removed_by_filter": 0.0005595188138201147
+        }
+      }
+    },
+    "zh": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "\u5728",
+          "\u975e"
+        ],
+        [
+          "<bos>",
+          "\u5728",
+          "\u53ef"
+        ],
+        [
+          "<bos>",
+          "\u9648",
+          "-"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        9.363597869873047,
+        1.019677758216858,
+        0.9002881646156311,
+        0.8698157668113708,
+        0.9207075238227844,
+        0.9480774402618408
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0005832264084917765,
+      "late_outlier_top_tokens": [
+        [
+          "\u4e0d",
+          1
+        ],
+        [
+          "\u5230",
+          1
+        ],
+        [
+          "\u2581",
+          1
+        ],
+        [
+          "\u635f",
+          1
+        ],
+        [
+          "\u6216",
+          1
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 8621,
+          "pr_raw": 4.093367099761963,
+          "pr_filtered": 145.07293701171875,
+          "frac_removed_by_filter": 0.006147778679967521
+        },
+        "1": {
+          "n_tokens": 8573,
+          "pr_raw": 91.5165023803711,
+          "pr_filtered": 145.07293701171875,
+          "frac_removed_by_filter": 0.0005832264084917765
+        },
+        "2": {
+          "n_tokens": 8525,
+          "pr_raw": 91.63680267333984,
+          "pr_filtered": 145.23045349121094,
+          "frac_removed_by_filter": 0.0005865102639296188
+        },
+        "3": {
+          "n_tokens": 8477,
+          "pr_raw": 91.40154266357422,
+          "pr_filtered": 145.19534301757812,
+          "frac_removed_by_filter": 0.0005898313082458417
+        },
+        "4": {
+          "n_tokens": 8429,
+          "pr_raw": 91.4061508178711,
+          "pr_filtered": 145.56588745117188,
+          "frac_removed_by_filter": 0.0005931901767706727
+        }
+      }
+    }
+  },
+  "carrier": {
+    "plain_nll_tail": {
+      "en": 3.008191299935182,
+      "zh": 3.2916971196730933
+    },
+    "uniform_nll": 12.4529327234617,
+    "default_id": 0,
+    "candidates": [
+      {
+        "token": "<pad>",
+        "id": 0,
+        "finite": true,
+        "norm_ratio": 1.8135086297988892,
+        "pos0_norm_ratio": 1.8099722862243652,
+        "inj_site_norm_ratio": 1.825413465499878,
+        "sink_cos": 0.8457455635070801,
+        "pos0_sink_cos": 0.845490038394928,
+        "nm_ratio": 0.9908063411712646,
+        "norm_by_position": [
+          1.81,
+          1.81,
+          1.83,
+          1.81,
+          1.83,
+          1.83,
+          1.81,
+          1.8,
+          1.81,
+          1.81
+        ],
+        "sink_cos_by_position": [
+          0.845,
+          0.845,
+          0.847,
+          0.846,
+          0.847,
+          0.847,
+          0.845,
+          0.844,
+          0.845,
+          0.845
+        ],
+        "positions_indistinguishable": false,
+        "entropy": 6.430521011352539,
+        "top1_prob": 0.08760834485292435,
+        "top5": [
+          "\u0000",
+          "\ufffd",
+          "\u1090",
+          "ULATOR",
+          "ulka"
+        ],
+        "en": {
+          "nll_all": 3.379720687866211,
+          "nll_tail": 3.254845380783081,
+          "nll_std": 0.5208083391189575,
+          "ratio_to_plain": 1.0819941759109497
+        },
+        "zh": {
+          "nll_all": 3.6067075729370117,
+          "nll_tail": 3.5090408325195312,
+          "nll_std": 0.4681963324546814,
+          "ratio_to_plain": 1.0660278797149658
+        },
+        "flags": [],
+        "pass": true,
+        "label": "<pad>"
+      },
+      {
+        "token": "<unk>",
+        "id": 3,
+        "finite": true,
+        "norm_ratio": 4.007221221923828,
+        "pos0_norm_ratio": 4.010455131530762,
+        "inj_site_norm_ratio": 4.010833740234375,
+        "sink_cos": 0.9383327960968018,
+        "pos0_sink_cos": 0.9377242922782898,
+        "nm_ratio": 0.9444153904914856,
+        "norm_by_position": [
+          4.01,
+          4.01,
+          3.98,
+          3.98,
+          4.01,
+          4.04,
+          4.01,
+          3.99,
+          4.03,
+          4.01
+        ],
+        "sink_cos_by_position": [
+          0.938,
+          0.938,
+          0.938,
+          0.938,
+          0.939,
+          0.939,
+          0.938,
+          0.938,
+          0.939,
+          0.939
+        ],
+        "positions_indistinguishable": false,
+        "entropy": 5.708410263061523,
+        "top1_prob": 0.2844527065753937,
+        "top5": [
+          "\u0000",
+          "\u0005",
+          "\u1090",
+          "\ufffd",
+          "\ue074"
+        ],
+        "en": {
+          "nll_all": 3.342318296432495,
+          "nll_tail": 3.2224910259246826,
+          "nll_std": 0.5069202184677124,
+          "ratio_to_plain": 1.0712387561798096
+        },
+        "zh": {
+          "nll_all": 3.5969467163085938,
+          "nll_tail": 3.507781982421875,
+          "nll_std": 0.44297245144844055,
+          "ratio_to_plain": 1.065645456314087
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "<unk>"
+      },
+      {
+        "token": "</s>",
+        "id": 213,
+        "finite": true,
+        "norm_ratio": 5.5818562507629395,
+        "pos0_norm_ratio": 5.57806921005249,
+        "inj_site_norm_ratio": 5.578097343444824,
+        "sink_cos": 0.9570632576942444,
+        "pos0_sink_cos": 0.9570111632347107,
+        "nm_ratio": 0.8255507349967957,
+        "norm_by_position": [
+          5.58,
+          5.58,
+          5.58,
+          5.58,
+          5.58,
+          5.58,
+          5.61,
+          5.58,
+          5.58,
+          5.58
+        ],
+        "sink_cos_by_position": [
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957,
+          0.957
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 6.94431209564209,
+        "top1_prob": 0.14273589849472046,
+        "top5": [
+          " ",
+          "\n",
+          "<eos>",
+          "\\",
+          "\u200b"
+        ],
+        "en": {
+          "nll_all": 3.18939208984375,
+          "nll_tail": 3.132411003112793,
+          "nll_std": 0.5156751871109009,
+          "ratio_to_plain": 1.0412938594818115
+        },
+        "zh": {
+          "nll_all": 3.4491074085235596,
+          "nll_tail": 3.3934028148651123,
+          "nll_std": 0.4491691589355469,
+          "ratio_to_plain": 1.030897617340088
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "</s>"
+      },
+      {
+        "token": "<eos>",
+        "id": 1,
+        "finite": true,
+        "norm_ratio": 7.997400283813477,
+        "pos0_norm_ratio": 8.002394676208496,
+        "inj_site_norm_ratio": 8.002351760864258,
+        "sink_cos": 0.9882504940032959,
+        "pos0_sink_cos": 0.9883397221565247,
+        "nm_ratio": 0.7620849609375,
+        "norm_by_position": [
+          8.0,
+          8.0,
+          8.0,
+          7.97,
+          8.0,
+          8.03,
+          8.03,
+          7.97,
+          8.0,
+          7.97
+        ],
+        "sink_cos_by_position": [
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 7.787351131439209,
+        "top1_prob": 0.03928613290190697,
+        "top5": [
+          "The",
+          "I",
+          "\"",
+          "\u201c",
+          "In"
+        ],
+        "en": {
+          "nll_all": 3.1352272033691406,
+          "nll_tail": 3.1065776348114014,
+          "nll_std": 0.5113252401351929,
+          "ratio_to_plain": 1.0327061414718628
+        },
+        "zh": {
+          "nll_all": 3.391355276107788,
+          "nll_tail": 3.3488996028900146,
+          "nll_std": 0.45000696182250977,
+          "ratio_to_plain": 1.0173778533935547
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "<eos>"
+      },
+      {
+        "token": "\u2581",
+        "id": 235248,
+        "finite": true,
+        "norm_ratio": 7.645119667053223,
+        "pos0_norm_ratio": 7.645199775695801,
+        "inj_site_norm_ratio": 7.645171642303467,
+        "sink_cos": 0.9881784915924072,
+        "pos0_sink_cos": 0.9881746172904968,
+        "nm_ratio": 0.7037824392318726,
+        "norm_by_position": [
+          7.65,
+          7.65,
+          7.65,
+          7.65,
+          7.65,
+          7.65,
+          7.64,
+          7.64,
+          7.65,
+          7.65
+        ],
+        "sink_cos_by_position": [
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988,
+          0.988
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 4.133973598480225,
+        "top1_prob": 0.18846110999584198,
+        "top5": [
+          "1",
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "en": {
+          "nll_all": 3.196681261062622,
+          "nll_tail": 3.0989017486572266,
+          "nll_std": 0.5077505111694336,
+          "ratio_to_plain": 1.0301544666290283
+        },
+        "zh": {
+          "nll_all": 3.4168663024902344,
+          "nll_tail": 3.3565547466278076,
+          "nll_std": 0.45316216349601746,
+          "ratio_to_plain": 1.0197033882141113
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": " "
+      },
+      {
+        "token": "\n",
+        "id": 108,
+        "finite": true,
+        "norm_ratio": 5.598609447479248,
+        "pos0_norm_ratio": 5.597506046295166,
+        "inj_site_norm_ratio": 5.598827838897705,
+        "sink_cos": 0.9689528346061707,
+        "pos0_sink_cos": 0.9686812162399292,
+        "nm_ratio": 0.6989394426345825,
+        "norm_by_position": [
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6,
+          5.6
+        ],
+        "sink_cos_by_position": [
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969,
+          0.969
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 7.905165672302246,
+        "top1_prob": 0.03174278512597084,
+        "top5": [
+          "The",
+          "\"",
+          "I",
+          "\u201c",
+          "In"
+        ],
+        "en": {
+          "nll_all": 3.125330686569214,
+          "nll_tail": 3.0956904888153076,
+          "nll_std": 0.5103650093078613,
+          "ratio_to_plain": 1.029086947441101
+        },
+        "zh": {
+          "nll_all": 3.387179136276245,
+          "nll_tail": 3.344383955001831,
+          "nll_std": 0.45078936219215393,
+          "ratio_to_plain": 1.0160059928894043
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "\n"
+      },
+      {
+        "token": ".",
+        "id": 235265,
+        "finite": true,
+        "norm_ratio": 6.227875232696533,
+        "pos0_norm_ratio": 6.22800350189209,
+        "inj_site_norm_ratio": 6.228027820587158,
+        "sink_cos": 0.9719133377075195,
+        "pos0_sink_cos": 0.9719197154045105,
+        "nm_ratio": 0.709458589553833,
+        "norm_by_position": [
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23
+        ],
+        "sink_cos_by_position": [
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972,
+          0.972
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 3.179788589477539,
+        "top1_prob": 0.3865094482898712,
+        "top5": [
+          "\n",
+          "<eos>",
+          " ",
+          "1",
+          "0"
+        ],
+        "en": {
+          "nll_all": 3.1748039722442627,
+          "nll_tail": 3.112649917602539,
+          "nll_std": 0.5150394439697266,
+          "ratio_to_plain": 1.0347247123718262
+        },
+        "zh": {
+          "nll_all": 3.420680284500122,
+          "nll_tail": 3.357182502746582,
+          "nll_std": 0.45600295066833496,
+          "ratio_to_plain": 1.0198941230773926
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "."
+      },
+      {
+        "token": "the",
+        "id": 1175,
+        "finite": true,
+        "norm_ratio": 6.231815338134766,
+        "pos0_norm_ratio": 6.231744289398193,
+        "inj_site_norm_ratio": 6.231800079345703,
+        "sink_cos": 0.9611912965774536,
+        "pos0_sink_cos": 0.9611877202987671,
+        "nm_ratio": 0.8161888122558594,
+        "norm_by_position": [
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23,
+          6.23
+        ],
+        "sink_cos_by_position": [
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961,
+          0.961
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 8.630263328552246,
+        "top1_prob": 0.03417515382170677,
+        "top5": [
+          "-",
+          " ",
+          " first",
+          " United",
+          " best"
+        ],
+        "en": {
+          "nll_all": 3.2449429035186768,
+          "nll_tail": 3.1708593368530273,
+          "nll_std": 0.5261146426200867,
+          "ratio_to_plain": 1.054075002670288
+        },
+        "zh": {
+          "nll_all": 3.4795639514923096,
+          "nll_tail": 3.39574933052063,
+          "nll_std": 0.4500733017921448,
+          "ratio_to_plain": 1.0316104888916016
+        },
+        "flags": [
+          "SINK-LIKE"
+        ],
+        "pass": false,
+        "label": "the"
+      }
+    ]
+  },
+  "functional": {
+    "hook_vs_hidden_states_max_abs_diff": 0.0,
+    "inject_exact_vs_cast_vector_max_abs_diff": 0.0,
+    "inject_rel_err_vs_fp32_vector": 0.001987466821447015,
+    "layerL_other_positions_rel_change": 0.0,
+    "layerL1_before_pos_rel_change": 0.0,
+    "layerL1_at_pos_rel_change": 0.7580790519714355,
+    "layerL1_after_pos_rel_change": 0.002997205127030611,
+    "final_logits_max_abs_change": 13.1875
+  },
+  "batch_equivalence": {
+    "lengths": [
+      123,
+      128,
+      135,
+      167,
+      167,
+      177
+    ],
+    "no_injection": {
+      "max_abs_diff": 0.007455348968505859,
+      "mean_nll_single": 3.306608200073242
+    },
+    "with_injection": {
+      "max_abs_diff": 0.005988597869873047,
+      "mean_nll_single": 3.2622947692871094
+    }
+  },
+  "concept_vectors": {
+    "en": {
+      "norm_ratio_to_ordinary": 0.8211584091186523,
+      "cos_to_sink_dir": 0.7643294930458069,
+      "mean_pairwise_cos_raw": 0.90647292137146,
+      "mean_pairwise_cos_centered": -0.019411509856581688
+    },
+    "zh": {
+      "norm_ratio_to_ordinary": 0.7345637083053589,
+      "cos_to_sink_dir": 0.7553677558898926,
+      "mean_pairwise_cos_raw": 0.9018721580505371,
+      "mean_pairwise_cos_centered": -0.017973830923438072
+    },
+    "cross_raw": {
+      "same_concept_cos": 0.9778822064399719,
+      "different_concept_cos": 0.8926702737808228,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    },
+    "cross_centered": {
+      "same_concept_cos": 0.8846728801727295,
+      "different_concept_cos": -0.01647714152932167,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    }
+  },
+  "verdict": {
+    "status": "READY",
+    "fail": [],
+    "warn": [
+      "en: concept vectors share a dominant direction (pairwise cos 0.91); uncentered cosine metrics will be uninformative, rely on the mismatch matrix",
+      "zh: concept vectors share a dominant direction (pairwise cos 0.90); uncentered cosine metrics will be uninformative, rely on the mismatch matrix"
+    ],
+    "mode": "explore"
+  }
+}

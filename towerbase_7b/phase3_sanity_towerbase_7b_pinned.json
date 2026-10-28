@@ -1,0 +1,314 @@
+{
+  "model": "Unbabel/TowerBase-7B-v0.1",
+  "key": "towerbase_7b",
+  "layer_idx": 16,
+  "exclude_leading_n_in_config": 1,
+  "mode": "pinned",
+  "environment": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "device": "mps:0",
+    "param_dtype": "torch.bfloat16",
+    "expected_dtype": "torch.bfloat16",
+    "model_type": "llama",
+    "attn_impl": "eager",
+    "n_layers": 32,
+    "hidden_size": 4096,
+    "vocab_size": 32000,
+    "dtype_ok": true,
+    "attn_ok": true
+  },
+  "reference": {
+    "ref_norm": 30.01988410949707,
+    "ref_norm_nm": 27.580127716064453,
+    "sink_norm": 1262.075927734375,
+    "ord_sink_cos": 0.008866961114108562,
+    "n_massive_dims": 22
+  },
+  "carrier": {
+    "plain_nll_tail": {
+      "en": 2.4211123709877334,
+      "zh": 2.1426920518279076
+    },
+    "uniform_nll": 10.373491181781864,
+    "default_id": 0,
+    "candidates": [
+      {
+        "token": "<unk>",
+        "id": 0,
+        "finite": true,
+        "norm_ratio": 1.4676088094711304,
+        "pos0_norm_ratio": 1.4684175252914429,
+        "inj_site_norm_ratio": 1.4672529697418213,
+        "sink_cos": 0.13443180918693542,
+        "pos0_sink_cos": 0.13482221961021423,
+        "nm_ratio": 1.240212321281433,
+        "norm_by_position": [
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47,
+          1.47
+        ],
+        "sink_cos_by_position": [
+          0.135,
+          0.135,
+          0.134,
+          0.135,
+          0.135,
+          0.134,
+          0.133,
+          0.134,
+          0.134,
+          0.135
+        ],
+        "positions_indistinguishable": true,
+        "entropy": 8.211040496826172,
+        "top1_prob": 0.07235000282526016,
+        "top5": [
+          "O",
+          "o",
+          "\n",
+          "t",
+          "\u200b"
+        ],
+        "en": {
+          "nll_all": 4.709536075592041,
+          "nll_tail": 4.6747965812683105,
+          "nll_std": 0.5408088564872742,
+          "ratio_to_plain": 1.9308466911315918
+        },
+        "zh": {
+          "nll_all": 3.585582971572876,
+          "nll_tail": 3.5791890621185303,
+          "nll_std": 0.36703094840049744,
+          "ratio_to_plain": 1.6704169511795044
+        },
+        "flags": [],
+        "pass": true,
+        "label": "<unk>"
+      }
+    ]
+  },
+  "functional": {
+    "hook_vs_hidden_states_max_abs_diff": 0.0,
+    "inject_exact_vs_cast_vector_max_abs_diff": 0.0,
+    "inject_rel_err_vs_fp32_vector": 0.0018887754995375872,
+    "layerL_other_positions_rel_change": 0.0,
+    "layerL1_before_pos_rel_change": 0.0,
+    "layerL1_at_pos_rel_change": 0.9310603737831116,
+    "layerL1_after_pos_rel_change": 0.002374699804931879,
+    "final_logits_max_abs_change": 0.25
+  },
+  "batch_equivalence": {
+    "lengths": [
+      135,
+      157,
+      160,
+      216,
+      220,
+      224
+    ],
+    "no_injection": {
+      "max_abs_diff": 0.003215789794921875,
+      "mean_nll_single": 4.518577575683594
+    },
+    "with_injection": {
+      "max_abs_diff": 0.009516716003417969,
+      "mean_nll_single": 4.5183281898498535
+    }
+  },
+  "concept_vectors": {
+    "en": {
+      "norm_ratio_to_ordinary": 0.5568996071815491,
+      "cos_to_sink_dir": 0.043707750737667084,
+      "mean_pairwise_cos_raw": 0.6353416442871094,
+      "mean_pairwise_cos_centered": -0.01983826234936714
+    },
+    "zh": {
+      "norm_ratio_to_ordinary": 0.44853314757347107,
+      "cos_to_sink_dir": 0.011404864490032196,
+      "mean_pairwise_cos_raw": 0.806572675704956,
+      "mean_pairwise_cos_centered": -0.019996672868728638
+    },
+    "cross_raw": {
+      "same_concept_cos": 0.7773879170417786,
+      "different_concept_cos": 0.5776349902153015,
+      "en_to_zh_top1": 0.9791666666666666,
+      "chance": 0.020833333333333332
+    },
+    "cross_centered": {
+      "same_concept_cos": 0.7490336298942566,
+      "different_concept_cos": -0.014973553828895092,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    }
+  },
+  "position_sweep": {
+    "en": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<s>",
+          "\u2581Within",
+          "\u2581non"
+        ],
+        [
+          "<s>",
+          "\u2581In",
+          "\u2581meas"
+        ],
+        [
+          "<s>",
+          "\u2581Ch",
+          "ern"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        38.089542388916016,
+        0.8967610001564026,
+        0.9383311867713928,
+        0.9346901774406433,
+        0.9354528784751892,
+        0.9322066903114319
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.005145246007074713,
+      "late_outlier_top_tokens": [
+        [
+          ".",
+          48
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 9377,
+          "pr_raw": 1.0380841493606567,
+          "pr_filtered": 240.42442321777344,
+          "frac_removed_by_filter": 0.010237815932601046
+        },
+        "1": {
+          "n_tokens": 9329,
+          "pr_raw": 1.0442577600479126,
+          "pr_filtered": 240.42442321777344,
+          "frac_removed_by_filter": 0.005145246007074713
+        },
+        "2": {
+          "n_tokens": 9281,
+          "pr_raw": 1.044051170349121,
+          "pr_filtered": 240.60108947753906,
+          "frac_removed_by_filter": 0.005171856480982653
+        },
+        "3": {
+          "n_tokens": 9233,
+          "pr_raw": 1.043824315071106,
+          "pr_filtered": 239.98854064941406,
+          "frac_removed_by_filter": 0.005198743636954403
+        },
+        "4": {
+          "n_tokens": 9185,
+          "pr_raw": 1.0436067581176758,
+          "pr_filtered": 239.3883819580078,
+          "frac_removed_by_filter": 0.00522591181273816
+        }
+      }
+    },
+    "zh": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<s>",
+          "\u2581",
+          "\u5728"
+        ],
+        [
+          "<s>",
+          "\u2581",
+          "\u5728"
+        ],
+        [
+          "<s>",
+          "\u2581",
+          "\u9648"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        43.65333557128906,
+        0.9447176456451416,
+        0.9306650757789612,
+        0.9740694165229797,
+        0.9646534323692322,
+        0.9653112292289734
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0027083450883033347,
+      "late_outlier_top_tokens": [
+        [
+          "\u3002",
+          48
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 17771,
+          "pr_raw": 1.0513348579406738,
+          "pr_filtered": 159.89886474609375,
+          "frac_removed_by_filter": 0.005402059535197794
+        },
+        "1": {
+          "n_tokens": 17723,
+          "pr_raw": 1.0596996545791626,
+          "pr_filtered": 159.89886474609375,
+          "frac_removed_by_filter": 0.0027083450883033347
+        },
+        "2": {
+          "n_tokens": 17675,
+          "pr_raw": 1.0595340728759766,
+          "pr_filtered": 159.54031372070312,
+          "frac_removed_by_filter": 0.0027157001414427158
+        },
+        "3": {
+          "n_tokens": 17627,
+          "pr_raw": 1.059372901916504,
+          "pr_filtered": 159.317626953125,
+          "frac_removed_by_filter": 0.002723095251602655
+        },
+        "4": {
+          "n_tokens": 17579,
+          "pr_raw": 1.0592083930969238,
+          "pr_filtered": 159.1424102783203,
+          "frac_removed_by_filter": 0.0027305307469139314
+        }
+      }
+    }
+  },
+  "verdict": {
+    "status": "READY",
+    "fail": [],
+    "warn": [],
+    "mode": "pinned"
+  }
+}

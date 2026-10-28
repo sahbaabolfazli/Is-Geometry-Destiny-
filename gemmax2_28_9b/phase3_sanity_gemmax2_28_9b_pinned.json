@@ -1,0 +1,345 @@
+{
+  "model": "ModelSpace/GemmaX2-28-9B-Pretrain",
+  "key": "gemmax2_28_9b",
+  "layer_idx": 21,
+  "exclude_leading_n_in_config": 1,
+  "mode": "pinned",
+  "environment": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "device": "mps:0",
+    "param_dtype": "torch.bfloat16",
+    "expected_dtype": "torch.bfloat16",
+    "model_type": "gemma2",
+    "attn_impl": "eager",
+    "n_layers": 42,
+    "hidden_size": 3584,
+    "vocab_size": 256000,
+    "dtype_ok": true,
+    "attn_ok": true
+  },
+  "reference": {
+    "ref_norm": 234.41647338867188,
+    "ref_norm_nm": 163.50115966796875,
+    "sink_norm": 2118.270751953125,
+    "ord_sink_cos": 0.5849599838256836,
+    "n_massive_dims": 20
+  },
+  "carrier": {
+    "plain_nll_tail": {
+      "en": 3.008191299935182,
+      "zh": 3.2916971196730933
+    },
+    "uniform_nll": 12.4529327234617,
+    "default_id": 0,
+    "candidates": [
+      {
+        "token": "<pad>",
+        "id": 0,
+        "finite": true,
+        "norm_ratio": 1.8135086297988892,
+        "pos0_norm_ratio": 1.8099722862243652,
+        "inj_site_norm_ratio": 1.825413465499878,
+        "sink_cos": 0.8457455635070801,
+        "pos0_sink_cos": 0.845490038394928,
+        "nm_ratio": 0.9908063411712646,
+        "norm_by_position": [
+          1.81,
+          1.81,
+          1.83,
+          1.81,
+          1.83,
+          1.83,
+          1.81,
+          1.8,
+          1.81,
+          1.81
+        ],
+        "sink_cos_by_position": [
+          0.845,
+          0.845,
+          0.847,
+          0.846,
+          0.847,
+          0.847,
+          0.845,
+          0.844,
+          0.845,
+          0.845
+        ],
+        "positions_indistinguishable": false,
+        "entropy": 6.430521011352539,
+        "top1_prob": 0.08760834485292435,
+        "top5": [
+          "\u0000",
+          "\ufffd",
+          "\u1090",
+          "ULATOR",
+          "ulka"
+        ],
+        "en": {
+          "nll_all": 3.379720687866211,
+          "nll_tail": 3.254845380783081,
+          "nll_std": 0.5208083391189575,
+          "ratio_to_plain": 1.0819941759109497
+        },
+        "zh": {
+          "nll_all": 3.6067075729370117,
+          "nll_tail": 3.5090408325195312,
+          "nll_std": 0.4681963324546814,
+          "ratio_to_plain": 1.0660278797149658
+        },
+        "flags": [],
+        "pass": true,
+        "label": "<pad>"
+      }
+    ]
+  },
+  "functional": {
+    "hook_vs_hidden_states_max_abs_diff": 0.0,
+    "inject_exact_vs_cast_vector_max_abs_diff": 0.0,
+    "inject_rel_err_vs_fp32_vector": 0.0009781094267964363,
+    "layerL_other_positions_rel_change": 0.0,
+    "layerL1_before_pos_rel_change": 0.0,
+    "layerL1_at_pos_rel_change": 0.7556388974189758,
+    "layerL1_after_pos_rel_change": 0.0030031532514840364,
+    "final_logits_max_abs_change": 13.375
+  },
+  "batch_equivalence": {
+    "lengths": [
+      123,
+      128,
+      135,
+      167,
+      167,
+      177
+    ],
+    "no_injection": {
+      "max_abs_diff": 0.007455348968505859,
+      "mean_nll_single": 3.306608200073242
+    },
+    "with_injection": {
+      "max_abs_diff": 0.007557868957519531,
+      "mean_nll_single": 3.2612123489379883
+    }
+  },
+  "concept_vectors": {
+    "en": {
+      "norm_ratio_to_ordinary": 0.8216734528541565,
+      "cos_to_sink_dir": 0.765205979347229,
+      "mean_pairwise_cos_raw": 0.9074976444244385,
+      "mean_pairwise_cos_centered": -0.019416455179452896
+    },
+    "zh": {
+      "norm_ratio_to_ordinary": 0.7339923977851868,
+      "cos_to_sink_dir": 0.756192684173584,
+      "mean_pairwise_cos_raw": 0.9028675556182861,
+      "mean_pairwise_cos_centered": -0.0179895032197237
+    },
+    "cross_raw": {
+      "same_concept_cos": 0.9779883027076721,
+      "different_concept_cos": 0.8936955332756042,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    },
+    "cross_centered": {
+      "same_concept_cos": 0.8844797015190125,
+      "different_concept_cos": -0.01648188754916191,
+      "en_to_zh_top1": 1.0,
+      "chance": 0.020833333333333332
+    }
+  },
+  "position_sweep": {
+    "en": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "Within",
+          "\u2581non"
+        ],
+        [
+          "<bos>",
+          "In",
+          "\u2581measurable"
+        ],
+        [
+          "<bos>",
+          "Ch",
+          "ern"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        8.658073425292969,
+        0.9484556317329407,
+        0.8797639012336731,
+        0.9191519618034363,
+        0.961409330368042,
+        1.0008548498153687
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0005484711367064308,
+      "late_outlier_top_tokens": [
+        [
+          "B",
+          1
+        ],
+        [
+          "-",
+          1
+        ],
+        [
+          "\u2581",
+          1
+        ],
+        [
+          "\u2581of",
+          1
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 7341,
+          "pr_raw": 3.8965327739715576,
+          "pr_filtered": 147.6517791748047,
+          "frac_removed_by_filter": 0.007083503609862416
+        },
+        "1": {
+          "n_tokens": 7293,
+          "pr_raw": 105.53070068359375,
+          "pr_filtered": 147.6517791748047,
+          "frac_removed_by_filter": 0.0005484711367064308
+        },
+        "2": {
+          "n_tokens": 7245,
+          "pr_raw": 105.47001647949219,
+          "pr_filtered": 147.6409454345703,
+          "frac_removed_by_filter": 0.0005521048999309869
+        },
+        "3": {
+          "n_tokens": 7197,
+          "pr_raw": 105.4522705078125,
+          "pr_filtered": 147.9385223388672,
+          "frac_removed_by_filter": 0.0005557871335278589
+        },
+        "4": {
+          "n_tokens": 7149,
+          "pr_raw": 105.40217590332031,
+          "pr_filtered": 148.22018432617188,
+          "frac_removed_by_filter": 0.0005595188138201147
+        }
+      }
+    },
+    "zh": {
+      "frac_passages_starting_with_bos": 1.0,
+      "first_tokens_examples": [
+        [
+          "<bos>",
+          "\u5728",
+          "\u975e"
+        ],
+        [
+          "<bos>",
+          "\u5728",
+          "\u53ef"
+        ],
+        [
+          "<bos>",
+          "\u9648",
+          "-"
+        ]
+      ],
+      "norm_ratio_by_position_mean": [
+        9.363597869873047,
+        1.019677758216858,
+        0.9002881646156311,
+        0.8698157668113708,
+        0.9207075238227844,
+        0.9480774402618408
+      ],
+      "systematic_sink_rate_by_position": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_exclude_leading_n": 1,
+      "filtered_pr_stable_at_rec": true,
+      "late_outlier_rate": 0.0005832264084917765,
+      "late_outlier_top_tokens": [
+        [
+          "\u4e0d",
+          1
+        ],
+        [
+          "\u5230",
+          1
+        ],
+        [
+          "\u2581",
+          1
+        ],
+        [
+          "\u635f",
+          1
+        ],
+        [
+          "\u6216",
+          1
+        ]
+      ],
+      "sweep": {
+        "0": {
+          "n_tokens": 8621,
+          "pr_raw": 4.093367099761963,
+          "pr_filtered": 145.07293701171875,
+          "frac_removed_by_filter": 0.006147778679967521
+        },
+        "1": {
+          "n_tokens": 8573,
+          "pr_raw": 91.5165023803711,
+          "pr_filtered": 145.07293701171875,
+          "frac_removed_by_filter": 0.0005832264084917765
+        },
+        "2": {
+          "n_tokens": 8525,
+          "pr_raw": 91.63680267333984,
+          "pr_filtered": 145.23045349121094,
+          "frac_removed_by_filter": 0.0005865102639296188
+        },
+        "3": {
+          "n_tokens": 8477,
+          "pr_raw": 91.40154266357422,
+          "pr_filtered": 145.19534301757812,
+          "frac_removed_by_filter": 0.0005898313082458417
+        },
+        "4": {
+          "n_tokens": 8429,
+          "pr_raw": 91.4061508178711,
+          "pr_filtered": 145.56588745117188,
+          "frac_removed_by_filter": 0.0005931901767706727
+        }
+      }
+    }
+  },
+  "verdict": {
+    "status": "READY",
+    "fail": [],
+    "warn": [
+      "en: concept vectors share a dominant direction (pairwise cos 0.91); uncentered cosine metrics will be uninformative, rely on the mismatch matrix",
+      "zh: concept vectors share a dominant direction (pairwise cos 0.90); uncentered cosine metrics will be uninformative, rely on the mismatch matrix"
+    ],
+    "mode": "pinned"
+  }
+}

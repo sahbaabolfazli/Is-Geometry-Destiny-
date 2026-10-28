@@ -1,0 +1,80 @@
+{
+  "qwen3": {
+    "cka": {
+      "delta": 0.002553086127897619,
+      "subsample_ci95": [
+        0.0014440541488688952,
+        0.0036101128906637207
+      ],
+      "frac_subsamples_positive": 1.0
+    },
+    "top1": {
+      "delta": 0.0,
+      "subsample_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_subsamples_positive": 0.0
+    },
+    "rsa": {
+      "delta": 0.00938378299415088,
+      "subsample_ci95": [
+        0.005771319545990511,
+        0.012110179338797789
+      ],
+      "frac_subsamples_positive": 1.0
+    }
+  },
+  "gemma2": {
+    "cka": {
+      "delta": 0.004682747371635987,
+      "subsample_ci95": [
+        -0.0008229123782376557,
+        0.010375781932308195
+      ],
+      "frac_subsamples_positive": 0.9515
+    },
+    "top1": {
+      "delta": 0.0,
+      "subsample_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_subsamples_positive": 0.0
+    },
+    "rsa": {
+      "delta": 0.00355947955654512,
+      "subsample_ci95": [
+        -0.007457709308038305,
+        0.011606456014350737
+      ],
+      "frac_subsamples_positive": 0.7955
+    }
+  },
+  "llama2": {
+    "cka": {
+      "delta": 0.023627887109619383,
+      "subsample_ci95": [
+        0.0182010110982731,
+        0.028760554235157075
+      ],
+      "frac_subsamples_positive": 1.0
+    },
+    "top1": {
+      "delta": 0.0,
+      "subsample_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_subsamples_positive": 0.0
+    },
+    "rsa": {
+      "delta": 0.020927686015055014,
+      "subsample_ci95": [
+        0.0114243594095568,
+        0.032994024975933
+      ],
+      "frac_subsamples_positive": 1.0
+    }
+  }
+}

@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "hum_01",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8303715326803035,
+        "27": 0.7759663779132944,
+        "31": 0.763896374219168,
+        "33": 0.7648904468669547,
+        "35": 0.11564485593242396
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8409565649621248,
+        "27": 0.790079392301316,
+        "31": 0.7794889838617646,
+        "33": 0.7707527174400811,
+        "35": 0.25643843596812266
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.32379938366662014,
+        "27": 0.22331632455014405,
+        "31": 0.13204336261088168,
+        "33": 0.10718951511305212,
+        "35": 0.06272675943783236
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8351128271181831,
+        "27": 0.7838611281256649,
+        "31": 0.7874206620182408,
+        "33": 0.7847979913972701,
+        "35": 0.02623667450107933
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_02"
+    }
+  },
+  {
+    "id": "hum_02",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8351128271181831,
+        "27": 0.7838611281256649,
+        "31": 0.7874206620182408,
+        "33": 0.7847979913972701,
+        "35": 0.02623667450107933
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8352571978595216,
+        "27": 0.8000186164360394,
+        "31": 0.791371004807715,
+        "33": 0.7779855607264654,
+        "35": 0.14597873329328143
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.2991689608416325,
+        "27": 0.18954445987927424,
+        "31": 0.10094784305628486,
+        "33": 0.06588782513572909,
+        "35": 0.03756562747875169
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8361612461722895,
+        "27": 0.7788515081284706,
+        "31": 0.762408497807021,
+        "33": 0.7552928347273253,
+        "35": 0.04933968686280465
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_03"
+    }
+  },
+  {
+    "id": "hum_03",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8361612461722895,
+        "27": 0.7788515081284706,
+        "31": 0.762408497807021,
+        "33": 0.7552928347273253,
+        "35": 0.04933968686280465
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8410273633595682,
+        "27": 0.8001388629181372,
+        "31": 0.7843438319036163,
+        "33": 0.7782032083001218,
+        "35": 0.18822738607054815
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.37062552875518007,
+        "27": 0.24498440310927663,
+        "31": 0.1672818935499893,
+        "33": 0.1310959322089884,
+        "35": 0.05678475844653936
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8450740877625917,
+        "27": 0.7987767655296606,
+        "31": 0.7904076000533525,
+        "33": 0.7901234507740094,
+        "35": 0.02642859035037489
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "hum_04"
+    }
+  },
+  {
+    "id": "hum_04",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8450740877625917,
+        "27": 0.7987767655296606,
+        "31": 0.7904076000533525,
+        "33": 0.7901234507740094,
+        "35": 0.02642859035037489
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.835211692261846,
+        "27": 0.8010318296209697,
+        "31": 0.7928304139660028,
+        "33": 0.7880150516611577,
+        "35": 0.17701308157867313
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.34260131442705793,
+        "27": 0.23068721370627981,
+        "31": 0.14839092749214172,
+        "33": 0.11010797188750229,
+        "35": 0.05105335251874741
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8030657073681233,
+        "27": 0.72137782829648,
+        "31": 0.7322329549220289,
+        "33": 0.739586039642679,
+        "35": 0.0024910127900795403
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_05"
+    }
+  },
+  {
+    "id": "hum_05",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8030657073681233,
+        "27": 0.72137782829648,
+        "31": 0.7322329549220289,
+        "33": 0.739586039642679,
+        "35": 0.0024910127900795403
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8215421921082829,
+        "27": 0.7832856379990969,
+        "31": 0.78610702194714,
+        "33": 0.7846533462289954,
+        "35": 0.10072363879716752
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.33680780773245134,
+        "27": 0.20564562635392666,
+        "31": 0.1293737369727476,
+        "33": 0.08612792173428724,
+        "35": 0.05004982791316332
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8228531105920207,
+        "27": 0.7618684979794513,
+        "31": 0.7533665537437666,
+        "33": 0.7478182495674192,
+        "35": 0.023863173871302372
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_06"
+    }
+  },
+  {
+    "id": "hum_06",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8228531105920207,
+        "27": 0.7618684979794513,
+        "31": 0.7533665537437666,
+        "33": 0.7478182495674192,
+        "35": 0.023863173871302372
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8250027549953337,
+        "27": 0.784765881303691,
+        "31": 0.7787434657532182,
+        "33": 0.7694626462561065,
+        "35": 0.23695857301029546
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3601845819288521,
+        "27": 0.21884677545837908,
+        "31": 0.11911036268557929,
+        "33": 0.0873871379648501,
+        "35": 0.02280711350556096
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8129282483125546,
+        "27": 0.7713068262765541,
+        "31": 0.7632531054935126,
+        "33": 0.7563419480924334,
+        "35": 0.013532704755092873
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "hum_07"
+    }
+  },
+  {
+    "id": "hum_07",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8129282483125546,
+        "27": 0.7713068262765541,
+        "31": 0.7632531054935126,
+        "33": 0.7563419480924334,
+        "35": 0.013532704755092873
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8226568098045375,
+        "27": 0.7942096185984581,
+        "31": 0.7925037391812161,
+        "33": 0.785302428437373,
+        "35": 0.2214890949333898
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3449548819550908,
+        "27": 0.22393273697084345,
+        "31": 0.1673453799676374,
+        "33": 0.14760192355387983,
+        "35": 0.11620748808536648
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8245022381723501,
+        "27": 0.7464952323188359,
+        "31": 0.7318262535375994,
+        "33": 0.7352373725732778,
+        "35": 0.048040593070033284
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_08"
+    }
+  },
+  {
+    "id": "hum_08",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8245022381723501,
+        "27": 0.7464952323188359,
+        "31": 0.7318262535375994,
+        "33": 0.7352373725732778,
+        "35": 0.048040593070033284
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8199453416852439,
+        "27": 0.7791175469436322,
+        "31": 0.7748281595334643,
+        "33": 0.7674668037305424,
+        "35": 0.11520063685822733
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3371569952424741,
+        "27": 0.23307823933366914,
+        "31": 0.1483069345833334,
+        "33": 0.1035025478209784,
+        "35": 0.043300023798655496
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8304177286256351,
+        "27": 0.7444640002339009,
+        "31": 0.7291477268053356,
+        "33": 0.7325472973416977,
+        "35": 0.21007638820957006
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_01"
+    }
+  },
+  {
+    "id": "syn_01",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8304177286256351,
+        "27": 0.7444640002339009,
+        "31": 0.7291477268053356,
+        "33": 0.7325472973416977,
+        "35": 0.21007638820957006
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8323170015146912,
+        "27": 0.7549336334373993,
+        "31": 0.7495251312047123,
+        "33": 0.7395970520289845,
+        "35": 0.24742425559111134
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.327987136611764,
+        "27": 0.21012354844520473,
+        "31": 0.15521669646146408,
+        "33": 0.09948691477531826,
+        "35": 0.08150280884721657
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8170629271287422,
+        "27": 0.7477447465314354,
+        "31": 0.7453634829040601,
+        "33": 0.74724856572638,
+        "35": 0.10337345334496328
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_02"
+    }
+  },
+  {
+    "id": "syn_02",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8170629271287422,
+        "27": 0.7477447465314354,
+        "31": 0.7453634829040601,
+        "33": 0.74724856572638,
+        "35": 0.10337345334496328
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8258848721139211,
+        "27": 0.762390835166086,
+        "31": 0.7548470831925166,
+        "33": 0.742404994025625,
+        "35": 0.15514591314321577
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.35817654358857093,
+        "27": 0.2397426355906502,
+        "31": 0.13671019279284205,
+        "33": 0.10840314557827761,
+        "35": 0.06352415747276724
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8461403123051792,
+        "27": 0.7647319658239938,
+        "31": 0.7293327729448713,
+        "33": 0.7339422396756105,
+        "35": 0.156456128573775
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_03"
+    }
+  },
+  {
+    "id": "syn_03",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8461403123051792,
+        "27": 0.7647319658239938,
+        "31": 0.7293327729448713,
+        "33": 0.7339422396756105,
+        "35": 0.156456128573775
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8419656457078561,
+        "27": 0.7660729337054746,
+        "31": 0.7346776940394827,
+        "33": 0.7245456353302901,
+        "35": 0.26474247276994434
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3117619536519388,
+        "27": 0.20182200804296543,
+        "31": 0.11320087117368635,
+        "33": 0.07693903928234216,
+        "35": 0.04325213556441509
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8444074353001495,
+        "27": 0.7675806990196561,
+        "31": 0.7597999127148073,
+        "33": 0.7648755951226067,
+        "35": 0.18752950280199862
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13",
+      "vector_of": "syn_04"
+    }
+  },
+  {
+    "id": "syn_04",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8444074353001495,
+        "27": 0.7675806990196561,
+        "31": 0.7597999127148073,
+        "33": 0.7648755951226067,
+        "35": 0.18752950280199862
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8296136142579548,
+        "27": 0.7571687993688963,
+        "31": 0.7560863325898617,
+        "33": 0.7470489021127164,
+        "35": 0.2121229978030327
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3475971292740338,
+        "27": 0.2358197138373625,
+        "31": 0.1496962571349644,
+        "33": 0.09947481805076534,
+        "35": 0.07440883628661947
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8265279522413763,
+        "27": 0.729028133786777,
+        "31": 0.7154779302376724,
+        "33": 0.7190737664520173,
+        "35": 0.21822615126173744
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_05"
+    }
+  },
+  {
+    "id": "syn_05",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8265279522413763,
+        "27": 0.729028133786777,
+        "31": 0.7154779302376724,
+        "33": 0.7190737664520173,
+        "35": 0.21822615126173744
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8324636798648668,
+        "27": 0.7574142979607846,
+        "31": 0.744948854688838,
+        "33": 0.7336237511433467,
+        "35": 0.2743268051891531
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3383106517530037,
+        "27": 0.2338839211839569,
+        "31": 0.1452362993170768,
+        "33": 0.12169811282994632,
+        "35": 0.10969186425650583
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8490382767785444,
+        "27": 0.7736686839622107,
+        "31": 0.7496411188838165,
+        "33": 0.7565405800959782,
+        "35": 0.17087980436539135
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_06"
+    }
+  },
+  {
+    "id": "syn_06",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8490382767785444,
+        "27": 0.7736686839622107,
+        "31": 0.7496411188838165,
+        "33": 0.7565405800959782,
+        "35": 0.17087980436539135
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8331157840278967,
+        "27": 0.7545372404406319,
+        "31": 0.7286783551222008,
+        "33": 0.724461557285914,
+        "35": 0.2793936007830024
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3736628168396106,
+        "27": 0.22701688018859517,
+        "31": 0.16232676488400605,
+        "33": 0.12863000273629405,
+        "35": 0.07759690813371593
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8359575202034253,
+        "27": 0.7338920009958063,
+        "31": 0.7117149162416456,
+        "33": 0.7184886453908931,
+        "35": 0.14513126485428351
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_07"
+    }
+  },
+  {
+    "id": "syn_07",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8359575202034253,
+        "27": 0.7338920009958063,
+        "31": 0.7117149162416456,
+        "33": 0.7184886453908931,
+        "35": 0.14513126485428351
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8320276254333611,
+        "27": 0.7483303113806842,
+        "31": 0.7333773833603346,
+        "33": 0.7246055906404368,
+        "35": 0.20294496850403987
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3500320052532325,
+        "27": 0.21192487123563714,
+        "31": 0.1354818841069634,
+        "33": 0.11331075515908563,
+        "35": 0.06592474461291073
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7976141899755469,
+        "27": 0.7243710907691073,
+        "31": 0.7021510124666098,
+        "33": 0.7090171580465701,
+        "35": 0.096422925026028
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_08"
+    }
+  },
+  {
+    "id": "syn_08",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7976141899755469,
+        "27": 0.7243710907691073,
+        "31": 0.7021510124666098,
+        "33": 0.7090171580465701,
+        "35": 0.096422925026028
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7899091536941519,
+        "27": 0.7158575886067318,
+        "31": 0.703905498171042,
+        "33": 0.6933524349568653,
+        "35": 0.16720147154057494
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3307561943877534,
+        "27": 0.20395234722238792,
+        "31": 0.1362158235790531,
+        "33": 0.11496842025607838,
+        "35": 0.055621965466245954
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.834142208171424,
+        "27": 0.7419892234891217,
+        "31": 0.7067993413216999,
+        "33": 0.7134322127548701,
+        "35": 0.24827586364276288
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_09"
+    }
+  },
+  {
+    "id": "syn_09",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.834142208171424,
+        "27": 0.7419892234891217,
+        "31": 0.7067993413216999,
+        "33": 0.7134322127548701,
+        "35": 0.24827586364276288
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8287875221503422,
+        "27": 0.7475986015079781,
+        "31": 0.7244081919678617,
+        "33": 0.7120670767176169,
+        "35": 0.27952875916030157
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.35388023966484705,
+        "27": 0.24253760818486828,
+        "31": 0.1651532459438457,
+        "33": 0.12347473242551459,
+        "35": 0.06074698478948129
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.838829569879764,
+        "27": 0.7573024489840295,
+        "31": 0.7467666808353568,
+        "33": 0.7554593362173769,
+        "35": 0.18544074204930167
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_10"
+    }
+  },
+  {
+    "id": "syn_10",
+    "domain": "math_physics",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.838829569879764,
+        "27": 0.7573024489840295,
+        "31": 0.7467666808353568,
+        "33": 0.7554593362173769,
+        "35": 0.18544074204930167
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8398396861189192,
+        "27": 0.7626821634841013,
+        "31": 0.7554334006984502,
+        "33": 0.7466203223564291,
+        "35": 0.21048951308395827
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3281923782944202,
+        "27": 0.19741697402964037,
+        "31": 0.12228186925146177,
+        "33": 0.08331642346240102,
+        "35": 0.03486368791561675
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8196599071571598,
+        "27": 0.7311333840490644,
+        "31": 0.726022775685559,
+        "33": 0.7411092286416993,
+        "35": 0.24361237143800774
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_11"
+    }
+  },
+  {
+    "id": "syn_11",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8196599071571598,
+        "27": 0.7311333840490644,
+        "31": 0.726022775685559,
+        "33": 0.7411092286416993,
+        "35": 0.24361237143800774
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8210122292331277,
+        "27": 0.7701428672923387,
+        "31": 0.7760812599261171,
+        "33": 0.7760602426010896,
+        "35": 0.22295936054674678
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.29414874565115734,
+        "27": 0.19606815576730366,
+        "31": 0.15758792602435426,
+        "33": 0.11544553825804403,
+        "35": 0.09500427765025721
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8289587953580838,
+        "27": 0.7558492631423847,
+        "31": 0.7539056133740327,
+        "33": 0.7517203422747957,
+        "35": 0.14911185517555167
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_12"
+    }
+  },
+  {
+    "id": "syn_12",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8289587953580838,
+        "27": 0.7558492631423847,
+        "31": 0.7539056133740327,
+        "33": 0.7517203422747957,
+        "35": 0.14911185517555167
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.833143350421252,
+        "27": 0.7788341992251739,
+        "31": 0.7753597692737676,
+        "33": 0.766991582619879,
+        "35": 0.2373878710901647
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3417530448155566,
+        "27": 0.26162497683504965,
+        "31": 0.18048898654810683,
+        "33": 0.13624834317032922,
+        "35": 0.0648329963387653
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8401573960398454,
+        "27": 0.7732669306805414,
+        "31": 0.7692289814583347,
+        "33": 0.7653605334212975,
+        "35": 0.11271511603114491
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_13"
+    }
+  },
+  {
+    "id": "syn_13",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8401573960398454,
+        "27": 0.7732669306805414,
+        "31": 0.7692289814583347,
+        "33": 0.7653605334212975,
+        "35": 0.11271511603114491
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.830514570447544,
+        "27": 0.7952090338647417,
+        "31": 0.7942807944337251,
+        "33": 0.7844750689294242,
+        "35": 0.17982261875939354
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.361155831226425,
+        "27": 0.23150187485099075,
+        "31": 0.15021470505771492,
+        "33": 0.13453168328772389,
+        "35": 0.08648193934581001
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8293470732403175,
+        "27": 0.7613127104595064,
+        "31": 0.7481066829720407,
+        "33": 0.7543599395111477,
+        "35": 0.16681696535168325
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_14"
+    }
+  },
+  {
+    "id": "syn_14",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8293470732403175,
+        "27": 0.7613127104595064,
+        "31": 0.7481066829720407,
+        "33": 0.7543599395111477,
+        "35": 0.16681696535168325
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8267547569932095,
+        "27": 0.7818821790604433,
+        "31": 0.7761251113082176,
+        "33": 0.7689134722978402,
+        "35": 0.1862077909624579
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3794403047076958,
+        "27": 0.250413813916052,
+        "31": 0.15058005456945045,
+        "33": 0.11311173227549291,
+        "35": 0.04618079186588746
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8201463117981109,
+        "27": 0.7427502741026422,
+        "31": 0.7397198087068256,
+        "33": 0.7463968951704751,
+        "35": 0.2516472094294373
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_15"
+    }
+  },
+  {
+    "id": "syn_15",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8201463117981109,
+        "27": 0.7427502741026422,
+        "31": 0.7397198087068256,
+        "33": 0.7463968951704751,
+        "35": 0.2516472094294373
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8165270744058447,
+        "27": 0.7553626134024803,
+        "31": 0.7537155360009543,
+        "33": 0.7518366205963423,
+        "35": 0.29813186888539217
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.2981581894179617,
+        "27": 0.18445209887161276,
+        "31": 0.08818986422904788,
+        "33": 0.06866428672974045,
+        "35": 0.03285877325340682
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.830147947165228,
+        "27": 0.7574234819119435,
+        "31": 0.7485835204132381,
+        "33": 0.7549994303546483,
+        "35": 0.21146866364265315
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_16"
+    }
+  },
+  {
+    "id": "syn_16",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.830147947165228,
+        "27": 0.7574234819119435,
+        "31": 0.7485835204132381,
+        "33": 0.7549994303546483,
+        "35": 0.21146866364265315
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8393956172319144,
+        "27": 0.7826346115457261,
+        "31": 0.780067117304917,
+        "33": 0.7744479709696638,
+        "35": 0.25079691455735004
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3395662269876376,
+        "27": 0.226233650428464,
+        "31": 0.14481106956302187,
+        "33": 0.12068122164882258,
+        "35": 0.08661944004046362
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8232500639903411,
+        "27": 0.7598158314011003,
+        "31": 0.7604877023430613,
+        "33": 0.7645773111148755,
+        "35": 0.20976625200999172
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_17"
+    }
+  },
+  {
+    "id": "syn_17",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8232500639903411,
+        "27": 0.7598158314011003,
+        "31": 0.7604877023430613,
+        "33": 0.7645773111148755,
+        "35": 0.20976625200999172
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8239156576816432,
+        "27": 0.7878875390872212,
+        "31": 0.789381759828713,
+        "33": 0.7847461470817637,
+        "35": 0.2565132961748591
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.360349231228026,
+        "27": 0.23881105913837458,
+        "31": 0.16526493379126533,
+        "33": 0.1388155155814372,
+        "35": 0.07654322983175486
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8306306219844299,
+        "27": 0.7682947450489479,
+        "31": 0.7544222287301544,
+        "33": 0.754139909123015,
+        "35": 0.11950480293001452
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_18"
+    }
+  },
+  {
+    "id": "syn_18",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8306306219844299,
+        "27": 0.7682947450489479,
+        "31": 0.7544222287301544,
+        "33": 0.754139909123015,
+        "35": 0.11950480293001452
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8251001664167433,
+        "27": 0.7662629702621263,
+        "31": 0.763655278431279,
+        "33": 0.7582440068190696,
+        "35": 0.21670163241865206
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.35489039540346135,
+        "27": 0.23738026901608636,
+        "31": 0.14431466818323926,
+        "33": 0.10877717429909563,
+        "35": 0.09067565606138629
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8132184483490248,
+        "27": 0.7367757093374637,
+        "31": 0.7296244705180452,
+        "33": 0.7434693659915148,
+        "35": 0.25724761959218495
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_19"
+    }
+  },
+  {
+    "id": "syn_19",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8132184483490248,
+        "27": 0.7367757093374637,
+        "31": 0.7296244705180452,
+        "33": 0.7434693659915148,
+        "35": 0.25724761959218495
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8214737511763552,
+        "27": 0.7702161387960399,
+        "31": 0.7726331259268985,
+        "33": 0.7675610836283782,
+        "35": 0.23687305924734461
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3577847320030753,
+        "27": 0.20361248730856013,
+        "31": 0.12315752832395795,
+        "33": 0.09137496404342074,
+        "35": 0.05614666918487974
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8313817289132728,
+        "27": 0.733698001727777,
+        "31": 0.7367408180195741,
+        "33": 0.7427504964635265,
+        "35": 0.27518526253094816
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_20"
+    }
+  },
+  {
+    "id": "syn_20",
+    "domain": "philosophy",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8313817289132728,
+        "27": 0.733698001727777,
+        "31": 0.7367408180195741,
+        "33": 0.7427504964635265,
+        "35": 0.27518526253094816
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8373106648337573,
+        "27": 0.7961627478392979,
+        "31": 0.7931785602838075,
+        "33": 0.7867526477846211,
+        "35": 0.2250509164889616
+      },
+      "generated_text": "    // 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3440134959261544,
+        "27": 0.2276590674916166,
+        "31": 0.1523489663627326,
+        "33": 0.1249907012376784,
+        "35": 0.08623330435866795
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8334066786894054,
+        "27": 0.7766576335849932,
+        "31": 0.7621913169759434,
+        "33": 0.7658923474470014,
+        "35": 0.14740217302544734
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13",
+      "vector_of": "syn_21"
+    }
+  },
+  {
+    "id": "syn_21",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8334066786894054,
+        "27": 0.7766576335849932,
+        "31": 0.7621913169759434,
+        "33": 0.7658923474470014,
+        "35": 0.14740217302544734
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8383130126452241,
+        "27": 0.7840750854576294,
+        "31": 0.7643315793092472,
+        "33": 0.7610937145291198,
+        "35": 0.25022771490618817
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.35489010544910493,
+        "27": 0.2589645975318189,
+        "31": 0.19263476495556708,
+        "33": 0.1483265276452603,
+        "35": 0.078255523419532
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8349318612483012,
+        "27": 0.7781581664833749,
+        "31": 0.7586660846358836,
+        "33": 0.7563161569032647,
+        "35": 0.1402798240796342
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_22"
+    }
+  },
+  {
+    "id": "syn_22",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8349318612483012,
+        "27": 0.7781581664833749,
+        "31": 0.7586660846358836,
+        "33": 0.7563161569032647,
+        "35": 0.1402798240796342
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8399526510633991,
+        "27": 0.7975295499803826,
+        "31": 0.7831792116403504,
+        "33": 0.779457269521753,
+        "35": 0.26540370986569606
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.36033128972169076,
+        "27": 0.22901735137866108,
+        "31": 0.15523090048375798,
+        "33": 0.12650430199297288,
+        "35": 0.047680113725706325
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8487608077036822,
+        "27": 0.7746894978695845,
+        "31": 0.764718880126307,
+        "33": 0.7678396708805691,
+        "35": 0.06383839718556147
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_23"
+    }
+  },
+  {
+    "id": "syn_23",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8487608077036822,
+        "27": 0.7746894978695845,
+        "31": 0.764718880126307,
+        "33": 0.7678396708805691,
+        "35": 0.06383839718556147
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8385349871881143,
+        "27": 0.7755099363200082,
+        "31": 0.7623124490216485,
+        "33": 0.7558860183503664,
+        "35": 0.18655542076489692
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.36488751094903144,
+        "27": 0.2493303284375907,
+        "31": 0.17340638388934645,
+        "33": 0.1448203953452843,
+        "35": 0.08615119926988937
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8564402688432542,
+        "27": 0.791729650874186,
+        "31": 0.7738949712129335,
+        "33": 0.7726883737646402,
+        "35": 0.11338810886938679
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_24"
+    }
+  },
+  {
+    "id": "syn_24",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8564402688432542,
+        "27": 0.791729650874186,
+        "31": 0.7738949712129335,
+        "33": 0.7726883737646402,
+        "35": 0.11338810886938679
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.842478759351764,
+        "27": 0.7888972148933213,
+        "31": 0.7646917634074148,
+        "33": 0.7611354960694174,
+        "35": 0.24688522169046276
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3716087989223053,
+        "27": 0.2296165442785324,
+        "31": 0.15162591448917703,
+        "33": 0.10751427155206938,
+        "35": 0.08493229138502927
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8365063777767359,
+        "27": 0.7847146047849295,
+        "31": 0.7813369396645394,
+        "33": 0.7846122687332984,
+        "35": 0.09021717768078169
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_25"
+    }
+  },
+  {
+    "id": "syn_25",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8365063777767359,
+        "27": 0.7847146047849295,
+        "31": 0.7813369396645394,
+        "33": 0.7846122687332984,
+        "35": 0.09021717768078169
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8416130401269242,
+        "27": 0.8022156504050716,
+        "31": 0.7912463891379997,
+        "33": 0.7864521525369058,
+        "35": 0.21380764224534865
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3470258251293548,
+        "27": 0.24603629427056692,
+        "31": 0.16013585131900773,
+        "33": 0.12584639318986104,
+        "35": 0.057234610201239516
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.835221306487105,
+        "27": 0.7815759939638519,
+        "31": 0.7749991883479351,
+        "33": 0.7749074834195443,
+        "35": 0.05213524795498568
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_26"
+    }
+  },
+  {
+    "id": "syn_26",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.835221306487105,
+        "27": 0.7815759939638519,
+        "31": 0.7749991883479351,
+        "33": 0.7749074834195443,
+        "35": 0.05213524795498568
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.836795894985083,
+        "27": 0.794158770307643,
+        "31": 0.7863346255871504,
+        "33": 0.7813202877028801,
+        "35": 0.1667332870588472
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.332244040322601,
+        "27": 0.23445995511099324,
+        "31": 0.13077538576873346,
+        "33": 0.10599908435238249,
+        "35": 0.061586750159870425
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8347137049706514,
+        "27": 0.7752719613671321,
+        "31": 0.761963619848547,
+        "33": 0.7664432986207486,
+        "35": 0.10210995949156153
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_27"
+    }
+  },
+  {
+    "id": "syn_27",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8347137049706514,
+        "27": 0.7752719613671321,
+        "31": 0.761963619848547,
+        "33": 0.7664432986207486,
+        "35": 0.10210995949156153
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8326254098017578,
+        "27": 0.7834056596252037,
+        "31": 0.7695437304883441,
+        "33": 0.7678831938357137,
+        "35": 0.1922749732517949
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.34309491041469853,
+        "27": 0.19287151202325548,
+        "31": 0.12438018310013406,
+        "33": 0.10087001006586921,
+        "35": 0.05740479697086656
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8305147054820171,
+        "27": 0.767542287025654,
+        "31": 0.7661085299423535,
+        "33": 0.7667441076189115,
+        "35": 0.12865998669078377
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_28"
+    }
+  },
+  {
+    "id": "syn_28",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8305147054820171,
+        "27": 0.767542287025654,
+        "31": 0.7661085299423535,
+        "33": 0.7667441076189115,
+        "35": 0.12865998669078377
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8232184208437315,
+        "27": 0.7830757227028993,
+        "31": 0.7822345454421786,
+        "33": 0.7782309507740981,
+        "35": 0.28725175802933617
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.32905889330495847,
+        "27": 0.2109378797787998,
+        "31": 0.13978059033854368,
+        "33": 0.10934255097333352,
+        "35": 0.07975022088245493
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8562888222648384,
+        "27": 0.7818382307344206,
+        "31": 0.7582388243797457,
+        "33": 0.7621747032221132,
+        "35": 0.12363472467050195
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "syn_29"
+    }
+  },
+  {
+    "id": "syn_29",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8562888222648384,
+        "27": 0.7818382307344206,
+        "31": 0.7582388243797457,
+        "33": 0.7621747032221132,
+        "35": 0.12363472467050195
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.842140623356232,
+        "27": 0.7733908601036681,
+        "31": 0.7519009012076535,
+        "33": 0.7458190969392074,
+        "35": 0.25808274606682713
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.37376289282718894,
+        "27": 0.2664377805651488,
+        "31": 0.1857236437143682,
+        "33": 0.13234908484677663,
+        "35": 0.09086248382909405
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.848623869993892,
+        "27": 0.7876735615148202,
+        "31": 0.7600876579620328,
+        "33": 0.76196256120226,
+        "35": 0.11441929823351618
+      },
+      "generated_text": "    // 1. Create a new instance of the class\n    // 2. Call the method\n    // 3. Print the result\n    // 4. Call the method again\n    // 5. Print the result\n    // 6. Call the method again\n    // 7. Print the result\n    // 8. Call the method again\n    // 9. Print the result\n    // 10. Call the method again\n    // 11. Print the result\n    // 12. Call the method again\n    // 13. Print the result\n    // 14. Call the method again\n    // 15. Print the result",
+      "vector_of": "syn_30"
+    }
+  },
+  {
+    "id": "syn_30",
+    "domain": "complex_systems",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.848623869993892,
+        "27": 0.7876735615148202,
+        "31": 0.7600876579620328,
+        "33": 0.76196256120226,
+        "35": 0.11441929823351618
+      },
+      "generated_text": "    // 1. Create a new instance of the class\n    // 2. Call the method\n    // 3. Print the result\n    // 4. Call the method again\n    // 5. Print the result\n    // 6. Call the method again\n    // 7. Print the result\n    // 8. Call the method again\n    // 9. Print the result\n    // 10. Call the method again\n    // 11. Print the result\n    // 12. Call the method again\n    // 13. Print the result\n    // 14. Call the method again\n    // 15. Print the result"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8439302594070303,
+        "27": 0.7901875602759408,
+        "31": 0.7661466697211289,
+        "33": 0.7613450907020547,
+        "35": 0.24600106726079593
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3111060435828168,
+        "27": 0.20407687189184814,
+        "31": 0.1382964141603774,
+        "33": 0.08343475399924269,
+        "35": 0.054224462290654946
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7860141067961153,
+        "27": 0.7478347749176356,
+        "31": 0.7329889788897311,
+        "33": 0.7236763394734215,
+        "35": 0.15721677628891856
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_31"
+    }
+  },
+  {
+    "id": "syn_31",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7860141067961153,
+        "27": 0.7478347749176356,
+        "31": 0.7329889788897311,
+        "33": 0.7236763394734215,
+        "35": 0.15721677628891856
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7693192639670647,
+        "27": 0.7422107374784395,
+        "31": 0.7330169034250064,
+        "33": 0.7210252527948677,
+        "35": 0.2247504412000554
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.33733697577798677,
+        "27": 0.23593607354808874,
+        "31": 0.1514738144998564,
+        "33": 0.10093573157258381,
+        "35": 0.07055718606856652
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8464901041800057,
+        "27": 0.7986881355510445,
+        "31": 0.7744013864310556,
+        "33": 0.7702645585717451,
+        "35": 0.158977981797591
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_32"
+    }
+  },
+  {
+    "id": "syn_32",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8464901041800057,
+        "27": 0.7986881355510445,
+        "31": 0.7744013864310556,
+        "33": 0.7702645585717451,
+        "35": 0.158977981797591
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8284861583118728,
+        "27": 0.7949360985177967,
+        "31": 0.7762108455362658,
+        "33": 0.770809323090776,
+        "35": 0.21950113457044323
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.37836592465034324,
+        "27": 0.25284456140921513,
+        "31": 0.1797568209823075,
+        "33": 0.1394289708783393,
+        "35": 0.06998304830015782
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8287926973668054,
+        "27": 0.7766299151402623,
+        "31": 0.7609434348024993,
+        "33": 0.7623402725711904,
+        "35": 0.08904582639348586
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13",
+      "vector_of": "syn_33"
+    }
+  },
+  {
+    "id": "syn_33",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8287926973668054,
+        "27": 0.7766299151402623,
+        "31": 0.7609434348024993,
+        "33": 0.7623402725711904,
+        "35": 0.08904582639348586
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new object\n    // 3. Add the object to the array\n    // 4. Add the array to the state\n    // 5. Add the state to the state\n    // 6. Add the state to the state\n    // 7. Add the state to the state\n    // 8. Add the state to the state\n    // 9. Add the state to the state\n    // 10. Add the state to the state\n    // 11. Add the state to the state\n    // 12. Add the state to the state\n    // 13"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8255738925326068,
+        "27": 0.7869437525523588,
+        "31": 0.7765780543222227,
+        "33": 0.7714460534803037,
+        "35": 0.17307124033095822
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.35046605809844567,
+        "27": 0.19066575838417257,
+        "31": 0.1091552840256796,
+        "33": 0.06280890782592317,
+        "35": 0.024129241083647224
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7975349463044895,
+        "27": 0.7439052021730455,
+        "31": 0.7162205955824017,
+        "33": 0.7183423203357915,
+        "35": 0.1943646161499104
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_34"
+    }
+  },
+  {
+    "id": "syn_34",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7975349463044895,
+        "27": 0.7439052021730455,
+        "31": 0.7162205955824017,
+        "33": 0.7183423203357915,
+        "35": 0.1943646161499104
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.804154781799915,
+        "27": 0.7730648284603691,
+        "31": 0.7603090463994696,
+        "33": 0.7530387566439221,
+        "35": 0.31491057467814065
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3569224670787778,
+        "27": 0.2469851568799004,
+        "31": 0.14066257912420674,
+        "33": 0.10170151053784188,
+        "35": 0.08366470886236838
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8310429068127871,
+        "27": 0.7696671049914184,
+        "31": 0.753037344015326,
+        "33": 0.7570713752575517,
+        "35": 0.21131560933187116
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_35"
+    }
+  },
+  {
+    "id": "syn_35",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8310429068127871,
+        "27": 0.7696671049914184,
+        "31": 0.753037344015326,
+        "33": 0.7570713752575517,
+        "35": 0.21131560933187116
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8229647871384335,
+        "27": 0.7748838835120446,
+        "31": 0.7572653495554468,
+        "33": 0.7568231341292299,
+        "35": 0.28245303492723534
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.34817349988265744,
+        "27": 0.22791201217575946,
+        "31": 0.17599656245462647,
+        "33": 0.13477954861305924,
+        "35": 0.11625307839799633
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7923200821897123,
+        "27": 0.7317566955405992,
+        "31": 0.7116755228634092,
+        "33": 0.7077804563472739,
+        "35": 0.23118318994530535
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_36"
+    }
+  },
+  {
+    "id": "syn_36",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7923200821897123,
+        "27": 0.7317566955405992,
+        "31": 0.7116755228634092,
+        "33": 0.7077804563472739,
+        "35": 0.23118318994530535
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7921307948922197,
+        "27": 0.7406820126865342,
+        "31": 0.7236404359494198,
+        "33": 0.7138898509247222,
+        "35": 0.319751870868597
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3481098229374547,
+        "27": 0.20420957373391738,
+        "31": 0.16163604560288922,
+        "33": 0.11627493641931032,
+        "35": 0.07411150864900619
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8278997967154054,
+        "27": 0.7763095644253281,
+        "31": 0.7656260218955173,
+        "33": 0.7603549535335282,
+        "35": 0.01536003575169363
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_37"
+    }
+  },
+  {
+    "id": "syn_37",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8278997967154054,
+        "27": 0.7763095644253281,
+        "31": 0.7656260218955173,
+        "33": 0.7603549535335282,
+        "35": 0.01536003575169363
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8393530488821005,
+        "27": 0.7967451902691509,
+        "31": 0.7902711217098776,
+        "33": 0.7839562327815132,
+        "35": 0.18707118345753943
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.352247740780742,
+        "27": 0.23618917585056612,
+        "31": 0.11617693335757656,
+        "33": 0.07443336088086809,
+        "35": 0.04773301684886484
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8104950873094181,
+        "27": 0.7729677785449908,
+        "31": 0.765477998459974,
+        "33": 0.76235684239532,
+        "35": 0.15985743165144953
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_38"
+    }
+  },
+  {
+    "id": "syn_38",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8104950873094181,
+        "27": 0.7729677785449908,
+        "31": 0.765477998459974,
+        "33": 0.76235684239532,
+        "35": 0.15985743165144953
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8119670198959847,
+        "27": 0.7800527388419927,
+        "31": 0.7714061070533584,
+        "33": 0.7656514826555993,
+        "35": 0.2228564551704411
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3555079288836166,
+        "27": 0.20341222322104316,
+        "31": 0.14805573005771375,
+        "33": 0.10629501713433882,
+        "35": 0.06729597960426137
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7999247444755637,
+        "27": 0.750920941407875,
+        "31": 0.7541500836150995,
+        "33": 0.7562383743709287,
+        "35": 0.21439816303907444
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "vector_of": "syn_39"
+    }
+  },
+  {
+    "id": "syn_39",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.7999247444755637,
+        "27": 0.750920941407875,
+        "31": 0.7541500836150995,
+        "33": 0.7562383743709287,
+        "35": 0.21439816303907444
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8172849984228243,
+        "27": 0.7558354486393577,
+        "31": 0.7549935081762632,
+        "33": 0.7505676070827814,
+        "35": 0.3461219736671577
+      },
+      "generated_text": "    // 1. 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.366671569631484,
+        "27": 0.2339032758125295,
+        "31": 0.1668349435823189,
+        "33": 0.14158265352600996,
+        "35": 0.10989077187105681
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8367367542877217,
+        "27": 0.779267160649484,
+        "31": 0.742779312352752,
+        "33": 0.7503038503941304,
+        "35": 0.20448692083496472
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // ",
+      "vector_of": "syn_40"
+    }
+  },
+  {
+    "id": "syn_40",
+    "domain": "syntax_baseline",
+    "en": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8367367542877217,
+        "27": 0.779267160649484,
+        "31": 0.742779312352752,
+        "33": 0.7503038503941304,
+        "35": 0.20448692083496472
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "zh": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8330407011506278,
+        "27": 0.7742811364209922,
+        "31": 0.7475978656820661,
+        "33": 0.7531754989249805,
+        "35": 0.2581570536012531
+      },
+      "generated_text": "    // 1. Create a new array of objects\n    // 2. Create a new array of objects\n    // 3. Create a new array of objects\n    // 4. Create a new array of objects\n    // 5. Create a new array of objects\n    // 6. Create a new array of objects\n    // 7. Create a new array of objects\n    // 8. Create a new array of objects\n    // 9. Create a new array of objects\n    // 10. Create a new array of objects\n    // 11. Create a new array of objects\n    // 12. Create a new array of objects\n    // "
+    },
+    "noise_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.3755548492724178,
+        "27": 0.26633772082195045,
+        "31": 0.18433318801297927,
+        "33": 0.12893071030551087,
+        "35": 0.11383878486744126
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "mismatch_control": {
+      "decay_curve": {
+        "18": 1.0,
+        "23": 0.8303715326803035,
+        "27": 0.7759663779132944,
+        "31": 0.763896374219168,
+        "33": 0.7648904468669547,
+        "35": 0.11564485593242396
+      },
+      "generated_text": "   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "vector_of": "hum_01"
+    }
+  }
+]

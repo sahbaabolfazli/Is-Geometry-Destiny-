@@ -1,0 +1,232 @@
+[
+  {
+    "layer": 20,
+    "n": 48,
+    "mean_en": 0.3653021233596528,
+    "mean_zh": 0.3206072452170295,
+    "mean_noise": 0.24152804985733387,
+    "mean_diff_en_zh": 0.044694878142623275,
+    "t_stat": 12.872221120830577,
+    "t_p_raw": 5.097685356247678e-17,
+    "wilcoxon_stat": 7.0,
+    "wilcoxon_p_raw": 1.3500311979441904e-13,
+    "cohens_d": 1.8579450822177466,
+    "en_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "zh_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "domain_kruskal_wallis_p_raw": 0.010224750356559635,
+    "domains": {
+      "complex_systems": {
+        "mean_en": 0.36904382301751476,
+        "mean_zh": 0.3175923925352754,
+        "n": 12
+      },
+      "math_physics": {
+        "mean_en": 0.3423342611058278,
+        "mean_zh": 0.30609316593030894,
+        "n": 12
+      },
+      "philosophy": {
+        "mean_en": 0.38405946791007417,
+        "mean_zh": 0.3335571799355473,
+        "n": 12
+      },
+      "syntax_baseline": {
+        "mean_en": 0.3657709414051944,
+        "mean_zh": 0.3251862424669864,
+        "n": 12
+      }
+    },
+    "mean_mismatch": 0.3653021233596528,
+    "mean_diff_en_minus_mismatch": 0.0,
+    "en_vs_mismatch_wilcoxon_p_raw": 0.5793745498477492,
+    "t_p_bonferroni": 2.5488426781238387e-16,
+    "wilcoxon_p_bonferroni": 6.750155989720952e-13,
+    "en_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "zh_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "en_vs_mismatch_wilcoxon_p_bonferroni": 1.0
+  },
+  {
+    "layer": 24,
+    "n": 48,
+    "mean_en": 0.3871248949064956,
+    "mean_zh": 0.41251236064759067,
+    "mean_noise": 0.13001761317478655,
+    "mean_diff_en_zh": -0.02538746574109511,
+    "t_stat": -8.762255646357612,
+    "t_p_raw": 1.902231610631853e-11,
+    "wilcoxon_stat": 34.0,
+    "wilcoxon_p_raw": 2.6467716907063732e-11,
+    "cohens_d": -1.2647226639702172,
+    "en_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "zh_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "domain_kruskal_wallis_p_raw": 0.4106192849890532,
+    "domains": {
+      "complex_systems": {
+        "mean_en": 0.3873014247785953,
+        "mean_zh": 0.41179368063578625,
+        "n": 12
+      },
+      "math_physics": {
+        "mean_en": 0.39616167371921024,
+        "mean_zh": 0.41177660623569934,
+        "n": 12
+      },
+      "philosophy": {
+        "mean_en": 0.3884404277492031,
+        "mean_zh": 0.4198555956108716,
+        "n": 12
+      },
+      "syntax_baseline": {
+        "mean_en": 0.3765960533789738,
+        "mean_zh": 0.40662356010800554,
+        "n": 12
+      }
+    },
+    "mean_mismatch": 0.3871248949064956,
+    "mean_diff_en_minus_mismatch": 0.0,
+    "en_vs_mismatch_wilcoxon_p_raw": 0.8508777956172935,
+    "t_p_bonferroni": 9.511158053159265e-11,
+    "wilcoxon_p_bonferroni": 1.3233858453531866e-10,
+    "en_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "zh_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "en_vs_mismatch_wilcoxon_p_bonferroni": 1.0
+  },
+  {
+    "layer": 28,
+    "n": 48,
+    "mean_en": 0.19888198117806688,
+    "mean_zh": 0.2209033382648744,
+    "mean_noise": 0.08241822403377407,
+    "mean_diff_en_zh": -0.022021357086807563,
+    "t_stat": -11.965411616550654,
+    "t_p_raw": 7.19061656944602e-16,
+    "wilcoxon_stat": 3.0,
+    "wilcoxon_p_raw": 3.552713678800501e-14,
+    "cohens_d": -1.7270584043096013,
+    "en_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "zh_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "domain_kruskal_wallis_p_raw": 0.05369207131877165,
+    "domains": {
+      "complex_systems": {
+        "mean_en": 0.20321587483195527,
+        "mean_zh": 0.22520354170245038,
+        "n": 12
+      },
+      "math_physics": {
+        "mean_en": 0.19232956577813468,
+        "mean_zh": 0.22021921288858262,
+        "n": 12
+      },
+      "philosophy": {
+        "mean_en": 0.20533595400347135,
+        "mean_zh": 0.22527681102448216,
+        "n": 12
+      },
+      "syntax_baseline": {
+        "mean_en": 0.19464653009870617,
+        "mean_zh": 0.2129137874439825,
+        "n": 12
+      }
+    },
+    "mean_mismatch": 0.19888198117806688,
+    "mean_diff_en_minus_mismatch": 0.0,
+    "en_vs_mismatch_wilcoxon_p_raw": 0.8429175181157547,
+    "t_p_bonferroni": 3.5953082847230096e-15,
+    "wilcoxon_p_bonferroni": 1.7763568394002505e-13,
+    "en_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "zh_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "en_vs_mismatch_wilcoxon_p_bonferroni": 1.0
+  },
+  {
+    "layer": 29,
+    "n": 48,
+    "mean_en": 0.23070833270837632,
+    "mean_zh": 0.24141992059833214,
+    "mean_noise": 0.07570614179932496,
+    "mean_diff_en_zh": -0.010711587889955835,
+    "t_stat": -5.971186988677957,
+    "t_p_raw": 2.975832842071001e-07,
+    "wilcoxon_stat": 136.0,
+    "wilcoxon_p_raw": 5.817854145107049e-07,
+    "cohens_d": -0.8618666037543554,
+    "en_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "zh_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "domain_kruskal_wallis_p_raw": 0.6126800108543748,
+    "domains": {
+      "complex_systems": {
+        "mean_en": 0.23289287822984506,
+        "mean_zh": 0.244582053223813,
+        "n": 12
+      },
+      "math_physics": {
+        "mean_en": 0.22981500865873308,
+        "mean_zh": 0.24070690798850672,
+        "n": 12
+      },
+      "philosophy": {
+        "mean_en": 0.23373414735487963,
+        "mean_zh": 0.24614243369621056,
+        "n": 12
+      },
+      "syntax_baseline": {
+        "mean_en": 0.2263912965900475,
+        "mean_zh": 0.2342482874847983,
+        "n": 12
+      }
+    },
+    "mean_mismatch": 0.23070833270837632,
+    "mean_diff_en_minus_mismatch": 0.0,
+    "en_vs_mismatch_wilcoxon_p_raw": 0.7955129094812108,
+    "t_p_bonferroni": 1.4879164210355004e-06,
+    "wilcoxon_p_bonferroni": 2.9089270725535243e-06,
+    "en_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "zh_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "en_vs_mismatch_wilcoxon_p_bonferroni": 1.0
+  },
+  {
+    "layer": 31,
+    "n": 48,
+    "mean_en": 0.3099747984045825,
+    "mean_zh": 0.32669063291526945,
+    "mean_noise": 0.03893843531650349,
+    "mean_diff_en_zh": -0.01671583451068693,
+    "t_stat": -3.0357836176953215,
+    "t_p_raw": 0.0039042833946534143,
+    "wilcoxon_stat": 326.0,
+    "wilcoxon_p_raw": 0.006524645314890165,
+    "cohens_d": -0.4381776222079763,
+    "en_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "zh_vs_noise_wilcoxon_p_raw": 7.105427357601002e-15,
+    "domain_kruskal_wallis_p_raw": 0.000678025259375946,
+    "domains": {
+      "complex_systems": {
+        "mean_en": 0.291934252227314,
+        "mean_zh": 0.31217018176332184,
+        "n": 12
+      },
+      "math_physics": {
+        "mean_en": 0.3522471847518694,
+        "mean_zh": 0.3324422495252015,
+        "n": 12
+      },
+      "philosophy": {
+        "mean_en": 0.2978582912368815,
+        "mean_zh": 0.3299348895710104,
+        "n": 12
+      },
+      "syntax_baseline": {
+        "mean_en": 0.2978594654022651,
+        "mean_zh": 0.3322152108015438,
+        "n": 12
+      }
+    },
+    "mean_mismatch": 0.3099747984045825,
+    "mean_diff_en_minus_mismatch": 0.0,
+    "en_vs_mismatch_wilcoxon_p_raw": 0.8112413360451924,
+    "t_p_bonferroni": 0.01952141697326707,
+    "wilcoxon_p_bonferroni": 0.032623226574450825,
+    "en_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "zh_vs_noise_wilcoxon_p_bonferroni": 3.552713678800501e-14,
+    "en_vs_mismatch_wilcoxon_p_bonferroni": 1.0
+  }
+]

@@ -1,0 +1,179 @@
+Sun Oct 25 20:52:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:00:05.0 Off |                    0 |
+| N/A   35C    P0             63W /  400W |       4MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+===== [gemma2_9b] cuda check =====
+2.8.0+cu128 NVIDIA A100-SXM4-80GB 79 GiB
+
+===== [gemma2_9b] MODELS=gemma2_9b bash run_analysis.sh gpu =====
+gemma2_9b READY
+[info] 48 approved item(s) going into Phase 3.
+[info] Loading google/gemma-2-9b on device=cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:10,  1.54s/it]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:03<00:10,  1.80s/it]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:05<00:09,  1.94s/it]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:07<00:07,  1.98s/it]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:09<00:06,  2.04s/it]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:12<00:04,  2.11s/it]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:14<00:02,  2.08s/it]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:15<00:00,  1.72s/it]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:15<00:00,  1.88s/it]
+[config] active model=google/gemma-2-9b  category=general_purpose  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemma2_9b
+[tokens] N_en_total=7341  N_zh_total=8621  ratio(en/zh)=0.852
+[info] Extracted representations across layers: [21, 26, 31, 36, 38, 41]
+
+[info] Computing CKA across layers ([21, 26, 31, 36, 38, 41]):
+    Layer 21 -> raw CKA: 0.9759 | debiased CKA: 0.9091
+    Layer 26 -> raw CKA: 0.9785 | debiased CKA: 0.7952
+    Layer 31 -> raw CKA: 0.9722 | debiased CKA: 0.8960
+    Layer 36 -> raw CKA: 0.9606 | debiased CKA: 0.8656
+    Layer 38 -> raw CKA: 0.9617 | debiased CKA: 0.9337
+    Layer 41 -> raw CKA: 0.9493 | debiased CKA: 0.8592
+
+[done] Comprehensive report with multi-layer CKA written to phase3_report_gemma2_9b.json
+[info] Ingested into ChromaDB at ./phase3_chroma_db_gemma2_9b
+[info] Loading google/gemma-2-9b (category=general_purpose) on cuda ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:03,  1.81it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.84it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.85it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.87it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  1.88it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.90it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:03<00:00,  1.95it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.35it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.04it/s]
+[config] active model=google/gemma-2-9b  category=general_purpose  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemma2_9b
+  syn_01 [math_physics]: en_ppl=23.62 (nats=468.0) | zh_ppl=40.35 (nats=624.9) | ratio(en/zh)=0.585
+  syn_02 [math_physics]: en_ppl=16.03 (nats=443.9) | zh_ppl=21.10 (nats=521.4) | ratio(en/zh)=0.760
+  syn_03 [math_physics]: en_ppl=10.07 (nats=369.5) | zh_ppl=16.40 (nats=528.7) | ratio(en/zh)=0.614
+  syn_04 [math_physics]: en_ppl=13.44 (nats=405.4) | zh_ppl=26.62 (nats=594.0) | ratio(en/zh)=0.505
+  syn_05 [math_physics]: en_ppl=13.03 (nats=410.8) | zh_ppl=23.16 (nats=615.9) | ratio(en/zh)=0.563
+  syn_06 [math_physics]: en_ppl=14.63 (nats=410.5) | zh_ppl=25.16 (nats=641.8) | ratio(en/zh)=0.582
+  syn_07 [math_physics]: en_ppl=17.28 (nats=424.5) | zh_ppl=25.50 (nats=602.4) | ratio(en/zh)=0.677
+  syn_08 [math_physics]: en_ppl=13.50 (nats=408.7) | zh_ppl=23.14 (nats=606.3) | ratio(en/zh)=0.584
+  syn_09 [math_physics]: en_ppl=10.96 (nats=423.7) | zh_ppl=39.36 (nats=752.9) | ratio(en/zh)=0.278
+  syn_10 [math_physics]: en_ppl=14.20 (nats=443.1) | zh_ppl=32.39 (nats=650.3) | ratio(en/zh)=0.439
+  syn_11 [philosophy]: en_ppl=23.47 (nats=523.8) | zh_ppl=54.74 (nats=800.5) | ratio(en/zh)=0.429
+  syn_12 [philosophy]: en_ppl=25.04 (nats=492.8) | zh_ppl=52.38 (nats=736.3) | ratio(en/zh)=0.478
+  syn_13 [philosophy]: en_ppl=14.65 (nats=418.7) | zh_ppl=36.07 (nats=634.6) | ratio(en/zh)=0.406
+  syn_14 [philosophy]: en_ppl=21.19 (nats=448.8) | zh_ppl=33.26 (nats=595.7) | ratio(en/zh)=0.637
+  syn_15 [philosophy]: en_ppl=22.79 (nats=509.6) | zh_ppl=37.25 (nats=694.6) | ratio(en/zh)=0.612
+  syn_16 [philosophy]: en_ppl=26.07 (nats=492.4) | zh_ppl=46.79 (nats=688.4) | ratio(en/zh)=0.557
+  syn_17 [philosophy]: en_ppl=25.16 (nats=483.8) | zh_ppl=45.98 (nats=746.5) | ratio(en/zh)=0.547
+  syn_18 [philosophy]: en_ppl=20.36 (nats=491.2) | zh_ppl=70.57 (nats=885.4) | ratio(en/zh)=0.289
+  syn_19 [philosophy]: en_ppl=21.58 (nats=513.0) | zh_ppl=38.77 (nats=760.8) | ratio(en/zh)=0.557
+  syn_20 [philosophy]: en_ppl=15.37 (nats=423.6) | zh_ppl=52.07 (nats=735.2) | ratio(en/zh)=0.295
+  syn_21 [complex_systems]: en_ppl=45.74 (nats=577.3) | zh_ppl=45.08 (nats=742.7) | ratio(en/zh)=1.015
+  syn_22 [complex_systems]: en_ppl=37.44 (nats=576.0) | zh_ppl=37.17 (nats=737.6) | ratio(en/zh)=1.007
+  syn_23 [complex_systems]: en_ppl=22.43 (nats=469.7) | zh_ppl=27.90 (nats=615.8) | ratio(en/zh)=0.804
+  syn_24 [complex_systems]: en_ppl=20.56 (nats=447.4) | zh_ppl=26.96 (nats=622.6) | ratio(en/zh)=0.763
+  syn_25 [complex_systems]: en_ppl=26.79 (nats=480.0) | zh_ppl=40.44 (nats=643.8) | ratio(en/zh)=0.662
+  syn_26 [complex_systems]: en_ppl=40.16 (nats=524.4) | zh_ppl=37.54 (nats=648.9) | ratio(en/zh)=1.070
+  syn_27 [complex_systems]: en_ppl=24.49 (nats=460.5) | zh_ppl=35.22 (nats=587.7) | ratio(en/zh)=0.695
+  syn_28 [complex_systems]: en_ppl=39.94 (nats=497.8) | zh_ppl=48.03 (nats=646.6) | ratio(en/zh)=0.832
+  syn_29 [complex_systems]: en_ppl=18.71 (nats=468.7) | zh_ppl=31.19 (nats=677.7) | ratio(en/zh)=0.600
+  syn_30 [complex_systems]: en_ppl=32.93 (nats=527.7) | zh_ppl=62.95 (nats=753.9) | ratio(en/zh)=0.523
+  syn_31 [syntax_baseline]: en_ppl=9.46 (nats=375.3) | zh_ppl=14.00 (nats=517.3) | ratio(en/zh)=0.676
+  syn_32 [syntax_baseline]: en_ppl=21.03 (nats=463.0) | zh_ppl=24.87 (nats=575.2) | ratio(en/zh)=0.846
+  syn_33 [syntax_baseline]: en_ppl=20.66 (nats=433.1) | zh_ppl=25.46 (nats=530.9) | ratio(en/zh)=0.812
+  syn_34 [syntax_baseline]: en_ppl=12.07 (nats=368.6) | zh_ppl=25.17 (nats=561.2) | ratio(en/zh)=0.480
+  syn_35 [syntax_baseline]: en_ppl=18.62 (nats=438.6) | zh_ppl=31.71 (nats=573.8) | ratio(en/zh)=0.587
+  syn_36 [syntax_baseline]: en_ppl=5.16 (nats=249.3) | zh_ppl=9.90 (nats=385.1) | ratio(en/zh)=0.521
+  syn_37 [syntax_baseline]: en_ppl=12.28 (nats=361.1) | zh_ppl=22.24 (nats=514.9) | ratio(en/zh)=0.552
+  syn_38 [syntax_baseline]: en_ppl=12.56 (nats=404.9) | zh_ppl=15.49 (nats=490.5) | ratio(en/zh)=0.811
+  syn_39 [syntax_baseline]: en_ppl=20.53 (nats=453.3) | zh_ppl=27.46 (nats=583.1) | ratio(en/zh)=0.747
+  syn_40 [syntax_baseline]: en_ppl=16.80 (nats=420.4) | zh_ppl=25.99 (nats=619.0) | ratio(en/zh)=0.646
+  hum_01 [math_physics]: en_ppl=18.94 (nats=467.7) | zh_ppl=34.18 (nats=596.8) | ratio(en/zh)=0.554
+  hum_02 [math_physics]: en_ppl=29.89 (nats=417.9) | zh_ppl=22.90 (nats=447.7) | ratio(en/zh)=1.306
+  hum_03 [complex_systems]: en_ppl=14.17 (nats=357.9) | zh_ppl=32.65 (nats=519.4) | ratio(en/zh)=0.434
+  hum_04 [complex_systems]: en_ppl=12.44 (nats=393.3) | zh_ppl=27.85 (nats=519.0) | ratio(en/zh)=0.447
+  hum_05 [philosophy]: en_ppl=11.33 (nats=352.0) | zh_ppl=14.54 (nats=433.6) | ratio(en/zh)=0.779
+  hum_06 [philosophy]: en_ppl=6.23 (nats=256.2) | zh_ppl=20.97 (nats=365.1) | ratio(en/zh)=0.297
+  hum_07 [syntax_baseline]: en_ppl=6.12 (nats=266.2) | zh_ppl=22.89 (nats=494.6) | ratio(en/zh)=0.267
+  hum_08 [syntax_baseline]: en_ppl=6.27 (nats=235.0) | zh_ppl=21.08 (nats=439.0) | ratio(en/zh)=0.298
+[done] Wrote 48 per-concept perplexity & total nats pairs to phase3_perplexity_gemma2_9b.json
+[config] Using universal pad token: '<pad>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:03,  1.92it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.95it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.97it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.98it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  1.99it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:00,  2.01it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:03<00:00,  2.06it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.48it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.16it/s]
+[config] active model=google/gemma-2-9b  category=general_purpose  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemma2_9b
+[info] Running latent injection on 48 concept(s).
+[done] Wrote injection report to phase3b_injection_report_gemma2_9b.json
+[info] Loading injection report from phase3b_injection_report_gemma2_9b.json ...
+[done] Wrote fully corrected significance report to phase3b_significance_report_gemma2_9b.json
+[config] Using universal pad token: '<pad>' (ID: 0)
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:03,  1.84it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.90it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.93it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.95it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  1.96it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.99it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:03<00:00,  2.03it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.13it/s]
+[config] active model=google/gemma-2-9b  category=general_purpose  n_layers=42  layer_idx=21  probe_layers=[26, 31, 36, 38, 41]  db=./phase3_chroma_db_gemma2_9b
+[3d] google/gemma-2-9b concepts=48 layer=21 pos=4 carrier='<pad>' role=primary
+  [en2en] 8/48 (34s)
+  [en2en] 16/48 (53s)
+  [en2en] 24/48 (71s)
+  [en2en] 32/48 (89s)
+  [en2en] 40/48 (107s)
+  [en2en] 48/48 (125s)
+[3d] en2en: diag=7.3280 offdiag=7.4307 noise=7.2824 none=7.6620
+  [en2zh] 8/48 (166s)
+  [en2zh] 16/48 (186s)
+  [en2zh] 24/48 (206s)
+  [en2zh] 32/48 (226s)
+  [en2zh] 40/48 (246s)
+  [en2zh] 48/48 (266s)
+[3d] en2zh: diag=7.8566 offdiag=7.9038 noise=7.9317 none=8.0548
+  [zh2en] 8/48 (307s)
+  [zh2en] 16/48 (325s)
+  [zh2en] 24/48 (343s)
+  [zh2en] 32/48 (362s)
+  [zh2en] 40/48 (380s)
+  [zh2en] 48/48 (398s)
+[3d] zh2en: diag=7.3113 offdiag=7.4076 noise=7.3347 none=7.6620
+  [zh2zh] 8/48 (439s)
+  [zh2zh] 16/48 (459s)
+  [zh2zh] 24/48 (479s)
+  [zh2zh] 32/48 (499s)
+  [zh2zh] 40/48 (519s)
+  [zh2zh] 48/48 (539s)
+[3d] zh2zh: diag=7.7450 offdiag=7.8078 noise=7.9395 none=8.0548
+[done] phase3d_interference_gemma2_9b.npz (562s)

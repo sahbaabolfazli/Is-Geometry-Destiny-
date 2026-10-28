@@ -1,0 +1,12 @@
+torch>=2.3
+transformers>=4.51      # Qwen3 support; Gemma-2 needs eager attention (already set)
+accelerate
+sentencepiece           # Llama-2 / Tower / Gemma tokenizers
+protobuf
+numpy
+scipy
+matplotlib
+chromadb
+huggingface_hub
+streamlit
+pandas

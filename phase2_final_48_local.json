@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "syn_01",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Spectral Triples in Noncommutative Geometry",
+    "english": "Within noncommutative geometry, a spectral triple encapsulates the differential and metrical structure of an underlying noncommutative manifold through an involutive algebra acting on a separable Hilbert space alongside an unbounded self-adjoint Dirac operator. The commutator of this operator with any smooth algebraic element remains bounded, which ensures that the generalized metric is entirely recovered via the supremum of evaluations over the state space. Because the classical notion of a pointwise coordinate chart fails under noncommutative product structures, geometric invariants are instead extracted spectrally through the asymptotic expansion of the heat trace associated with the squared operator. Consequently, the local index formula bridges cyclic cohomology and functional analysis, rigorously establishing that smooth Riemannian geometry arises as a commutative specialization of operator-algebraic spectral data.",
+    "chinese": "在非交换几何中，谱三元组通过作用于可分希尔伯特空间的对合代数以及无界自伴狄拉克算子，概括了底层非交换流形的微分结构与度量结构。该算子与任意光滑代数元素的对易子保持有界，由此保证广义度量可通过状态空间上取值的上确界被完整恢复。由于经典的逐点坐标卡概念在非交换乘积结构下失效，几何不变量转而通过与该算子的平方相关联的热迹的渐近展开，以谱方式提取。因此，局部指标公式沟通了循环上同调与泛函分析，严格地确立了光滑黎曼几何是算子代数谱数据的一种交换特例化。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "在非交换几何中，谱三角通过作用于可分希尔伯特空间上的对合代数以及无界自伴狄拉克算子，封装了底层非交换流形的微分与量度结构。该算子与任一光滑代数元素的换位子始终保持有界，确保通过状态空间上评估的上确界完全恢复推广后的度量。由于在非交换乘积结构下，经典坐标图的概念失效，几何不变量转而通过平方算子相关热核迹的渐近展开进行谱提取。因此，局部指标公式将循环上同调与泛函分析相连接，严格地确立了光滑黎曼几何是算子代数谱数据的交换化特例。",
+        "verdict": {
+          "id": "syn_01",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "在非交换几何中，谱三角通过作用于可分希尔伯特空间上的对合代数以及无界自伴狄拉克算子，封装了底层非交换流形的微分与量度结构。该算子与任一光滑代数元素的换位子始终保持有界，确保通过状态空间上评估的上确界完全恢复推广后的度量。由于在非交换乘积结构下，经典坐标图的概念失效，几何不变量转而通过平方算子相关热核迹的渐近展开进行谱提取。因此，局部指标公式将循环上同调与泛函分析相连接，严格地确立了光滑黎曼几何是算子代数谱数据的交换化特例。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "在非交换几何中，谱三元组通过作用于可分希尔伯特空间的对合代数以及无界自伴狄拉克算子，概括了底层非交换流形的微分结构与度量结构。该算子与任意光滑代数元素的对易子保持有界，由此保证广义度量可通过状态空间上取值的上确界被完整恢复。由于经典的逐点坐标卡概念在非交换乘积结构下失效，几何不变量转而通过与该算子的平方相关联的热迹的渐近展开，以谱方式提取。因此，局部指标公式沟通了循环上同调与泛函分析，严格地确立了光滑黎曼几何是算子代数谱数据的一种交换特例化。",
+        "verdict": {
+          "id": "syn_01",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "在非交换几何中，谱三元组通过作用于可分希尔伯特空间的对合代数以及无界自伴狄拉克算子，概括了底层非交换流形的微分结构与度量结构。该算子与任意光滑代数元素的对易子保持有界，由此保证广义度量可通过状态空间上取值的上确界被完整恢复。由于经典的逐点坐标卡概念在非交换乘积结构下失效，几何不变量转而通过与该算子的平方相关联的热迹的渐近展开，以谱方式提取。因此，局部指标公式沟通了循环上同调与泛函分析，严格地确立了光滑黎曼几何是算子代数谱数据的一种交换特例化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_02",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Ergodic Invariance in Measure-Preserving Dynamical Systems",
+    "english": "In measurable dynamical systems, ergodicity formalizes the complete spatial indecomposability of a measure space under an invariant transformation. Whenever a measurable transformation preserves a probability measure, the system is ergodic if and only if every invariant set possesses measure zero or measure one. Under Birkhoff’s ergodic theorem, this algebraic condition guarantees that for almost every initial condition, temporal averages of integrable observables along phase trajectories converge asymptotically to the spatial phase-space expectation. The absence of non-trivial invariant subspaces forces typical orbits to thoroughly explore the support of the measure, precluding localized entrapment within phase subdomains. Thus, ergodicity resolves the apparent tension between deterministic microscopic equations of motion and macroscopic statistical equilibrium, establishing measure-theoretic mixing as the foundational mechanism governing long-term distributional regularity.",
+    "chinese": "在可测动力系统中，遍历性形式化了测度空间在不变变换下的完全空间不可分解性。当可测变换保持概率测度时，系统是遍历的，当且仅当每个不变集的测度为零或一。根据伯克霍夫遍历定理，这一代数条件保证对于几乎所有初始条件，可积观测量沿相轨迹的时间平均渐近收敛于相空间上的空间期望。非平凡不变子空间的缺失迫使典型轨道充分遍历测度的支集，从而排除了在相空间子区域内的局部困陷。因此，遍历性化解了确定性微观运动方程与宏观统计平衡之间表面上的张力，并确立测度论意义上的混合为支配长期分布规律性的基础机制。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "在可测动力系统中，遍历性形式化了测度空间在不变变换下的完全空间不可约性。当可测变换保概率测度时，系统当且仅当每个不变集合的测度为零或一，是遍历的。根据Birkhoff遍历定理，该代数条件保证对于几乎所有初始条件，沿相轨迹的时间平均值会渐近收敛至相空间期望。非平凡不变子空间的缺失迫使典型轨道彻底探索测度的支集，从而排除在相子域内的局部捕陷。因此，遍历性化解了确定性微观运动方程与宏观统计平衡之间看似矛盾的张力，确立测度混合为长期分布规律性的基础机制。",
+        "verdict": {
+          "id": "syn_02",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "在可测动力系统中，遍历性形式化了测度空间在不变变换下的完全空间不可约性。当可测变换保概率测度时，系统当且仅当每个不变集合的测度为零或一，是遍历的。根据Birkhoff遍历定理，该代数条件保证对于几乎所有初始条件，沿相轨迹的时间平均值会渐近收敛至相空间期望。非平凡不变子空间的缺失迫使典型轨道彻底探索测度的支集，从而排除在相子域内的局部捕陷。因此，遍历性化解了确定性微观运动方程与宏观统计平衡之间看似矛盾的张力，确立测度混合为长期分布规律性的基础机制。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "在可测动力系统中，遍历性形式化了测度空间在不变变换下的完全空间不可分解性。当可测变换保持概率测度时，系统是遍历的，当且仅当每个不变集的测度为零或一。根据伯克霍夫遍历定理，这一代数条件保证对于几乎所有初始条件，可积观测量沿相轨迹的时间平均渐近收敛于相空间上的空间期望。非平凡不变子空间的缺失迫使典型轨道充分遍历测度的支集，从而排除了在相空间子区域内的局部困陷。因此，遍历性化解了确定性微观运动方程与宏观统计平衡之间表面上的张力，并确立测度论意义上的混合为支配长期分布规律性的基础机制。",
+        "verdict": {
+          "id": "syn_02",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "在可测动力系统中，遍历性形式化了测度空间在不变变换下的完全空间不可分解性。当可测变换保持概率测度时，系统是遍历的，当且仅当每个不变集的测度为零或一。根据伯克霍夫遍历定理，这一代数条件保证对于几乎所有初始条件，可积观测量沿相轨迹的时间平均渐近收敛于相空间上的空间期望。非平凡不变子空间的缺失迫使典型轨道充分遍历测度的支集，从而排除了在相空间子区域内的局部困陷。因此，遍历性化解了确定性微观运动方程与宏观统计平衡之间表面上的张力，并确立测度论意义上的混合为支配长期分布规律性的基础机制。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_03",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Chern-Simons Theory and Quantum Knot Invariants",
+    "english": "Chern-Simons gauge theory provides a topological quantum field theoretic framework wherein physical observables depend strictly on the differential topology of three-manifolds rather than metric geometry. Defined on a compact three-manifold with a non-abelian Lie gauge group, the topological action is given by the integral of the Chern-Simons three-form. Because the action functional varies only by integer multiples of two pi under large gauge transformations, the quantum coupling constant remains strictly quantized. Vacuum expectation values of gauge-invariant Wilson loop operators along embedded knots yield polynomial link invariants, reproducing the Jones polynomial and its specialized quantum group generalizations. Through the path integral quantization of this topological lagrangian, knot invariants are fundamentally unified with the representation theory of affine Kac-Moody algebras and two-dimensional conformal field theories.",
+    "chinese": "陈-西蒙斯规范理论提供了一个拓扑量子场论框架，其中物理可观测量严格依赖于三维流形的微分拓扑，而非度规几何。该理论定义在紧致三维流形上，规范群为非阿贝尔李群，其拓扑作用量由陈-西蒙斯三形式的积分给出。由于作用量泛函在大规范变换下仅以2π的整数倍变化，量子耦合常数保持严格量子化。沿嵌入纽结的规范不变威尔逊圈算符的真空期望值给出多项式型链环不变量，复现了琼斯多项式及其量子群推广。通过对该拓扑拉格朗日量进行路径积分量子化，纽结不变量与仿射卡茨-穆迪代数的表示论及二维共形场论从根本上得到统一。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "陈-西蒙斯规范理论提供了拓扑量子场论框架，其中物理可观测量完全依赖三维流形的微分拓扑而非度规几何。定义在紧致三位流形上的非阿贝尔李规范群理论中，拓扑作用量由陈-西蒙斯三形式积分给出。由于作用量泛函在大规范变换下仅以二π的整数倍变化，量子耦合常数保持严格量子化。三维流形嵌入纽结上的规范不变威尔逊环算符的真空期望值产生多项式纽结不变量，可复现琼斯多项式及其量子群推广形式。通过该拓扑拉格朗日量的路径积分量子化，纽结不变量与仿射卡-穆迪代数的表示理论及二维共形场论实现基础统一。",
+        "verdict": {
+          "id": "syn_03",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "陈-西蒙斯规范理论提供了拓扑量子场论框架，其中物理可观测量完全依赖三维流形的微分拓扑而非度规几何。定义在紧致三位流形上的非阿贝尔李规范群理论中，拓扑作用量由陈-西蒙斯三形式积分给出。由于作用量泛函在大规范变换下仅以二π的整数倍变化，量子耦合常数保持严格量子化。三维流形嵌入纽结上的规范不变威尔逊环算符的真空期望值产生多项式纽结不变量，可复现琼斯多项式及其量子群推广形式。通过该拓扑拉格朗日量的路径积分量子化，纽结不变量与仿射卡-穆迪代数的表示理论及二维共形场论实现基础统一。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "陈-西蒙斯规范理论提供了一个拓扑量子场论框架，其中物理可观测量严格依赖于三维流形的微分拓扑，而非度规几何。该理论定义在紧致三维流形上，规范群为非阿贝尔李群，其拓扑作用量由陈-西蒙斯三形式的积分给出。由于作用量泛函在大规范变换下仅以2π的整数倍变化，量子耦合常数保持严格量子化。沿嵌入纽结的规范不变威尔逊圈算符的真空期望值给出多项式型链环不变量，复现了琼斯多项式及其量子群推广。通过对该拓扑拉格朗日量进行路径积分量子化，纽结不变量与仿射卡茨-穆迪代数的表示论及二维共形场论从根本上得到统一。",
+        "verdict": {
+          "id": "syn_03",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "陈-西蒙斯规范理论提供了一个拓扑量子场论框架，其中物理可观测量严格依赖于三维流形的微分拓扑，而非度规几何。该理论定义在紧致三维流形上，规范群为非阿贝尔李群，其拓扑作用量由陈-西蒙斯三形式的积分给出。由于作用量泛函在大规范变换下仅以2π的整数倍变化，量子耦合常数保持严格量子化。沿嵌入纽结的规范不变威尔逊圈算符的真空期望值给出多项式型链环不变量，复现了琼斯多项式及其量子群推广。通过对该拓扑拉格朗日量进行路径积分量子化，纽结不变量与仿射卡茨-穆迪代数的表示论及二维共形场论从根本上得到统一。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_04",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Symplectic Reduction and the Moment Map",
+    "english": "The Marsden-Weinstein-Meyer theorem formalizes symplectic reduction, allowing Hamiltonian dynamical systems possessing continuous symmetries to be projected onto lower-dimensional phase spaces while preserving underlying symplectic geometry. Given a Hamiltonian action of a Lie group on a symplectic manifold, the symmetry generates an equivariant moment map mapping phase trajectories into the dual of the associated Lie algebra. When zero is a regular value of this moment map and the group action is free and proper, the inverse image forms a smooth coisotropic submanifold. Factoring out the residual gauge orbit action yields the reduced symplectic space, endowed with a canonical symplectic form derived directly from the parent manifold. Consequently, cyclic coordinates are eliminated geometrically, guaranteeing that the reduced phase trajectories faithfully govern the fundamental, unconstrained physical dynamics.",
+    "chinese": "马斯登-韦因斯坦-迈尔定理使辛约化得以形式化，允许具有连续对称性的哈密顿动力系统被投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性生成一个等变矩映射，将相轨迹映射到相应李代数的对偶空间中。当零是该矩映射的正则值，且群作用是自由且真的作用时，其原像构成一个光滑的余迷向子流形。对剩余规范轨道作用取商，便得到约化辛空间，其具备由母流形直接导出的典范辛形式。因此，循环坐标被几何地消去，从而保证约化相轨迹如实地支配基本的、无约束的物理动力学。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 2,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "火星登-韦因斯坦-迈尔定理对称性规约的辛结构进行了形式化，允许具有连续对称性的哈密顿动力系统投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性产生等变矩映映射，将相轨迹映射到相关李代数的对偶空间。当零为该矩映的正则值且群作用自由且适当时，原像形成光滑余各向异性子流形。商去剩余规范轨道作用后得到规约辛空间，其经典辛结构可直接从母流形推导。因此循环坐标被几何消除，确保规约相轨迹如实支配基本的无约束物理动力学。",
+        "verdict": {
+          "id": "syn_04",
+          "status": "REJECTED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": false,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": [
+              "火星登"
+            ]
+          },
+          "critique": "The term '火星登' is not the standard translation for 'Marsden'. It should be '马斯登'.",
+          "revised_target_text": "马斯登-韦因斯坦-迈尔定理对称性规约的辛结构进行了形式化，允许具有连续对称性的哈密顿动力系统投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性产生等变矩映映射，将相轨迹映射到相关李代数的对偶空间。当零为该矩映的正则值且群作用自由且适当时，原像形成光滑余各向异性子流形。商去剩余规范轨道作用后得到规约辛空间，其经典辛结构可直接从母流形推导。因此循环坐标被几何消除，确保规约相轨迹如实支配基本的无约束物理动力学。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "马斯登-韦因斯坦-迈尔定理对辛规约进行了形式化，允许具有连续对称性的哈密顿动力系统投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性生成一个等变矩映射，将相轨迹映射到相关李代数的对偶空间。当零为该矩映射的正则值且群作用自由且适当时，原像构成一个光滑余各向同性子流形。商取剩余规范轨道作用后得到规约辛空间，其典范辛结构可直接从原始流形导出。因此循环坐标被几何消除，确保规约相轨迹如实支配基础的无约束物理动力学。",
+        "verdict": {
+          "id": "syn_04",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "马斯登-韦因斯坦-迈尔定理对辛规约进行了形式化，允许具有连续对称性的哈密顿动力系统投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性生成一个等变矩映射，将相轨迹映射到相关李代数的对偶空间。当零为该矩映射的正则值且群作用自由且适当时，原像构成一个光滑余各向同性子流形。商取剩余规范轨道作用后得到规约辛空间，其典范辛结构可直接从原始流形导出。因此循环坐标被几何消除，确保规约相轨迹如实支配基础的无约束物理动力学。"
+        }
+      },
+      {
+        "round": 2,
+        "chinese": "马斯登-韦因斯坦-迈尔定理使辛约化得以形式化，允许具有连续对称性的哈密顿动力系统被投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性生成一个等变矩映射，将相轨迹映射到相应李代数的对偶空间中。当零是该矩映射的正则值，且群作用是自由且真的作用时，其原像构成一个光滑的余迷向子流形。对剩余规范轨道作用取商，便得到约化辛空间，其具备由母流形直接导出的典范辛形式。因此，循环坐标被几何地消去，从而保证约化相轨迹如实地支配基本的、无约束的物理动力学。",
+        "verdict": {
+          "id": "syn_04",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "马斯登-韦因斯坦-迈尔定理使辛约化得以形式化，允许具有连续对称性的哈密顿动力系统被投影到低维相空间，同时保持底层辛几何。给定李群在辛流形上的哈密顿作用，该对称性生成一个等变矩映射，将相轨迹映射到相应李代数的对偶空间中。当零是该矩映射的正则值，且群作用是自由且真的作用时，其原像构成一个光滑的余迷向子流形。对剩余规范轨道作用取商，便得到约化辛空间，其具备由母流形直接导出的典范辛形式。因此，循环坐标被几何地消去，从而保证约化相轨迹如实地支配基本的、无约束的物理动力学。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_05",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Deformation Quantization and Moyal Star-Products",
+    "english": "Deformation quantization formalizes the transition from classical Hamiltonian mechanics to quantum mechanics by deforming the commutative product of smooth functions on a Poisson manifold into an associative, non-commutative formal star-product. Governed by Kontsevich’s formality theorem, this algebraic construction establishes that every finite-dimensional Poisson manifold admits an essentially unique equivalence class of star-products parameterized by Planck’s constant. In the flat Euclidean setting, this deformation manifests concretely as the Moyal product, wherein the leading-order skew-symmetric term corresponds directly to the Poisson bracket, while higher-order differential corrections encode quantum interference effects. Consequently, observable self-adjoint operators acting on Hilbert spaces are replaced by an asymptotic expansion within the formal power series ring, rigorously preserving algebraic associativity without requiring an explicit geometric Hilbert space representation.",
+    "chinese": "形变量子化通过将泊松流形上光滑函数的交换乘积形变为结合的、非交换的形式星积，使从经典哈密顿力学到量子力学的过渡得以形式化。在孔采维奇形式性定理的支配下，这一代数构造表明：每个有限维泊松流形都容许一个本质上唯一的、以普朗克常数为参数的星积等价类。在平直欧几里得情形中，这一形变具体表现为莫亚尔积，其中领头阶的反对称项直接对应于泊松括号，而更高阶的微分修正项则编码量子干涉效应。因此，作用于希尔伯特空间的可观测自伴算子被形式幂级数环中的渐近展开所取代，在无需显式几何希尔伯特空间表示的情况下，严格保持代数结合性。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "形变量子化通过将泊松流形上光滑函数的交换乘积形变为结合但非交换的形式星乘积，从而形式化了从经典哈密顿力学向量子力学的过渡。在科内希夫形似定理的支配下，此代数构造表明每个有限维泊松流形都存在一个由普朗克常数参数化的本质唯一星乘积等价类。在平直欧几里得空间中，该形变具体表现为莫耶乘积，其主导阶反对称项直接对应泊松括号，而更高阶微分修正项则编码量子干涉效应。结果上，作用于希尔伯特空间的观测量自伴算子被形式幂级数环中的渐近展开式取代，严格保持代数结合律而无需显式几何希尔伯特空间表示。",
+        "verdict": {
+          "id": "syn_05",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "形变量子化通过将泊松流形上光滑函数的交换乘积形变为结合但非交换的形式星乘积，从而形式化了从经典哈密顿力学向量子力学的过渡。在科内希夫形似定理的支配下，此代数构造表明每个有限维泊松流形都存在一个由普朗克常数参数化的本质唯一星乘积等价类。在平直欧几里得空间中，该形变具体表现为莫耶乘积，其主导阶反对称项直接对应泊松括号，而更高阶微分修正项则编码量子干涉效应。结果上，作用于希尔伯特空间的观测量自伴算子被形式幂级数环中的渐近展开式取代，严格保持代数结合律而无需显式几何希尔伯特空间表示。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "形变量子化通过将泊松流形上光滑函数的交换乘积形变为结合的、非交换的形式星积，使从经典哈密顿力学到量子力学的过渡得以形式化。在孔采维奇形式性定理的支配下，这一代数构造表明：每个有限维泊松流形都容许一个本质上唯一的、以普朗克常数为参数的星积等价类。在平直欧几里得情形中，这一形变具体表现为莫亚尔积，其中领头阶的反对称项直接对应于泊松括号，而更高阶的微分修正项则编码量子干涉效应。因此，作用于希尔伯特空间的可观测自伴算子被形式幂级数环中的渐近展开所取代，在无需显式几何希尔伯特空间表示的情况下，严格保持代数结合性。",
+        "verdict": {
+          "id": "syn_05",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "形变量子化通过将泊松流形上光滑函数的交换乘积形变为结合的、非交换的形式星积，使从经典哈密顿力学到量子力学的过渡得以形式化。在孔采维奇形式性定理的支配下，这一代数构造表明：每个有限维泊松流形都容许一个本质上唯一的、以普朗克常数为参数的星积等价类。在平直欧几里得情形中，这一形变具体表现为莫亚尔积，其中领头阶的反对称项直接对应于泊松括号，而更高阶的微分修正项则编码量子干涉效应。因此，作用于希尔伯特空间的可观测自伴算子被形式幂级数环中的渐近展开所取代，在无需显式几何希尔伯特空间表示的情况下，严格保持代数结合性。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_06",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Chern-Weil Homomorphism and Characteristic Classes",
+    "english": "The Chern-Weil homomorphism constructs topological characteristic classes of smooth principal bundles through the differential geometric curvature of underlying connections. Given a principal bundle with a compact Lie structure group, any chosen connection one-form determines a globally tensorial curvature two-form satisfying the Bianchi identity. By evaluating ad-invariant polynomials on the Lie algebra against wedge powers of this curvature matrix, one obtains closed differential forms whose de Rham cohomology classes remain completely invariant under smooth deformations of the connection. These resultant cohomology classes represent intrinsic topological invariants, such as Chern and Pontryagin classes, that detect global obstruction to bundle triviality. The construction fundamentally bridges global differential geometry and algebraic topology, demonstrating that integral topological invariants can be directly extracted from local Riemannian and gauge-theoretic field curvatures.",
+    "chinese": "陈-韦伊同态借助底层联络的微分几何曲率，构造光滑主丛的拓扑示性类。给定具有紧致李结构群的主丛，任意选定的联络一形式都确定一个整体张量性的曲率二形式，且该曲率二形式满足比安基恒等式。将李代数上的伴随不变多项式作用于该曲率矩阵的外积幂，便得到闭微分形式，其德拉姆上同调类在联络的光滑形变下完全保持不变。这些所得的上同调类代表内蕴的拓扑不变量，例如陈类与庞特里亚金类，它们检测主丛平凡化的整体障碍。该构造从根本上沟通了整体微分几何与代数拓扑，表明整数型拓扑不变量可直接由局部黎曼场曲率与规范场论场曲率提取。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "陈-韦尔同态通过底层联络的微分几何曲率，构造光滑主丛的拓扑特征类。给定一个具有紧致李结构群的主丛，任选联络一形式可确定满足Bianchi恒等式的全局张量化曲率二形式。通过在李代数上对ad不变多项式与该曲率矩阵的楔幂进行评估，可获得闭微分形式，其德拉姆上同调类对联络的光滑形变完全不变。这些上同调类代表内在拓扑不变量（如陈类与庞特里亚金类），揭示主丛非平凡化的全局障碍。此构造本质上连接了全局微分几何与代数拓扑，证明积分拓扑不变量可直接从局部黎曼场与规范理论曲率中提取。",
+        "verdict": {
+          "id": "syn_06",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "陈-韦尔同态通过底层联络的微分几何曲率，构造光滑主丛的拓扑特征类。给定一个具有紧致李结构群的主丛，任选联络一形式可确定满足Bianchi恒等式的全局张量化曲率二形式。通过在李代数上对ad不变多项式与该曲率矩阵的楔幂进行评估，可获得闭微分形式，其德拉姆上同调类对联络的光滑形变完全不变。这些上同调类代表内在拓扑不变量（如陈类与庞特里亚金类），揭示主丛非平凡化的全局障碍。此构造本质上连接了全局微分几何与代数拓扑，证明积分拓扑不变量可直接从局部黎曼场与规范理论曲率中提取。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "陈-韦伊同态借助底层联络的微分几何曲率，构造光滑主丛的拓扑示性类。给定具有紧致李结构群的主丛，任意选定的联络一形式都确定一个整体张量性的曲率二形式，且该曲率二形式满足比安基恒等式。将李代数上的伴随不变多项式作用于该曲率矩阵的外积幂，便得到闭微分形式，其德拉姆上同调类在联络的光滑形变下完全保持不变。这些所得的上同调类代表内蕴的拓扑不变量，例如陈类与庞特里亚金类，它们检测主丛平凡化的整体障碍。该构造从根本上沟通了整体微分几何与代数拓扑，表明整数型拓扑不变量可直接由局部黎曼场曲率与规范场论场曲率提取。",
+        "verdict": {
+          "id": "syn_06",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "陈-韦伊同态借助底层联络的微分几何曲率，构造光滑主丛的拓扑示性类。给定具有紧致李结构群的主丛，任意选定的联络一形式都确定一个整体张量性的曲率二形式，且该曲率二形式满足比安基恒等式。将李代数上的伴随不变多项式作用于该曲率矩阵的外积幂，便得到闭微分形式，其德拉姆上同调类在联络的光滑形变下完全保持不变。这些所得的上同调类代表内蕴的拓扑不变量，例如陈类与庞特里亚金类，它们检测主丛平凡化的整体障碍。该构造从根本上沟通了整体微分几何与代数拓扑，表明整数型拓扑不变量可直接由局部黎曼场曲率与规范场论场曲率提取。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_07",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Hochschild Cohomology in Noncommutative Algebra",
+    "english": "Hochschild cohomology provides the standard homological framework for analyzing the associative deformation theory and structural derivations of noncommutative algebras. Defined via the derived functor of bimodule homomorphisms, the Hochschild cohomology groups assign graded algebraic invariants to an associative algebra over a commutative ring. The second cohomology group classifies infinitesimal algebraic deformations up to equivalence, determining whether formal associative star-products can be consistently constructed. The third cohomology group houses the obstruction classes that govern whether an infinitesimal deformation extends to higher-order formal power series. Equipped with the Gerstenhaber bracket, the cohomology space inherits the structure of a graded Lie algebra, establishing an intrinsic connection between algebraic deformation problems and differential graded Lie algebras, thereby governing the algebraic moduli of associative non-commutative structures.",
+    "chinese": "霍赫希尔德上同调为分析非交换代数的结合形变理论与结构性导子提供了标准的同调框架。霍赫希尔德上同调群通过双模同态的导出函子定义，为交换环上的结合代数赋予分次代数不变量。第二上同调群在等价意义下对无穷小代数形变进行分类，决定能否一致地构造形式结合星积。第三上同调群容纳障碍类，这些障碍类支配无穷小形变能否扩展为更高阶的形式幂级数。配备格斯滕哈伯括号后，该上同调空间继承了分次李代数的结构，从而在代数形变问题与微分分次李代数之间建立了内蕴联系，进而支配结合非交换结构的代数模空间。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "霍奇斯齐德上同调提供了用于分析非交换代数的结合形变理论与结构性导子的标准同调框架。通过双模同态的衍生函子定义，霍奇斯齐德上同调群将分级代数不变量赋予于交换环上的结合代数。第二上同调群按照等价类分类关于无限小代数形变，决定是否可一致构造形式结合星乘积。第三上同调群容纳控制无限小形变能否扩展为高阶形式幂级数的障碍类。伴随格尔斯坦哈伯括号，上同调空间继承了分级李代数的结构，从而建立了代数形变问题与微分分级李代数之间的内在联系，进而控制结合非交换结构的代数模空间。",
+        "verdict": {
+          "id": "syn_07",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "霍奇斯齐德上同调提供了用于分析非交换代数的结合形变理论与结构性导子的标准同调框架。通过双模同态的衍生函子定义，霍奇斯齐德上同调群将分级代数不变量赋予于交换环上的结合代数。第二上同调群按照等价类分类关于无限小代数形变，决定是否可一致构造形式结合星乘积。第三上同调群容纳控制无限小形变能否扩展为高阶形式幂级数的障碍类。伴随格尔斯坦哈伯括号，上同调空间继承了分级李代数的结构，从而建立了代数形变问题与微分分级李代数之间的内在联系，进而控制结合非交换结构的代数模空间。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "霍赫希尔德上同调为分析非交换代数的结合形变理论与结构性导子提供了标准的同调框架。霍赫希尔德上同调群通过双模同态的导出函子定义，为交换环上的结合代数赋予分次代数不变量。第二上同调群在等价意义下对无穷小代数形变进行分类，决定能否一致地构造形式结合星积。第三上同调群容纳障碍类，这些障碍类支配无穷小形变能否扩展为更高阶的形式幂级数。配备格斯滕哈伯括号后，该上同调空间继承了分次李代数的结构，从而在代数形变问题与微分分次李代数之间建立了内蕴联系，进而支配结合非交换结构的代数模空间。",
+        "verdict": {
+          "id": "syn_07",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "霍赫希尔德上同调为分析非交换代数的结合形变理论与结构性导子提供了标准的同调框架。霍赫希尔德上同调群通过双模同态的导出函子定义，为交换环上的结合代数赋予分次代数不变量。第二上同调群在等价意义下对无穷小代数形变进行分类，决定能否一致地构造形式结合星积。第三上同调群容纳障碍类，这些障碍类支配无穷小形变能否扩展为更高阶的形式幂级数。配备格斯滕哈伯括号后，该上同调空间继承了分次李代数的结构，从而在代数形变问题与微分分次李代数之间建立了内蕴联系，进而支配结合非交换结构的代数模空间。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_08",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Ricci Flow and Canonical Metric Uniformization",
+    "english": "Ricci flow constitutes a non-linear geometric evolution equation that deforms the Riemannian metric of a smooth manifold proportionally to its negative Ricci curvature tensor. Formulated as a geometric analogue of the heat diffusion equation, the flow smooths out localized metric irregularities and tends to drive the manifold toward metrics of constant sectional curvature. When finite-time geometric singularities inevitably develop under the flow, such as neck-pinch collapses where sectional curvatures diverge asymptotically, surgery techniques are performed to excise singular regions while gluing in standard topological caps. Perelman’s introduction of monotonic entropy functionals established the non-collapsing theorem, precluding pathological singularity formation and ensuring the global continuation of surgery-controlled Ricci flow, thereby proving Thurston’s geometrization conjecture and the topological classification of three-dimensional manifolds.",
+    "chinese": "里奇流是一种非线性几何演化方程，它使光滑流形的黎曼度量沿其里奇曲率张量的负方向、按与之成比例的速率发生形变。作为热扩散方程的几何类比，该流抹平局部度量的不规则性，并倾向于驱使流形趋向常截面曲率度量。当有限时间几何奇点在流下不可避免地出现时（例如截面曲率渐近发散的颈缩坍塌），便实施手术技术，切除奇异区域并粘接标准拓扑帽。佩雷尔曼引入单调熵泛函，确立了非坍缩定理，排除了病态奇点的形成，并保证受手术控制的里奇流可整体延拓，从而证明了瑟斯顿几何化猜想以及三维流形的拓扑分类。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "瑞奇流构成一个非线性几何演化方程，该方程将光滑流形上的黎曼度量按其负的瑞奇曲率张量比例进行形变。作为热扩散方程的几何类比形式，该流消弭局部度量不规则现象，并使流形趋向于常截面曲率的度量。当有限时间内几何奇点不可避免地形成时（例如截面曲率渐进发散的颈缩坍塌），将执行手术操作以切除奇点区域并粘接标准拓扑帽区。佩雷尔曼引入的单调熵泛函确立了非坍缩定理，排除了病态奇点的形成并确保手术操作控制下的瑞奇流全局持续性，从而证明了瑟斯顿几何化猜想与三维流形的拓扑分类。",
+        "verdict": {
+          "id": "syn_08",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "瑞奇流构成一个非线性几何演化方程，该方程将光滑流形上的黎曼度量按其负的瑞奇曲率张量比例进行形变。作为热扩散方程的几何类比形式，该流消弭局部度量不规则现象，并使流形趋向于常截面曲率的度量。当有限时间内几何奇点不可避免地形成时（例如截面曲率渐进发散的颈缩坍塌），将执行手术操作以切除奇点区域并粘接标准拓扑帽区。佩雷尔曼引入的单调熵泛函确立了非坍缩定理，排除了病态奇点的形成并确保手术操作控制下的瑞奇流全局持续性，从而证明了瑟斯顿几何化猜想与三维流形的拓扑分类。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "里奇流是一种非线性几何演化方程，它使光滑流形的黎曼度量沿其里奇曲率张量的负方向、按与之成比例的速率发生形变。作为热扩散方程的几何类比，该流抹平局部度量的不规则性，并倾向于驱使流形趋向常截面曲率度量。当有限时间几何奇点在流下不可避免地出现时（例如截面曲率渐近发散的颈缩坍塌），便实施手术技术，切除奇异区域并粘接标准拓扑帽。佩雷尔曼引入单调熵泛函，确立了非坍缩定理，排除了病态奇点的形成，并保证受手术控制的里奇流可整体延拓，从而证明了瑟斯顿几何化猜想以及三维流形的拓扑分类。",
+        "verdict": {
+          "id": "syn_08",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "里奇流是一种非线性几何演化方程，它使光滑流形的黎曼度量沿其里奇曲率张量的负方向、按与之成比例的速率发生形变。作为热扩散方程的几何类比，该流抹平局部度量的不规则性，并倾向于驱使流形趋向常截面曲率度量。当有限时间几何奇点在流下不可避免地出现时（例如截面曲率渐近发散的颈缩坍塌），便实施手术技术，切除奇异区域并粘接标准拓扑帽。佩雷尔曼引入单调熵泛函，确立了非坍缩定理，排除了病态奇点的形成，并保证受手术控制的里奇流可整体延拓，从而证明了瑟斯顿几何化猜想以及三维流形的拓扑分类。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_09",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Mirror Symmetry and Calabi-Yau Moduli Spaces",
+    "english": "Mirror symmetry establishes a non-trivial duality between topologically distinct pairs of compact Calabi-Yau threefold manifolds, exchanging their complex structure deformations with their symplectic Kähler moduli spaces. Originating within string-theoretic compactifications, this duality pairs the Hodge numbers of a Calabi-Yau manifold with those of its mirror partner under an explicit transposition across the central Hodge diamond. Consequently, highly non-trivial enumerative geometric computations—specifically the counting of rational holomorphic curves via Gromov-Witten invariants on the A-model symplectic side—are transformed into tractable classical variations of complex Hodge structures and period integrals on the corresponding B-model complex side. Governed categorically by Kontsevich’s homological mirror symmetry conjecture, the equivalence equates the derived category of coherent sheaves on one manifold directly with the Fukaya category of Lagrangian submanifolds on its mirror counterpart.",
+    "chinese": "镜像对称在拓扑上互异的紧致三维卡拉比-丘流形对之间建立了非平凡的对偶，使其复结构形变与辛凯勒模空间相互交换。这一对偶起源于弦论紧化，它通过横跨中心霍奇菱形的显式转置，将卡拉比-丘流形的霍奇数与其镜像伙伴的霍奇数配对。因此，高度非平凡的枚举几何计算（具体而言，即在A模型辛一侧通过格罗莫夫-威滕不变量对有理全纯曲线进行计数）被转化为相应B模型复一侧可处理的复霍奇结构经典变分与周期积分。在孔采维奇同调镜像对称猜想的范畴层面支配下，这一等价性将一个流形上凝聚层的导出范畴直接等同于其镜像对应流形上拉格朗日子流形的深谷范畴。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "镜像对称建立了拓扑结构上不同的紧致Calabi-Yau三维流形之间的非平凡对偶性，将其复结构形变与辛Kähler模空间进行交换。该对偶性起源于弦论紧化研究，通过在中心霍奇菱形结构中显式转置，将Calabi-Yau流形的霍奇数与其镜像伙伴的霍奇数进行配对。由此，高非平凡的枚举几何计算——尤其是通过陈-郑不变量在A模型辛侧对有理全纯曲线进行计数——被转换为B模型复侧的可解经典复霍奇结构变化与周期积分。受 Kontsevich 提出的同调镜像对称猜想范畴性支配，这种同构直接将某一流形上相位层的导出范畴等同于其镜像流形上拉格朗日子流形的福卡亚范畴。",
+        "verdict": {
+          "id": "syn_09",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "镜像对称建立了拓扑结构上不同的紧致Calabi-Yau三维流形之间的非平凡对偶性，将其复结构形变与辛Kähler模空间进行交换。该对偶性起源于弦论紧化研究，通过在中心霍奇菱形结构中显式转置，将Calabi-Yau流形的霍奇数与其镜像伙伴的霍奇数进行配对。由此，高非平凡的枚举几何计算——尤其是通过陈-郑不变量在A模型辛侧对有理全纯曲线进行计数——被转换为B模型复侧的可解经典复霍奇结构变化与周期积分。受 Kontsevich 提出的同调镜像对称猜想范畴性支配，这种同构直接将某一流形上相位层的导出范畴等同于其镜像流形上拉格朗日子流形的福卡亚范畴。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "镜像对称在拓扑上互异的紧致三维卡拉比-丘流形对之间建立了非平凡的对偶，使其复结构形变与辛凯勒模空间相互交换。这一对偶起源于弦论紧化，它通过横跨中心霍奇菱形的显式转置，将卡拉比-丘流形的霍奇数与其镜像伙伴的霍奇数配对。因此，高度非平凡的枚举几何计算（具体而言，即在A模型辛一侧通过格罗莫夫-威滕不变量对有理全纯曲线进行计数）被转化为相应B模型复一侧可处理的复霍奇结构经典变分与周期积分。在孔采维奇同调镜像对称猜想的范畴层面支配下，这一等价性将一个流形上凝聚层的导出范畴直接等同于其镜像对应流形上拉格朗日子流形的深谷范畴。",
+        "verdict": {
+          "id": "syn_09",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "镜像对称在拓扑上互异的紧致三维卡拉比-丘流形对之间建立了非平凡的对偶，使其复结构形变与辛凯勒模空间相互交换。这一对偶起源于弦论紧化，它通过横跨中心霍奇菱形的显式转置，将卡拉比-丘流形的霍奇数与其镜像伙伴的霍奇数配对。因此，高度非平凡的枚举几何计算（具体而言，即在A模型辛一侧通过格罗莫夫-威滕不变量对有理全纯曲线进行计数）被转化为相应B模型复一侧可处理的复霍奇结构经典变分与周期积分。在孔采维奇同调镜像对称猜想的范畴层面支配下，这一等价性将一个流形上凝聚层的导出范畴直接等同于其镜像对应流形上拉格朗日子流形的深谷范畴。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_10",
+    "source_type": "synthetic",
+    "domain": "math_physics",
+    "topic": "Quasi-Triangular Hopf Algebras and the Universal R-Matrix",
+    "english": "A quasi-triangular Hopf algebra generalizes standard group symmetries into a non-cocommutative algebraic framework governed by an invertible element within the tensor square known as the universal R-matrix. This algebraic structure intertwines the coproduct with its opposite permutation, ensuring that the tensor product of algebra representations remains naturally isomorphic under transposition. Crucially, the universal R-matrix satisfies the quantum Yang-Baxter equation, providing a systematic algebraic engine for constructing representations of the Artin braid group and quantum link invariants. By deforming the universal enveloping algebra of a complex semi-simple Lie algebra over a formal power series ring, Drinfel'd and Jimbo realized quantum groups whose representation categories exhibit braided monoidal structures. These quantum deformations rigorously preserve the underlying representation dimensions while replacing classical commutative matrix commutators with non-commutative braided commutation relations.",
+    "chinese": "拟三角霍普夫代数将标准的群对称性推广为非余交换的代数框架，该框架由张量平方中称为泛R矩阵的可逆元所支配。这一代数结构使余乘与其反置换相交缠，从而保证代数表示的张量积在换位下保持自然同构。关键在于，泛R矩阵满足量子杨-巴克斯特方程，为构造阿廷辫群的表示与量子链环不变量提供了系统的代数机制。通过在形式幂级数环上形变复半单李代数的泛包络代数，德林费尔德与神保实现了量子群，其表示范畴呈现辫幺半结构。这些量子形变严格地保持底层表示的维数，同时以非交换的辫对易关系取代经典的交换矩阵对易子。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "准三角Hopf代数将标准群对称性推广为由张量平方内称为普遍R矩阵的可逆元控制的非对余交换代数框架。该代数结构使余积与其相反置换相互交织，确保代数表示的张量积在转置下自然同构。关键地，普遍R矩阵满足量子Yang-Baxter方程，为构建Artin辫群表示及量子链环不变量提供体系化的代数引擎。通过在形式幂级数环上对复半单李代数的普遍包络代数进行变形，Drinfel'd和Jimbo实现了量子群，其表示范畴展现出编辫单子结构。这些量子变形成体系化保留了底层表示维数，同时以非交换的编辫乘积关系替代经典矩阵的交换子运算。",
+        "verdict": {
+          "id": "syn_10",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "准三角Hopf代数将标准群对称性推广为由张量平方内称为普遍R矩阵的可逆元控制的非对余交换代数框架。该代数结构使余积与其相反置换相互交织，确保代数表示的张量积在转置下自然同构。关键地，普遍R矩阵满足量子Yang-Baxter方程，为构建Artin辫群表示及量子链环不变量提供体系化的代数引擎。通过在形式幂级数环上对复半单李代数的普遍包络代数进行变形，Drinfel'd和Jimbo实现了量子群，其表示范畴展现出编辫单子结构。这些量子变形成体系化保留了底层表示维数，同时以非交换的编辫乘积关系替代经典矩阵的交换子运算。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "拟三角霍普夫代数将标准的群对称性推广为非余交换的代数框架，该框架由张量平方中称为泛R矩阵的可逆元所支配。这一代数结构使余乘与其反置换相交缠，从而保证代数表示的张量积在换位下保持自然同构。关键在于，泛R矩阵满足量子杨-巴克斯特方程，为构造阿廷辫群的表示与量子链环不变量提供了系统的代数机制。通过在形式幂级数环上形变复半单李代数的泛包络代数，德林费尔德与神保实现了量子群，其表示范畴呈现辫幺半结构。这些量子形变严格地保持底层表示的维数，同时以非交换的辫对易关系取代经典的交换矩阵对易子。",
+        "verdict": {
+          "id": "syn_10",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "拟三角霍普夫代数将标准的群对称性推广为非余交换的代数框架，该框架由张量平方中称为泛R矩阵的可逆元所支配。这一代数结构使余乘与其反置换相交缠，从而保证代数表示的张量积在换位下保持自然同构。关键在于，泛R矩阵满足量子杨-巴克斯特方程，为构造阿廷辫群的表示与量子链环不变量提供了系统的代数机制。通过在形式幂级数环上形变复半单李代数的泛包络代数，德林费尔德与神保实现了量子群，其表示范畴呈现辫幺半结构。这些量子形变严格地保持底层表示的维数，同时以非交换的辫对易关系取代经典的交换矩阵对易子。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_11",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Modal Realism and Indexical Actuality",
+    "english": "David Lewis's modal realism resolves the truth conditions of quantified modal logic by postulating that possible worlds exist concretely as spatiotemporally and causally isolated universes of the same ontological kind as our own. Within this robust pluriverse, counterpart theory displaces trans-world identity, asserting that individuals are strictly world-bound and possess counterparts in alternate realities linked via relations of qualitative similarity rather than absolute numerical identity. Actuality is demoted from a privileged metaphysical status to an indexical designator analogous to the token-reflexive terms 'here' or 'now', thereby denoting merely the particular universe occupied by the speaker. Consequently, necessity is analyzed non-primitively as truth across all maximal mereological sums of spatiotemporally unified entities, dissolving de re modal obscurities into extensional quantification over concrete spatial totalities.",
+    "chinese": "戴维·刘易斯的模态实在论通过设定可能世界作为在时空与因果上相互隔绝、且与我们的世界属于同一本体论类型的宇宙而具体存在，解决了量化模态逻辑的真值条件。在这一稳固的多元宇宙之中，对应体理论取代了跨世界同一性，主张个体严格地受限于特定世界，并在其他现实中拥有对应体，二者通过定性相似关系而非绝对的数值同一性相联系。现实性从特权形而上学地位降格为一个索引性指称词，类似于标记自指词“此处”或“此刻”，因而仅指称说话者所处的特定宇宙。因此，必然性被非原初地分析为：在由时空上统一的实体所构成的所有极大部分论和之中皆为真，从而将物模态的晦涩性消解为对具体时空整体的外延量化。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "戴维·刘易斯的模态实在论通过假设可能世界以实体形式存在为时空与因果上孤立的宇宙体，且其本体论性质与我们世界的同类型构造物相同，从而解决了量化模态逻辑的真值条件。在这统一的多元宇宙结构中，同类体理论取代了跨世界同一性，主张个体严格限于特定世界，通过定性相似性关系而非绝对数值同一性，在替代现实中联结其对应体。现实性由此从特权形而上学地位降格为类指示词，其指涉仅限于言说者所占据的特定宇宙，这一功能类比于标记位置或时间的印记式语词如'此处'或'当下'。因此，必然性被分析为非本原性的命题，即在所有构成时空统一实体的最大集合论意义上为真，进而将de re模态含糊性溶解为关于实体空间整体性的外延量化。",
+        "verdict": {
+          "id": "syn_11",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "戴维·刘易斯的模态实在论通过假设可能世界以实体形式存在为时空与因果上孤立的宇宙体，且其本体论性质与我们世界的同类型构造物相同，从而解决了量化模态逻辑的真值条件。在这统一的多元宇宙结构中，同类体理论取代了跨世界同一性，主张个体严格限于特定世界，通过定性相似性关系而非绝对数值同一性，在替代现实中联结其对应体。现实性由此从特权形而上学地位降格为类指示词，其指涉仅限于言说者所占据的特定宇宙，这一功能类比于标记位置或时间的印记式语词如'此处'或'当下'。因此，必然性被分析为非本原性的命题，即在所有构成时空统一实体的最大集合论意义上为真，进而将de re模态含糊性溶解为关于实体空间整体性的外延量化。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "戴维·刘易斯的模态实在论通过设定可能世界作为在时空与因果上相互隔绝、且与我们的世界属于同一本体论类型的宇宙而具体存在，解决了量化模态逻辑的真值条件。在这一稳固的多元宇宙之中，对应体理论取代了跨世界同一性，主张个体严格地受限于特定世界，并在其他现实中拥有对应体，二者通过定性相似关系而非绝对的数值同一性相联系。现实性从特权形而上学地位降格为一个索引性指称词，类似于标记自指词“此处”或“此刻”，因而仅指称说话者所处的特定宇宙。因此，必然性被非原初地分析为：在由时空上统一的实体所构成的所有极大部分论和之中皆为真，从而将物模态的晦涩性消解为对具体时空整体的外延量化。",
+        "verdict": {
+          "id": "syn_11",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "戴维·刘易斯的模态实在论通过设定可能世界作为在时空与因果上相互隔绝、且与我们的世界属于同一本体论类型的宇宙而具体存在，解决了量化模态逻辑的真值条件。在这一稳固的多元宇宙之中，对应体理论取代了跨世界同一性，主张个体严格地受限于特定世界，并在其他现实中拥有对应体，二者通过定性相似关系而非绝对的数值同一性相联系。现实性从特权形而上学地位降格为一个索引性指称词，类似于标记自指词“此处”或“此刻”，因而仅指称说话者所处的特定宇宙。因此，必然性被非原初地分析为：在由时空上统一的实体所构成的所有极大部分论和之中皆为真，从而将物模态的晦涩性消解为对具体时空整体的外延量化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_12",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Transcendental Phenomenology and the Epoché",
+    "english": "Husserlian transcendental phenomenology operates through the methodological suspension of the natural attitude, a radical shift executed via the phenomenological epoché. By parenthesizing all uncritical metaphysical assumptions regarding the mind-independent existence of external entities, consciousness ceases to be treated as a causal participant within empirical nature. Instead, attention is redirected toward the immanent structures of intentionality, where every conscious act correlates inherently with an intended objective pole. Through the subsequent transcendental-eidetic reduction, the phenomenologist isolates invariant noetic syntheses—the mental operations that actively bestow sense—and their corresponding noematic meanings. Reality is thus methodically interrogated not as an unexamined transcendent given, but as a continuous, structured accomplishment constituted entirely within the foundational horizons of pure transcendental subjectivity.",
+    "chinese": "胡塞尔的先验现象学通过对自然态度的方法论悬搁而运作，这一根本性转变是借助现象学悬搁而完成的。通过将关于外部实体独立于心灵而存在的一切未经批判的形而上学预设加括号悬置，意识不再被视为经验自然中的因果参与者。相反，注意力被重新导向意向性的内在结构，其中每一个意识行为都内在地与一个被意向的对象极相关联。经由随后的先验-本质还原，现象学家分离出不变的意向活动综合（即主动赋予意义的心理操作）及其相应的意向相关项意义。因此，实在不再被视为未经检验的超越性给予，而是被有条不紊地追问为一种持续的、结构化的成就，它完全在纯粹先验主体性的奠基性视域之内被构造。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "胡塞尔的纯粹现象学通过对自然态度的方法论悬置实施根本性转换，这一悬置通过现象学括号完成。通过将关于外部实体独立于心灵存在的所有非批判性形上学预设置于括号内，意识不再被视作经验自然中的因果参与者。注意力转而集中于意向性的内在结构，其中每项意识活动必然内具一个意向客观极。经由后续的超越本质还原，现象学家筛选出不变的思维综合——这一主动赋予意义的心智操作——及其对应意向意义。现实由此被系统质疑，其不再作为未经反省的超越性给定，而是作为纯粹超越主体性根基视野中的连续结构化进程。",
+        "verdict": {
+          "id": "syn_12",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "胡塞尔的纯粹现象学通过对自然态度的方法论悬置实施根本性转换，这一悬置通过现象学括号完成。通过将关于外部实体独立于心灵存在的所有非批判性形上学预设置于括号内，意识不再被视作经验自然中的因果参与者。注意力转而集中于意向性的内在结构，其中每项意识活动必然内具一个意向客观极。经由后续的超越本质还原，现象学家筛选出不变的思维综合——这一主动赋予意义的心智操作——及其对应意向意义。现实由此被系统质疑，其不再作为未经反省的超越性给定，而是作为纯粹超越主体性根基视野中的连续结构化进程。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "胡塞尔的先验现象学通过对自然态度的方法论悬搁而运作，这一根本性转变是借助现象学悬搁而完成的。通过将关于外部实体独立于心灵而存在的一切未经批判的形而上学预设加括号悬置，意识不再被视为经验自然中的因果参与者。相反，注意力被重新导向意向性的内在结构，其中每一个意识行为都内在地与一个被意向的对象极相关联。经由随后的先验-本质还原，现象学家分离出不变的意向活动综合（即主动赋予意义的心理操作）及其相应的意向相关项意义。因此，实在不再被视为未经检验的超越性给予，而是被有条不紊地追问为一种持续的、结构化的成就，它完全在纯粹先验主体性的奠基性视域之内被构造。",
+        "verdict": {
+          "id": "syn_12",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "胡塞尔的先验现象学通过对自然态度的方法论悬搁而运作，这一根本性转变是借助现象学悬搁而完成的。通过将关于外部实体独立于心灵而存在的一切未经批判的形而上学预设加括号悬置，意识不再被视为经验自然中的因果参与者。相反，注意力被重新导向意向性的内在结构，其中每一个意识行为都内在地与一个被意向的对象极相关联。经由随后的先验-本质还原，现象学家分离出不变的意向活动综合（即主动赋予意义的心理操作）及其相应的意向相关项意义。因此，实在不再被视为未经检验的超越性给予，而是被有条不紊地追问为一种持续的、结构化的成就，它完全在纯粹先验主体性的奠基性视域之内被构造。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_13",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Hermeneutic Circularity and the Fusion of Horizons",
+    "english": "Hans-Georg Gadamer’s philosophical hermeneutics establishes interpretation not as an objective, detached methodological procedure, but as an ontological event grounded in historical situatedness. Within this framework, the hermeneutic circle signifies that understanding the parts of a text requires comprehending the whole, while the whole is simultaneously disclosed only through its constitutive constituents. Rather than invalidating subjective interpretation through vicious circularity, pre-understandings and culturally inherited prejudices constitute the necessary ontological conditions enabling any interpretive encounter. Meaning emerges dialogically through the fusion of horizons, wherein the historical horizon of the interpreter interacts dialectically with the historical horizon of the text. Genuine hermeneutical comprehension therefore does not reconstruct the original authorial intent, but generates an emergent, context-dependent insight through active historical participation.",
+    "chinese": "汉斯-格奥尔格·伽达默尔的哲学诠释学确立：诠释并非一种客观的、超然的方法论程序，而是植根于历史处境性的存在论事件。在这一框架中，诠释学循环意味着，理解文本的部分需要领会整体，而整体同时只有通过其构成部分才得以揭示。前理解与文化上承袭的前见并不因恶性循环而使主观诠释失效，反而构成使任何诠释性相遇得以可能的必要存在论条件。意义通过视域融合以对话方式涌现，其中诠释者的历史视域与文本的历史视域辩证地相互作用。因此，真正的诠释学理解并不重构作者的原初意图，而是通过积极的历史参与，生成一种涌现的、依赖语境的洞见。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "汉斯-格奥尔格·加达默的哲学解释学确立了解释并非一种客观的、超然的方法论程序，而是基于历史境遇性的存在论事件。在这一框架中，解释学循环表明理解文本的各部分需要把握整体，同时整体唯有通过构成性要素才得以显现。此循环并非通过恶性循环否定主观解释的合理性，而是预设理解和文化遗传的偏见构成了任何解释活动的必要存在论前提。意义通过视域融合的对话性互动而产生，解释者的历史视域与文本的历史视域在此辩证地相互作用。因此，真正的解释学理解不在于重构作者的原始意图，而是通过积极的历史参与，生成一种情境依赖的、突现性的洞察。",
+        "verdict": {
+          "id": "syn_13",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "汉斯-格奥尔格·加达默的哲学解释学确立了解释并非一种客观的、超然的方法论程序，而是基于历史境遇性的存在论事件。在这一框架中，解释学循环表明理解文本的各部分需要把握整体，同时整体唯有通过构成性要素才得以显现。此循环并非通过恶性循环否定主观解释的合理性，而是预设理解和文化遗传的偏见构成了任何解释活动的必要存在论前提。意义通过视域融合的对话性互动而产生，解释者的历史视域与文本的历史视域在此辩证地相互作用。因此，真正的解释学理解不在于重构作者的原始意图，而是通过积极的历史参与，生成一种情境依赖的、突现性的洞察。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "汉斯-格奥尔格·伽达默尔的哲学诠释学确立：诠释并非一种客观的、超然的方法论程序，而是植根于历史处境性的存在论事件。在这一框架中，诠释学循环意味着，理解文本的部分需要领会整体，而整体同时只有通过其构成部分才得以揭示。前理解与文化上承袭的前见并不因恶性循环而使主观诠释失效，反而构成使任何诠释性相遇得以可能的必要存在论条件。意义通过视域融合以对话方式涌现，其中诠释者的历史视域与文本的历史视域辩证地相互作用。因此，真正的诠释学理解并不重构作者的原初意图，而是通过积极的历史参与，生成一种涌现的、依赖语境的洞见。",
+        "verdict": {
+          "id": "syn_13",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "汉斯-格奥尔格·伽达默尔的哲学诠释学确立：诠释并非一种客观的、超然的方法论程序，而是植根于历史处境性的存在论事件。在这一框架中，诠释学循环意味着，理解文本的部分需要领会整体，而整体同时只有通过其构成部分才得以揭示。前理解与文化上承袭的前见并不因恶性循环而使主观诠释失效，反而构成使任何诠释性相遇得以可能的必要存在论条件。意义通过视域融合以对话方式涌现，其中诠释者的历史视域与文本的历史视域辩证地相互作用。因此，真正的诠释学理解并不重构作者的原初意图，而是通过积极的历史参与，生成一种涌现的、依赖语境的洞见。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_14",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Agent-Relative Constraints in Deontological Ethics",
+    "english": "Deontological moral philosophy asserts that the ethical permissibility of an action is governed by intrinsic normative constraints rather than by the maximization of overall teleological outcomes. Central to this architecture is the formulation of agent-relative obligations, which forbid moral actors from committing intrinsically wrongful acts, such as intentional betrayal or the violation of bodily autonomy, even when committing such acts would demonstrably minimize equivalent violations perpetrated by others. This deontic constraint is philosophically grounded in the Kantian imperative to treat rational agents as ends in themselves rather than mere aggregative instruments for utilitarian optimization. Consequently, deontology establishes non-negotiable side-constraints on practical deliberation, maintaining that moral duties possess structural priority over goodness and that rights cannot be overridden by consequentialist calculations.",
+    "chinese": "义务论道德哲学主张，行为在伦理上的可允许性由内在的规范性约束所支配，而非由整体目的论结果的最大化所支配。这一架构的核心是行动者相关义务的表述，此类义务禁止道德行动者实施内在不当的行为，例如蓄意背叛或侵犯身体自主，即便实施这类行为可被证明会使他人所实施的同类侵害最小化。这一道义约束在哲学上植根于康德的命令：应将理性行动者视为目的本身，而非功利主义最优化的单纯加总工具。因此，义务论为实践审议确立了不可协商的旁侧约束，主张道德义务在结构上优先于善，且权利不得被后果主义计算所凌驾。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "规范伦理学主张行为的道德可允许性由内在规范性限制而非整体结果主义最大化所决定。其核心在于确立与行为主体相关的义务，这些义务禁止道德行动者实施具有内在错误性的行为（如故意背叛或侵扰身体自主权），即使此类行为可证明降低其他同等性质违规行为的合理性。此规范限制以康德将理性主体视为自在目的而非功利最大化工具的绝对命令为哲学基础。因此，规范伦理学在实践权衡中确立不可协商的侧向限制，主张道德义务在结构性层面优先于善，并且权利不得被结果主义计算所压倒。",
+        "verdict": {
+          "id": "syn_14",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "规范伦理学主张行为的道德可允许性由内在规范性限制而非整体结果主义最大化所决定。其核心在于确立与行为主体相关的义务，这些义务禁止道德行动者实施具有内在错误性的行为（如故意背叛或侵扰身体自主权），即使此类行为可证明降低其他同等性质违规行为的合理性。此规范限制以康德将理性主体视为自在目的而非功利最大化工具的绝对命令为哲学基础。因此，规范伦理学在实践权衡中确立不可协商的侧向限制，主张道德义务在结构性层面优先于善，并且权利不得被结果主义计算所压倒。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "义务论道德哲学主张，行为在伦理上的可允许性由内在的规范性约束所支配，而非由整体目的论结果的最大化所支配。这一架构的核心是行动者相关义务的表述，此类义务禁止道德行动者实施内在不当的行为，例如蓄意背叛或侵犯身体自主，即便实施这类行为可被证明会使他人所实施的同类侵害最小化。这一道义约束在哲学上植根于康德的命令：应将理性行动者视为目的本身，而非功利主义最优化的单纯加总工具。因此，义务论为实践审议确立了不可协商的旁侧约束，主张道德义务在结构上优先于善，且权利不得被后果主义计算所凌驾。",
+        "verdict": {
+          "id": "syn_14",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "义务论道德哲学主张，行为在伦理上的可允许性由内在的规范性约束所支配，而非由整体目的论结果的最大化所支配。这一架构的核心是行动者相关义务的表述，此类义务禁止道德行动者实施内在不当的行为，例如蓄意背叛或侵犯身体自主，即便实施这类行为可被证明会使他人所实施的同类侵害最小化。这一道义约束在哲学上植根于康德的命令：应将理性行动者视为目的本身，而非功利主义最优化的单纯加总工具。因此，义务论为实践审议确立了不可协商的旁侧约束，主张道德义务在结构上优先于善，且权利不得被后果主义计算所凌驾。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_15",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Epistemic Solipsism and the Problem of Other Minds",
+    "english": "Epistemic solipsism constitutes the radical skeptical thesis that an individual cognizer can possess justified knowledge only concerning the immediate contents of their own conscious experience, rendering all propositions regarding an external world or other conscious minds intrinsically underdetermined. Grounded in the asymmetric first-person epistemic access to subjective phenomenal states, solipsism highlights the failure of analogical induction to bridge the explanatory chasm between observable third-person behavioral manifestations and unobservable internal qualia. Because any sensory verification of alterity relies circularity-bound upon the very subjective perceptual faculties under scrutiny, external reality cannot be non-deductively demonstrated from within immediate apperception. Consequently, solipsism exposes the severe methodological limitations of foundationalist epistemology, forcing epistemologists to abandon pure Cartesian deductivism in favor of externalist or transcendental justifications.",
+    "chinese": "认识论唯我论构成一种激进的怀疑论论题：个体认知者仅能拥有关于自身意识经验的直接内容的得到证成的知识，从而使一切关于外部世界或其他有意识心灵的命题在本质上处于欠决定状态。基于对主观现象状态的非对称的第一人称认识通达，唯我论凸显了类比归纳无法弥合可观察的第三人称行为表现与不可观察的内在感受质之间的解释鸿沟。由于任何对他异性的感觉验证都循环地依赖于正受审视的主观知觉能力，外部实在无法从直接统觉之内被非演绎地证明。因此，唯我论暴露了基础主义认识论严重的方法论局限，迫使认识论者放弃纯粹的笛卡尔式演绎主义，转而诉诸外在主义或先验的证成。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "认识论的唯我论构成了激进怀疑主义主张，即个体认识者只能拥有关于自身意识经验直接内容的正当知识，从而使得涉及外部世界或其他意识心灵的所有命题在本质上未被决定。基于主观现象状态的非对称第一人称认识论访问，唯我论凸显了类比归纳法无法弥合可观察的第三人称行为表现与不可观察的内部质态之间的解释鸿沟。由于任何他物存在的感官验证都循环地依赖于正被审视的主观感知能力，外部实在无法通过非演绎方式从即时的知觉中被证明。因此，唯我论暴露出基础主义认识论的严重方法论局限，迫使认识论者放弃纯粹的笛卡尔式演绎主义，转而采取外部主义或先验的正当性证明。",
+        "verdict": {
+          "id": "syn_15",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "认识论的唯我论构成了激进怀疑主义主张，即个体认识者只能拥有关于自身意识经验直接内容的正当知识，从而使得涉及外部世界或其他意识心灵的所有命题在本质上未被决定。基于主观现象状态的非对称第一人称认识论访问，唯我论凸显了类比归纳法无法弥合可观察的第三人称行为表现与不可观察的内部质态之间的解释鸿沟。由于任何他物存在的感官验证都循环地依赖于正被审视的主观感知能力，外部实在无法通过非演绎方式从即时的知觉中被证明。因此，唯我论暴露出基础主义认识论的严重方法论局限，迫使认识论者放弃纯粹的笛卡尔式演绎主义，转而采取外部主义或先验的正当性证明。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "认识论唯我论构成一种激进的怀疑论论题：个体认知者仅能拥有关于自身意识经验的直接内容的得到证成的知识，从而使一切关于外部世界或其他有意识心灵的命题在本质上处于欠决定状态。基于对主观现象状态的非对称的第一人称认识通达，唯我论凸显了类比归纳无法弥合可观察的第三人称行为表现与不可观察的内在感受质之间的解释鸿沟。由于任何对他异性的感觉验证都循环地依赖于正受审视的主观知觉能力，外部实在无法从直接统觉之内被非演绎地证明。因此，唯我论暴露了基础主义认识论严重的方法论局限，迫使认识论者放弃纯粹的笛卡尔式演绎主义，转而诉诸外在主义或先验的证成。",
+        "verdict": {
+          "id": "syn_15",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "认识论唯我论构成一种激进的怀疑论论题：个体认知者仅能拥有关于自身意识经验的直接内容的得到证成的知识，从而使一切关于外部世界或其他有意识心灵的命题在本质上处于欠决定状态。基于对主观现象状态的非对称的第一人称认识通达，唯我论凸显了类比归纳无法弥合可观察的第三人称行为表现与不可观察的内在感受质之间的解释鸿沟。由于任何对他异性的感觉验证都循环地依赖于正受审视的主观知觉能力，外部实在无法从直接统觉之内被非演绎地证明。因此，唯我论暴露了基础主义认识论严重的方法论局限，迫使认识论者放弃纯粹的笛卡尔式演绎主义，转而诉诸外在主义或先验的证成。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_16",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Ontic Structural Realism and Relational Ontology",
+    "english": "Ontic structural realism addresses the pessimistic meta-induction and underdetermination in the philosophy of science by asserting that relational structures, rather than self-subsistent metaphysical objects, constitute the fundamental fabric of physical reality. Rejecting classical substantialist ontology, this position maintains that elementary entities such as subatomic particles do not possess intrinsic, non-relational essences or primitive thisness, but are instead entirely individuated by the mathematical relations and group-theoretic symmetries defined by fundamental physical theories. When scientific paradigms undergo radical conceptual revolutions, underlying mathematical structural continuity persists despite the total abandonment of ontology positing localized particulate substances. Relational ontology thus resolves the apparent ontological discontinuities across historical scientific transitions, reconceptualizing physical metaphysics around invariant mathematical regularities rather than atomistic substances.",
+    "chinese": "本体论结构实在论通过断言构成物理实在之根本结构的是关系结构，而非自存的形而上学对象，来应对科学哲学中的悲观元归纳与欠决定问题。该立场拒斥经典的实体主义本体论，主张诸如亚原子粒子之类的基本实体并不具有内在的、非关系的本质或原初的此性，而是完全由基本物理理论所界定的数学关系与群论对称性所个体化。当科学范式经历激进的概念革命时，尽管设定局域化微粒实体的本体论被彻底抛弃，底层的数学结构连续性依然存续。因此，关系本体论化解了历史上科学转变之间表面的本体论不连续性，将物理形而上学围绕不变的数学规律性而非原子论式实体重新构想。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "本体结构实在论通过断言关系结构而非自我存在的形而上实体构成了物理现实的基本结构，来应对科学哲学中的悲观元归纳与未被决定性问题。拒绝经典实体主义本体论，该立场认为基本实体如同微观粒子并不拥有内在的、非关系的本性或原始的这个性，而是完全由基本物理理论定义的数理关系与群对称性所个别化。当科学范式经历激进的概念革命时，底层的数理结构连续性保持不变，尽管关于局域粒子性实体的本体论被完全抛弃。关系本体论因此解决了在历史科学变革中明显存在的本体论不连续性，将物理形而上学重建于不变的数学规律性上，而非原子论实体上。",
+        "verdict": {
+          "id": "syn_16",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "本体结构实在论通过断言关系结构而非自我存在的形而上实体构成了物理现实的基本结构，来应对科学哲学中的悲观元归纳与未被决定性问题。拒绝经典实体主义本体论，该立场认为基本实体如同微观粒子并不拥有内在的、非关系的本性或原始的这个性，而是完全由基本物理理论定义的数理关系与群对称性所个别化。当科学范式经历激进的概念革命时，底层的数理结构连续性保持不变，尽管关于局域粒子性实体的本体论被完全抛弃。关系本体论因此解决了在历史科学变革中明显存在的本体论不连续性，将物理形而上学重建于不变的数学规律性上，而非原子论实体上。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "本体论结构实在论通过断言构成物理实在之根本结构的是关系结构，而非自存的形而上学对象，来应对科学哲学中的悲观元归纳与欠决定问题。该立场拒斥经典的实体主义本体论，主张诸如亚原子粒子之类的基本实体并不具有内在的、非关系的本质或原初的此性，而是完全由基本物理理论所界定的数学关系与群论对称性所个体化。当科学范式经历激进的概念革命时，尽管设定局域化微粒实体的本体论被彻底抛弃，底层的数学结构连续性依然存续。因此，关系本体论化解了历史上科学转变之间表面的本体论不连续性，将物理形而上学围绕不变的数学规律性而非原子论式实体重新构想。",
+        "verdict": {
+          "id": "syn_16",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "本体论结构实在论通过断言构成物理实在之根本结构的是关系结构，而非自存的形而上学对象，来应对科学哲学中的悲观元归纳与欠决定问题。该立场拒斥经典的实体主义本体论，主张诸如亚原子粒子之类的基本实体并不具有内在的、非关系的本质或原初的此性，而是完全由基本物理理论所界定的数学关系与群论对称性所个体化。当科学范式经历激进的概念革命时，尽管设定局域化微粒实体的本体论被彻底抛弃，底层的数学结构连续性依然存续。因此，关系本体论化解了历史上科学转变之间表面的本体论不连续性，将物理形而上学围绕不变的数学规律性而非原子论式实体重新构想。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_17",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Quinean Holism and Epistemological Naturalization",
+    "english": "Willard Van Orman Quine’s naturalized epistemology dissolves the classical Cartesian search for foundational certainty by treating epistemic inquiry as an empirical investigation within cognitive psychology and evolutionary biology. Central to this transition is confirmational holism, which rejects the reductionist dogma that theoretical sentences confront tribunals of sensory experience in atomic isolation. Instead, human knowledge constitutes a continuous, interconnected web of belief where recalcitrant empirical observations generate tensions that can be resolved by redistributing truth-values across the entire cognitive system. Because no absolute qualitative boundary separates synthetic empirical statements from supposedly analytic logical truths, even the laws of formal logic remain pragmatically revisable in principle, firmly establishing that epistemology cannot precede or ground natural science, but must operate wholly within it.",
+    "chinese": "威拉德·范·奥曼·奎因的自然化认识论，通过将认识论探究视为认知心理学与进化生物学之内的一种经验研究，消解了经典笛卡尔式对根基性确定性的追寻。这一转变的核心是确证整体论，它拒斥还原论教条，即理论语句以原子式的孤立方式面对感觉经验的法庭。相反，人类知识构成一张连续的、相互关联的信念之网，其中顽固的经验观察产生张力，这些张力可通过在整个认知系统内重新分配真值而得到化解。由于综合的经验陈述与所谓分析的逻辑真理之间并不存在绝对的质的界限，即便形式逻辑的法则原则上也仍可在实用意义上被修正，由此坚实地确立：认识论不能先于自然科学或为之奠基，而必须完全在自然科学之内运作。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "瓦尔特·范·奥曼·奎因的自然化认识论通过将认识论探究视为认知心理学与进化生物学体系内的一种经验性研究，消解了经典的笛卡尔式对根基确定性的追求。此转变的核心在于验证整体主义，其否定了还原主义教条，即理论命题以原子化的孤立方式经受感官经验法庭的审判。相反，人类知识构成一个持续且相互关联的信念网络，顽固的经验观察带来张力，可通过在全认知系统内重新分配真值予以化解。由于合成经验陈述与所谓分析逻辑真理之间不存在绝对量化的界限，形式逻辑法则在原则上仍具有实用层面的修订可能性，从而严格确立了认识论无法先于或奠基自然科学，而必须完全内在于其中。",
+        "verdict": {
+          "id": "syn_17",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "瓦尔特·范·奥曼·奎因的自然化认识论通过将认识论探究视为认知心理学与进化生物学体系内的一种经验性研究，消解了经典的笛卡尔式对根基确定性的追求。此转变的核心在于验证整体主义，其否定了还原主义教条，即理论命题以原子化的孤立方式经受感官经验法庭的审判。相反，人类知识构成一个持续且相互关联的信念网络，顽固的经验观察带来张力，可通过在全认知系统内重新分配真值予以化解。由于合成经验陈述与所谓分析逻辑真理之间不存在绝对量化的界限，形式逻辑法则在原则上仍具有实用层面的修订可能性，从而严格确立了认识论无法先于或奠基自然科学，而必须完全内在于其中。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "威拉德·范·奥曼·奎因的自然化认识论，通过将认识论探究视为认知心理学与进化生物学之内的一种经验研究，消解了经典笛卡尔式对根基性确定性的追寻。这一转变的核心是确证整体论，它拒斥还原论教条，即理论语句以原子式的孤立方式面对感觉经验的法庭。相反，人类知识构成一张连续的、相互关联的信念之网，其中顽固的经验观察产生张力，这些张力可通过在整个认知系统内重新分配真值而得到化解。由于综合的经验陈述与所谓分析的逻辑真理之间并不存在绝对的质的界限，即便形式逻辑的法则原则上也仍可在实用意义上被修正，由此坚实地确立：认识论不能先于自然科学或为之奠基，而必须完全在自然科学之内运作。",
+        "verdict": {
+          "id": "syn_17",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "威拉德·范·奥曼·奎因的自然化认识论，通过将认识论探究视为认知心理学与进化生物学之内的一种经验研究，消解了经典笛卡尔式对根基性确定性的追寻。这一转变的核心是确证整体论，它拒斥还原论教条，即理论语句以原子式的孤立方式面对感觉经验的法庭。相反，人类知识构成一张连续的、相互关联的信念之网，其中顽固的经验观察产生张力，这些张力可通过在整个认知系统内重新分配真值而得到化解。由于综合的经验陈述与所谓分析的逻辑真理之间并不存在绝对的质的界限，即便形式逻辑的法则原则上也仍可在实用意义上被修正，由此坚实地确立：认识论不能先于自然科学或为之奠基，而必须完全在自然科学之内运作。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_18",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Heideggerian Fundamental Ontology and Being-in-the-World",
+    "english": "Martin Heidegger’s fundamental ontology dismantles the Cartesian subject-object dichotomy by demonstrating that human existence, designated as Dasein, is primarily situated as being-in-the-world. Rather than operating initially as detached cognitive observers contemplating present-at-hand entities through intellectualized representations, humans encounter entities first through unreflective, practical involvement wherein equipment is disclosed as ready-to-hand within a pre-theoretical relational context. Dasein’s fundamental ontological constitution is care, grounded in existential temporality and contextual thrownness, wherein one always already finds oneself embedded within inherited social practices and historical discourses. Theoretical contemplation only arises derivatively when ready-to-hand tools break down or malfunction, revealing that objective epistemological categorization is an abstracted secondary phenomenon dependent upon an antecedent, primordial existential engagement with meaningful worldly contexts.",
+    "chinese": "马丁·海德格尔的基础存在论通过论证以下观点而瓦解了笛卡尔式的主客二分：被称为此在的人类生存首先被置于在世存在之中。人类起初并非作为超然的认知观察者，通过理智化的表象去静观现成在手的存在者，而是首先通过非反思的、实践性的牵涉来遭遇存在者，其中用具在前理论的关系情境内作为上手之物被揭示。此在的根本存在论构成是操心，它奠基于生存论时间性与情境性被抛状态，在其中人总是已经发现自身嵌入于承袭而来的社会实践与历史话语之中。理论性静观仅在上手的工具损坏或失灵时才派生地出现，这揭示出：客观的认识论范畴化是一种抽象的次级现象，它依赖于先行的、源始的、与有意义的世界性情境的生存性交涉。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "马丁·海德格尔的基础本体论通过论证人类存在（即此在）首先以在世存在为核心处境，颠覆了笛卡尔的主客二分法。人类并非首先作为独立的认知观察者，通过概念化表象审视在场客体，而是首先以非反思性的实践性卷入遭遇存在，在前理论的关联语境中工具以应手状态被揭示。此在的根本存在论结构是牵挂，建立在存在论时间性与先验处境性的基础之上，个体始终先天地嵌入传承的实践体系与历史性话语之中。只有当应手性工具出现故障或失灵时，理论性沉思才会衍生式地产生，这昭示客观认识论分类本质上是依赖于原初生存性关涉的次要抽象现象。",
+        "verdict": {
+          "id": "syn_18",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "马丁·海德格尔的基础本体论通过论证人类存在（即此在）首先以在世存在为核心处境，颠覆了笛卡尔的主客二分法。人类并非首先作为独立的认知观察者，通过概念化表象审视在场客体，而是首先以非反思性的实践性卷入遭遇存在，在前理论的关联语境中工具以应手状态被揭示。此在的根本存在论结构是牵挂，建立在存在论时间性与先验处境性的基础之上，个体始终先天地嵌入传承的实践体系与历史性话语之中。只有当应手性工具出现故障或失灵时，理论性沉思才会衍生式地产生，这昭示客观认识论分类本质上是依赖于原初生存性关涉的次要抽象现象。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "马丁·海德格尔的基础存在论通过论证以下观点而瓦解了笛卡尔式的主客二分：被称为此在的人类生存首先被置于在世存在之中。人类起初并非作为超然的认知观察者，通过理智化的表象去静观现成在手的存在者，而是首先通过非反思的、实践性的牵涉来遭遇存在者，其中用具在前理论的关系情境内作为上手之物被揭示。此在的根本存在论构成是操心，它奠基于生存论时间性与情境性被抛状态，在其中人总是已经发现自身嵌入于承袭而来的社会实践与历史话语之中。理论性静观仅在上手的工具损坏或失灵时才派生地出现，这揭示出：客观的认识论范畴化是一种抽象的次级现象，它依赖于先行的、源始的、与有意义的世界性情境的生存性交涉。",
+        "verdict": {
+          "id": "syn_18",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "马丁·海德格尔的基础存在论通过论证以下观点而瓦解了笛卡尔式的主客二分：被称为此在的人类生存首先被置于在世存在之中。人类起初并非作为超然的认知观察者，通过理智化的表象去静观现成在手的存在者，而是首先通过非反思的、实践性的牵涉来遭遇存在者，其中用具在前理论的关系情境内作为上手之物被揭示。此在的根本存在论构成是操心，它奠基于生存论时间性与情境性被抛状态，在其中人总是已经发现自身嵌入于承袭而来的社会实践与历史话语之中。理论性静观仅在上手的工具损坏或失灵时才派生地出现，这揭示出：客观的认识论范畴化是一种抽象的次级现象，它依赖于先行的、源始的、与有意义的世界性情境的生存性交涉。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_19",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Semantic Externalism and Anti-Individualist Content",
+    "english": "Semantic externalism, famously inaugurated by Hilary Putnam’s Twin Earth thought experiment, posits that the psychological intent and semantic contents of an agent’s linguistic expressions are not determined exclusively by internal phenomenal or neurocomputational states. Because an individual on Earth and their microphysically identical counterpart on Twin Earth harbor different referential thoughts when deploying natural-kind terms like 'water'—due strictly to differing environmental chemical compositions—meanings cannot reside solely within the individual cognizer's head. Instead, semantic content is constitutively individuated through real, external causal and historical relations sustained with the surrounding environment and broader linguistic community. Anti-individualism thus overthrows internalist Cartesian presuppositions regarding privileged first-person mental transparency, establishing that cognitive mental states are inherently relational, world-involving phenomena that resist narrow individualist reduction.",
+    "chinese": "语义外在论由希拉里·普特南的孪生地球思想实验所开创，主张行动者语言表达的心理意向与语义内容并非仅由内在的现象状态或神经计算状态所决定。由于地球上的个体与其在孪生地球上微观物理层面完全相同的对应者，在使用诸如‘水’之类的自然类词项时持有不同的指称性思想，而这严格地源于环境化学成分的差异，因此意义不可能仅仅存在于个体认知者的头脑之内。相反，语义内容是通过与周围环境及更广泛语言共同体之间所维系的真实的外部因果关系与历史关系而被构成性地个体化的。因此，反个体主义推翻了关于特权性的第一人称心理透明性的内在主义笛卡尔式预设，确立认知性心理状态本质上是关系性的、涉及世界的现象，抗拒狭义个体主义的还原。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "语义外部主义肇始于希拉里·普特南著名的孪生地球思想实验，认为个体语言表达的心理意图与语义内容并非完全由内部现象经验或神经计算状态决定。由于地球与孪生地球上的个体在微观物理构成上完全相同，但由于环境化学成分的差异，他们在使用自然类术语（如‘水’）时所持有的指称性思想存在不同，因此意义并不能单纯存在于个体认知者的头脑中。相反，语义内容须通过与周围环境及更广泛语言社群的实际外部因果与历史关联构成性地被划分。反个体主义因此推翻了关于特权第一人称心灵透明性的笛卡尔主义内化预设，确立了认知心智状态本质为关联性、涉世性现象，其排斥狭隘个体主义的还原。",
+        "verdict": {
+          "id": "syn_19",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "语义外部主义肇始于希拉里·普特南著名的孪生地球思想实验，认为个体语言表达的心理意图与语义内容并非完全由内部现象经验或神经计算状态决定。由于地球与孪生地球上的个体在微观物理构成上完全相同，但由于环境化学成分的差异，他们在使用自然类术语（如‘水’）时所持有的指称性思想存在不同，因此意义并不能单纯存在于个体认知者的头脑中。相反，语义内容须通过与周围环境及更广泛语言社群的实际外部因果与历史关联构成性地被划分。反个体主义因此推翻了关于特权第一人称心灵透明性的笛卡尔主义内化预设，确立了认知心智状态本质为关联性、涉世性现象，其排斥狭隘个体主义的还原。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "语义外在论由希拉里·普特南的孪生地球思想实验所开创，主张行动者语言表达的心理意向与语义内容并非仅由内在的现象状态或神经计算状态所决定。由于地球上的个体与其在孪生地球上微观物理层面完全相同的对应者，在使用诸如‘水’之类的自然类词项时持有不同的指称性思想，而这严格地源于环境化学成分的差异，因此意义不可能仅仅存在于个体认知者的头脑之内。相反，语义内容是通过与周围环境及更广泛语言共同体之间所维系的真实的外部因果关系与历史关系而被构成性地个体化的。因此，反个体主义推翻了关于特权性的第一人称心理透明性的内在主义笛卡尔式预设，确立认知性心理状态本质上是关系性的、涉及世界的现象，抗拒狭义个体主义的还原。",
+        "verdict": {
+          "id": "syn_19",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "语义外在论由希拉里·普特南的孪生地球思想实验所开创，主张行动者语言表达的心理意向与语义内容并非仅由内在的现象状态或神经计算状态所决定。由于地球上的个体与其在孪生地球上微观物理层面完全相同的对应者，在使用诸如‘水’之类的自然类词项时持有不同的指称性思想，而这严格地源于环境化学成分的差异，因此意义不可能仅仅存在于个体认知者的头脑之内。相反，语义内容是通过与周围环境及更广泛语言共同体之间所维系的真实的外部因果关系与历史关系而被构成性地个体化的。因此，反个体主义推翻了关于特权性的第一人称心理透明性的内在主义笛卡尔式预设，确立认知性心理状态本质上是关系性的、涉及世界的现象，抗拒狭义个体主义的还原。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_20",
+    "source_type": "synthetic",
+    "domain": "philosophy",
+    "topic": "Hermeneutical Injustice and Interpretive Marginalization",
+    "english": "Hermeneutical injustice occurs when a significant sphere of an individual's social experience is obscured from collective understanding due to a structural lacuna in shared interpretive resources. As formulated within feminist social epistemology, this epistemic harm arises when socially disadvantaged groups are systematically excluded from participating equally in the discursive practices that generate shared linguistic concepts and epistemic categories. Consequently, marginalized subjects are rendered epistemically disabled, unable to make sense of their own unjust social experiences or render them communicatively intelligible to institutional authorities. Unlike testimonial injustice, which stems from discrete credibility deficits motivated by identity prejudice during direct testimony, hermeneutical injustice is an antecedent, structural failure of the collective hermeneutic economy that preemptively silences marginalized voices by depriving them of the expressive tools required for intelligible articulation.",
+    "chinese": "诠释不正义发生于以下情形：由于共享解释资源中的结构性空缺，个体社会经验的某一重要领域被集体理解所遮蔽。如在女性主义社会认识论中所阐述的，当社会弱势群体被系统性地排除在平等参与产生共享语言概念与认识范畴的话语实践之外时，便产生这种认识性伤害。因此，被边缘化的主体在认识上被致残，既无法理解自身不正义的社会经验，也无法使其对制度性权威而言在交流上可理解。与证言不正义不同，后者源于直接作证过程中由身份偏见所驱动的零散的可信度亏缺，诠释不正义是集体诠释经济的一种先行的结构性失败，它通过剥夺边缘化者作出可理解表达所需的表达工具，而预先使其声音沉默。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "诠释不公出现于个体社会经验的重要领域因共享解释资源的结构缺失而被集体理解遮蔽。在女性主义社会认识论框架下，这种认识论伤害源于社会弱势群体被系统性排除于平等参与生成共享语言概念与认识论范畴的话语实践之外。其后果是边缘化主体被剥夺认知能力，既无法理解自身非正义的社会经验，亦无法向制度性权威者作出可沟通的解释。不同于证言不公源于个体证言过程中因身份偏见所致的可信度缺失，诠释不公是一种先于个体的集体诠释经济结构失败：通过剥夺边缘者表达所需的可理解性工具，预先系统性地将其声音沉默化。",
+        "verdict": {
+          "id": "syn_20",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "诠释不公出现于个体社会经验的重要领域因共享解释资源的结构缺失而被集体理解遮蔽。在女性主义社会认识论框架下，这种认识论伤害源于社会弱势群体被系统性排除于平等参与生成共享语言概念与认识论范畴的话语实践之外。其后果是边缘化主体被剥夺认知能力，既无法理解自身非正义的社会经验，亦无法向制度性权威者作出可沟通的解释。不同于证言不公源于个体证言过程中因身份偏见所致的可信度缺失，诠释不公是一种先于个体的集体诠释经济结构失败：通过剥夺边缘者表达所需的可理解性工具，预先系统性地将其声音沉默化。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "诠释不正义发生于以下情形：由于共享解释资源中的结构性空缺，个体社会经验的某一重要领域被集体理解所遮蔽。如在女性主义社会认识论中所阐述的，当社会弱势群体被系统性地排除在平等参与产生共享语言概念与认识范畴的话语实践之外时，便产生这种认识性伤害。因此，被边缘化的主体在认识上被致残，既无法理解自身不正义的社会经验，也无法使其对制度性权威而言在交流上可理解。与证言不正义不同，后者源于直接作证过程中由身份偏见所驱动的零散的可信度亏缺，诠释不正义是集体诠释经济的一种先行的结构性失败，它通过剥夺边缘化者作出可理解表达所需的表达工具，而预先使其声音沉默。",
+        "verdict": {
+          "id": "syn_20",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "诠释不正义发生于以下情形：由于共享解释资源中的结构性空缺，个体社会经验的某一重要领域被集体理解所遮蔽。如在女性主义社会认识论中所阐述的，当社会弱势群体被系统性地排除在平等参与产生共享语言概念与认识范畴的话语实践之外时，便产生这种认识性伤害。因此，被边缘化的主体在认识上被致残，既无法理解自身不正义的社会经验，也无法使其对制度性权威而言在交流上可理解。与证言不正义不同，后者源于直接作证过程中由身份偏见所驱动的零散的可信度亏缺，诠释不正义是集体诠释经济的一种先行的结构性失败，它通过剥夺边缘化者作出可理解表达所需的表达工具，而预先使其声音沉默。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_21",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Cascading Failures in Interdependent Multiplex Networks",
+    "english": "Cascading failures within interdependent multiplex networks demonstrate how localized perturbations trigger abrupt, system-wide fragmentation across topologically coupled infrastructural layers. Unlike isolated network graphs where continuous percolation transitions predominate, interconnected networks often exhibit first-order, discontinuous phase collapses due to mutual dependency links. When nodes in a primary communication topology malfunction, secondary power transmission substations dependent upon continuous supervisory signals automatically trip, subsequently cutting power to surviving communications nodes in an iterative, non-linear feedback loop. This structural interdependence drastically amplifies vulnerability, rendering the overarching macroscopic system fragile against targeted hub removal or stochastic high-degree node deactivation. Evaluating network resilience therefore requires tracking mutuality percolation thresholds, as standard single-layer redundancy metrics consistently underestimate catastrophic collapse probabilities in coupled socio-technological environments.",
+    "chinese": "相互依存的多重网络中的级联失效表明，局部扰动如何在拓扑耦合的基础设施层之间触发突发的、系统范围的碎裂。与以连续渗流相变为主的孤立网络图不同，互联网络由于相互依存连边，常表现出一阶的、不连续的相崩溃。当主通信拓扑中的节点发生故障时，依赖持续监控信号的次级输电变电站会自动跳闸，随后在迭代的、非线性的反馈回路中切断幸存通信节点的电力供应。这种结构上的相互依存极大地放大了脆弱性，使整体宏观系统在面对针对性的枢纽移除或随机的高度数节点失活时变得脆弱。因此，评估网络韧性需要追踪互依渗流阈值，因为标准的单层冗余度量在耦合的社会-技术环境中持续低估灾难性崩溃的概率。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "在相互依赖的多层网络结构中，级联式故障揭示了局部扰动如何通过拓扑耦合的基础设施层级触发突发的系统性片段化。与以连续渗流相变为主要特征的孤立网络图不同，互联网络体系常因互依赖关系而呈现一级不连续相变与崩溃。当主通信拓扑中的节点发生故障时，依赖连续监测信号的次级电力传输变电站将自动跳闸，继而切断现存通信节点的电力供给，形成迭代式的非线性反馈循环。这种结构依赖性显著放大系统脆弱性，使宏观整体系统对目标型枢纽节点移除或随机高阶节点失活高度敏感。因此，网络韧性的评估必须关注互依性渗流阈值，因传统单层冗余指标在耦合社会-技术环境中对灾难性崩溃概率的评估存在持续性低估。",
+        "verdict": {
+          "id": "syn_21",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "在相互依赖的多层网络结构中，级联式故障揭示了局部扰动如何通过拓扑耦合的基础设施层级触发突发的系统性片段化。与以连续渗流相变为主要特征的孤立网络图不同，互联网络体系常因互依赖关系而呈现一级不连续相变与崩溃。当主通信拓扑中的节点发生故障时，依赖连续监测信号的次级电力传输变电站将自动跳闸，继而切断现存通信节点的电力供给，形成迭代式的非线性反馈循环。这种结构依赖性显著放大系统脆弱性，使宏观整体系统对目标型枢纽节点移除或随机高阶节点失活高度敏感。因此，网络韧性的评估必须关注互依性渗流阈值，因传统单层冗余指标在耦合社会-技术环境中对灾难性崩溃概率的评估存在持续性低估。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "相互依存的多重网络中的级联失效表明，局部扰动如何在拓扑耦合的基础设施层之间触发突发的、系统范围的碎裂。与以连续渗流相变为主的孤立网络图不同，互联网络由于相互依存连边，常表现出一阶的、不连续的相崩溃。当主通信拓扑中的节点发生故障时，依赖持续监控信号的次级输电变电站会自动跳闸，随后在迭代的、非线性的反馈回路中切断幸存通信节点的电力供应。这种结构上的相互依存极大地放大了脆弱性，使整体宏观系统在面对针对性的枢纽移除或随机的高度数节点失活时变得脆弱。因此，评估网络韧性需要追踪互依渗流阈值，因为标准的单层冗余度量在耦合的社会-技术环境中持续低估灾难性崩溃的概率。",
+        "verdict": {
+          "id": "syn_21",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "相互依存的多重网络中的级联失效表明，局部扰动如何在拓扑耦合的基础设施层之间触发突发的、系统范围的碎裂。与以连续渗流相变为主的孤立网络图不同，互联网络由于相互依存连边，常表现出一阶的、不连续的相崩溃。当主通信拓扑中的节点发生故障时，依赖持续监控信号的次级输电变电站会自动跳闸，随后在迭代的、非线性的反馈回路中切断幸存通信节点的电力供应。这种结构上的相互依存极大地放大了脆弱性，使整体宏观系统在面对针对性的枢纽移除或随机的高度数节点失活时变得脆弱。因此，评估网络韧性需要追踪互依渗流阈值，因为标准的单层冗余度量在耦合的社会-技术环境中持续低估灾难性崩溃的概率。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_22",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Adverse Selection and Endogenous Liquidity Evaporation",
+    "english": "Adverse selection within high-frequency financial architectures precipitates endogenous liquidity dry-ups when information asymmetry exceeds market-making tolerance thresholds. In fragmented limit-order books, automated liquidity providers continually monitor order flow toxicity to insulate passive resting quotes against informed institutional trading flow. When volatility spikes elevate the probability of interacting with privately informed counter-parties, market makers defensively widen bid-ask spreads and cancel resting quotes, producing an acute evaporation of market depth. Because cross-asset algorithmic strategies rely on synchronized depth across multiple venues, the localized withdrawal of quote volume triggers cascading execution failures, forcing correlated margin liquidations and wider asset fire-sales. Consequently, market fragility emerges endogenously not from external economic shocks, but from microstructural positive feedback dynamics wherein protective individual risk management paradoxically destabilizes collective market clearing mechanisms.",
+    "chinese": "当信息不对称超过做市容忍阈值时，高频金融架构中的逆向选择会引发内生性的流动性枯竭。在碎片化的限价订单簿中，自动化流动性提供者持续监测订单流毒性，以使被动挂单报价免受知情机构交易流的冲击。当波动率飙升提高了与私人知情交易对手发生交易的概率时，做市商会防御性地扩大买卖价差并撤销挂单，造成市场深度的急剧蒸发。由于跨资产算法策略依赖于多个交易场所之间同步的深度，局部报价量的撤出会触发级联的执行失败，迫使相关的保证金强制平仓以及更广泛的资产贱卖。因此，市场脆弱性并非源于外部经济冲击，而是内生地产生于市场微观结构的正反馈动力学，其中个体保护性的风险管理反而自相矛盾地破坏了集体的市场出清机制。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "高频金融架构中的逆向选择现象在信息不对称超过做市商容忍阈值时，会引发内生流动性枯竭。在碎片化的限价订单簿中，自动化流动性提供者持续监测订单流毒性，以保护被动挂单免受机构知情交易流冲击。当波动率飙升提升与私人信息对手交易的概率时，做市商会防御性扩张买卖价差并撤回挂单，导致市场深度骤降。由于跨资产算法策略依赖多交易场所的同步深度，局部报价量撤离将触发级联执行失败，迫使相关联的保证金平仓及资产集中抛售。因此，市场脆弱性以内生方式生成的根源，实质上并非来自外部经济冲击，而是源自微观结构层面的正反馈动态机制——个体风险管控的保护性行为反而悖论式地破坏了集体市场清算机制。",
+        "verdict": {
+          "id": "syn_22",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "高频金融架构中的逆向选择现象在信息不对称超过做市商容忍阈值时，会引发内生流动性枯竭。在碎片化的限价订单簿中，自动化流动性提供者持续监测订单流毒性，以保护被动挂单免受机构知情交易流冲击。当波动率飙升提升与私人信息对手交易的概率时，做市商会防御性扩张买卖价差并撤回挂单，导致市场深度骤降。由于跨资产算法策略依赖多交易场所的同步深度，局部报价量撤离将触发级联执行失败，迫使相关联的保证金平仓及资产集中抛售。因此，市场脆弱性以内生方式生成的根源，实质上并非来自外部经济冲击，而是源自微观结构层面的正反馈动态机制——个体风险管控的保护性行为反而悖论式地破坏了集体市场清算机制。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "当信息不对称超过做市容忍阈值时，高频金融架构中的逆向选择会引发内生性的流动性枯竭。在碎片化的限价订单簿中，自动化流动性提供者持续监测订单流毒性，以使被动挂单报价免受知情机构交易流的冲击。当波动率飙升提高了与私人知情交易对手发生交易的概率时，做市商会防御性地扩大买卖价差并撤销挂单，造成市场深度的急剧蒸发。由于跨资产算法策略依赖于多个交易场所之间同步的深度，局部报价量的撤出会触发级联的执行失败，迫使相关的保证金强制平仓以及更广泛的资产贱卖。因此，市场脆弱性并非源于外部经济冲击，而是内生地产生于市场微观结构的正反馈动力学，其中个体保护性的风险管理反而自相矛盾地破坏了集体的市场出清机制。",
+        "verdict": {
+          "id": "syn_22",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "当信息不对称超过做市容忍阈值时，高频金融架构中的逆向选择会引发内生性的流动性枯竭。在碎片化的限价订单簿中，自动化流动性提供者持续监测订单流毒性，以使被动挂单报价免受知情机构交易流的冲击。当波动率飙升提高了与私人知情交易对手发生交易的概率时，做市商会防御性地扩大买卖价差并撤销挂单，造成市场深度的急剧蒸发。由于跨资产算法策略依赖于多个交易场所之间同步的深度，局部报价量的撤出会触发级联的执行失败，迫使相关的保证金强制平仓以及更广泛的资产贱卖。因此，市场脆弱性并非源于外部经济冲击，而是内生地产生于市场微观结构的正反馈动力学，其中个体保护性的风险管理反而自相矛盾地破坏了集体的市场出清机制。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_23",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Maximum Entropy Production in Non-Equilibrium Systems",
+    "english": "The principle of maximum entropy production formalizes how open, non-equilibrium complex systems self-organize to dissipate thermodynamic gradients at the fastest achievable rate given physical constraints. When driven far from equilibrium by continuous boundary fluxes of energy or matter, linear thermodynamic approximations break down, prompting systems to transition through symmetry-breaking instabilities into dissipative structures. These organized macroscopic configurations, exemplified by Rayleigh-Bénard convection cells or planetary atmospheric circulations, generate internal feedback mechanisms that drastically increase microscopic phase-space mixing. By maximizing the macroscopic entropy production rate along steady-state pathways, the system optimizes macroscopic kinetic transport over molecular conduction. Thermodynamic dissipation therefore acts as an active organizational imperative, demonstrating that macroscopic structural complexity naturally emerges as an efficient vehicle for energetic gradient destruction.",
+    "chinese": "最大熵产生原理形式化地阐明，开放的非平衡复杂系统如何在给定物理约束下自组织，以尽可能快的速率耗散热力学梯度。当系统被持续的能量或物质边界通量驱动至远离平衡时，线性热力学近似失效，促使系统经由对称破缺不稳定性转变为耗散结构。这些有组织的宏观构型，以瑞利-贝纳尔对流胞或行星大气环流为例，产生了显著增强微观相空间混合的内部反馈机制。通过沿稳态路径使宏观熵产生率最大化，系统使宏观动力学输运优于分子传导。因此，热力学耗散起着一种主动的组织性要求的作用，表明宏观结构复杂性作为破坏能量梯度的高效载体而自然涌现。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "最大熵产生原理形式化地描述了开放的、非平衡复杂系统如何在物理约束条件下以最快速率自组织以耗散热力学梯度。当系统被持续的能量或物质边界通量驱动至远离平衡态时，线性热力学近似失效，促使系统通过对称破缺不稳定性向耗散结构转变。这些宏观有序构型（如瑞利-本纳德对流单元或行星大气环流）通过内部反馈机制显著增强微观相位空间混合。通过最大化稳态路径的宏观熵产生率，系统在运动学输运上优于分子传导，从而优化宏观动力学传输。因此，热力学耗散表现为一种主动的组织驱动力，展示了宏观结构复杂性如何自然地作为能质梯度耗散的高效载体而涌现。",
+        "verdict": {
+          "id": "syn_23",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "最大熵产生原理形式化地描述了开放的、非平衡复杂系统如何在物理约束条件下以最快速率自组织以耗散热力学梯度。当系统被持续的能量或物质边界通量驱动至远离平衡态时，线性热力学近似失效，促使系统通过对称破缺不稳定性向耗散结构转变。这些宏观有序构型（如瑞利-本纳德对流单元或行星大气环流）通过内部反馈机制显著增强微观相位空间混合。通过最大化稳态路径的宏观熵产生率，系统在运动学输运上优于分子传导，从而优化宏观动力学传输。因此，热力学耗散表现为一种主动的组织驱动力，展示了宏观结构复杂性如何自然地作为能质梯度耗散的高效载体而涌现。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "最大熵产生原理形式化地阐明，开放的非平衡复杂系统如何在给定物理约束下自组织，以尽可能快的速率耗散热力学梯度。当系统被持续的能量或物质边界通量驱动至远离平衡时，线性热力学近似失效，促使系统经由对称破缺不稳定性转变为耗散结构。这些有组织的宏观构型，以瑞利-贝纳尔对流胞或行星大气环流为例，产生了显著增强微观相空间混合的内部反馈机制。通过沿稳态路径使宏观熵产生率最大化，系统使宏观动力学输运优于分子传导。因此，热力学耗散起着一种主动的组织性要求的作用，表明宏观结构复杂性作为破坏能量梯度的高效载体而自然涌现。",
+        "verdict": {
+          "id": "syn_23",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "最大熵产生原理形式化地阐明，开放的非平衡复杂系统如何在给定物理约束下自组织，以尽可能快的速率耗散热力学梯度。当系统被持续的能量或物质边界通量驱动至远离平衡时，线性热力学近似失效，促使系统经由对称破缺不稳定性转变为耗散结构。这些有组织的宏观构型，以瑞利-贝纳尔对流胞或行星大气环流为例，产生了显著增强微观相空间混合的内部反馈机制。通过沿稳态路径使宏观熵产生率最大化，系统使宏观动力学输运优于分子传导。因此，热力学耗散起着一种主动的组织性要求的作用，表明宏观结构复杂性作为破坏能量梯度的高效载体而自然涌现。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_24",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Self-Organized Criticality and Power-Law Dynamics",
+    "english": "Self-organized criticality describes the intrinsic propensity of slowly driven, non-linear dynamical systems to spontaneously evolve toward a critical attractor without external parameter tuning. In prototypical cellular automaton models, continuous uniform driving builds local spatial stresses until local threshold barriers are breached, triggering relaxation events that redistribute perturbations to neighboring interacting nodes. Because the macroscopic system operates precisely at the critical threshold separating sub-critical quiescence from super-critical divergence, these cascading avalanche sizes exhibit scale-invariant power-law distributions characterized by heavy tails and divergent correlation lengths. The absence of a characteristic spatial or temporal scale implies that microscopic perturbations can stochastically induce catastrophic system-wide collapses, demonstrating that endogenous systemic instability is an inevitable structural feature of highly interconnected, marginally stable distributed architectures.",
+    "chinese": "自组织临界性描述了缓慢驱动的非线性动力系统在无需外部参数调节的情况下，自发演化至临界吸引子的内在倾向。在典型的元胞自动机模型中，持续均匀的驱动积累局部空间应力，直至局部阈值壁垒被突破，触发弛豫事件，将扰动重新分配给相邻的相互作用节点。由于宏观系统恰好运行于分隔亚临界静息与超临界发散的临界阈值处，这些级联雪崩的规模呈现出尺度不变的幂律分布，其特征为重尾与发散的关联长度。特征空间尺度或时间尺度的缺失意味着，微观扰动可随机地诱发灾难性的系统范围崩溃，表明内生的系统性不稳定是高度互联的、边缘稳定的分布式架构不可避免的结构特征。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "自组织临界性描述了缓慢驱动的非线性动力系统自发演化至临界吸引子的固有倾向，无需外部参数调谐。在典型的细胞自动机模型中，连续均勻驱动构建局部空间应力直至突破阈值障碍，触发释放事件将扰动重新分配至相邻交互节点。由于宏观系统精确位于次临界静止与超临界发散的临界阈值处，此类级联雪崩规模呈现尺度无关的幂律分布，其特征为重尾和发散的关联长度。空间与时间尺度的缺失意味着微观扰动可能随机引发灾难性系统性崩溃，表明高度互联的临界稳定分布式架构内源性不稳定性是其必然结构特征。",
+        "verdict": {
+          "id": "syn_24",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "自组织临界性描述了缓慢驱动的非线性动力系统自发演化至临界吸引子的固有倾向，无需外部参数调谐。在典型的细胞自动机模型中，连续均勻驱动构建局部空间应力直至突破阈值障碍，触发释放事件将扰动重新分配至相邻交互节点。由于宏观系统精确位于次临界静止与超临界发散的临界阈值处，此类级联雪崩规模呈现尺度无关的幂律分布，其特征为重尾和发散的关联长度。空间与时间尺度的缺失意味着微观扰动可能随机引发灾难性系统性崩溃，表明高度互联的临界稳定分布式架构内源性不稳定性是其必然结构特征。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "自组织临界性描述了缓慢驱动的非线性动力系统在无需外部参数调节的情况下，自发演化至临界吸引子的内在倾向。在典型的元胞自动机模型中，持续均匀的驱动积累局部空间应力，直至局部阈值壁垒被突破，触发弛豫事件，将扰动重新分配给相邻的相互作用节点。由于宏观系统恰好运行于分隔亚临界静息与超临界发散的临界阈值处，这些级联雪崩的规模呈现出尺度不变的幂律分布，其特征为重尾与发散的关联长度。特征空间尺度或时间尺度的缺失意味着，微观扰动可随机地诱发灾难性的系统范围崩溃，表明内生的系统性不稳定是高度互联的、边缘稳定的分布式架构不可避免的结构特征。",
+        "verdict": {
+          "id": "syn_24",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "自组织临界性描述了缓慢驱动的非线性动力系统在无需外部参数调节的情况下，自发演化至临界吸引子的内在倾向。在典型的元胞自动机模型中，持续均匀的驱动积累局部空间应力，直至局部阈值壁垒被突破，触发弛豫事件，将扰动重新分配给相邻的相互作用节点。由于宏观系统恰好运行于分隔亚临界静息与超临界发散的临界阈值处，这些级联雪崩的规模呈现出尺度不变的幂律分布，其特征为重尾与发散的关联长度。特征空间尺度或时间尺度的缺失意味着，微观扰动可随机地诱发灾难性的系统范围崩溃，表明内生的系统性不稳定是高度互联的、边缘稳定的分布式架构不可避免的结构特征。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_25",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Agent-Based Minority Games and Endogenous Market Volatility",
+    "english": "The minority game framework formalizes how boundedly rational, inductive agents interacting within competitive adaptive markets generate endogenous aggregate volatility without exogenous informational shocks. In an iterative setting where agents deploy finite sets of heuristic strategies to forecast and join the minority side of a binary decision pool, collective dynamics are governed by the ratio of historical memory depth to total agent population. When this control parameter dips below a critical threshold, agent strategies become collectively correlated, precipitating severe herding behavior and catastrophic market inefficiencies characterized by excess variance and fat-tailed return distributions. Conversely, when the parameter reaches criticality, the system self-organizes into an informationally efficient state maximizing resource utilization. The minority game demonstrates that financial market turbulence emerges fundamentally from competitive inductive adaptation.",
+    "chinese": "少数者博弈框架形式化地阐明，在竞争性适应市场中相互作用的有限理性归纳型主体，如何在没有外生信息冲击的情况下产生内生的总体波动性。在迭代情境中，主体运用有限的启发式策略集合来预测并加入二元决策池中的少数一方，其集体动力学由历史记忆深度与主体总数之比所支配。当该控制参数降至临界阈值以下时，主体策略变得集体相关，引发严重的羊群行为以及以超额方差和厚尾收益分布为特征的灾难性市场无效率。相反，当该参数达到临界性时，系统自组织为使资源利用最大化的信息有效状态。少数者博弈表明，金融市场的动荡从根本上源于竞争性的归纳适应。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 2,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "少数派博弈框架形式化了在竞争性适应市场中，具有有限理性与归纳能力的代理如何在无外生信息冲击条件下生成内生总体波动性。在迭代环境中，代理运用有限的启发式策略集预测并加入二元决策池中的少数派侧，此系统集体动态受历史记忆深度与总代理人口比例关系支配。当该控制参数低于临界阈值时，代理策略将集体相关化，引发强烈的从众行为与灾难性市场低效率，表现为过度方差与厚尾收益分布。相反，当参数达到临界性时，系统自组织为信息高效状态，最大化资源利用效率。少数派博弈表明，金融市场剧烈波动本质上源自竞争性归纳适应。",
+        "verdict": {
+          "id": "syn_25",
+          "status": "REJECTED",
+          "semantic_equivalence": {
+            "passed": false,
+            "missing_propositions": [
+              "The term '少数派' should be '少数者' to align accurately with academic terminology."
+            ]
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "The term '少数派博弈' should be translated as '少数者博弈' to maintain semantic accuracy with academic standards.修正建议：将“少数派博弈”改为“少数者博弈”。",
+          "revised_target_text": "少数者博弈框架形式化了在竞争性适应市场中，具有有限理性与归纳能力的代理如何在无外生信息冲击条件下生成内生总体波动性。在迭代环境中，代理运用有限的启发式策略集预测并加入二元决策池中的少数者侧，此系统集体动态受历史记忆深度与总代理人口比例关系支配。当该控制参数低于临界阈值时，代理策略将集体相关化，引发强烈的从众行为与灾难性市场低效率，表现为过度方差与厚尾收益分布。相反，当参数达到临界性时，系统自组织为信息高效状态，最大化资源利用效率。少数者博弈表明，金融市场剧烈波动本质上源自竞争性归纳适应。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "少数者博弈框架形式化了在竞争性适应市场中，具有有限理性与归纳能力的智能体如何在无外生信息冲击条件下生成内生总体波动性。在迭代环境中，智能体运用有限的启发式策略集预测并加入二元决策池中的少数者侧，此系统集体动态受历史记忆深度与总智能体数量比例关系支配。当该控制参数低于临界阈值时，智能体策略将集体相关化，引发强烈的从众行为与灾难性市场低效率，表现为过度方差与厚尾收益分布。相反，当参数达到临界性时，系统自组织为信息高效状态，最大化资源利用效率。少数者博弈表明，金融市场剧烈波动本质上源自竞争性归纳适应。",
+        "verdict": {
+          "id": "syn_25",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "少数者博弈框架形式化了在竞争性适应市场中，具有有限理性与归纳能力的智能体如何在无外生信息冲击条件下生成内生总体波动性。在迭代环境中，智能体运用有限的启发式策略集预测并加入二元决策池中的少数者侧，此系统集体动态受历史记忆深度与总智能体数量比例关系支配。当该控制参数低于临界阈值时，智能体策略将集体相关化，引发强烈的从众行为与灾难性市场低效率，表现为过度方差与厚尾收益分布。相反，当参数达到临界性时，系统自组织为信息高效状态，最大化资源利用效率。少数者博弈表明，金融市场剧烈波动本质上源自竞争性归纳适应。"
+        }
+      },
+      {
+        "round": 2,
+        "chinese": "少数者博弈框架形式化地阐明，在竞争性适应市场中相互作用的有限理性归纳型主体，如何在没有外生信息冲击的情况下产生内生的总体波动性。在迭代情境中，主体运用有限的启发式策略集合来预测并加入二元决策池中的少数一方，其集体动力学由历史记忆深度与主体总数之比所支配。当该控制参数降至临界阈值以下时，主体策略变得集体相关，引发严重的羊群行为以及以超额方差和厚尾收益分布为特征的灾难性市场无效率。相反，当该参数达到临界性时，系统自组织为使资源利用最大化的信息有效状态。少数者博弈表明，金融市场的动荡从根本上源于竞争性的归纳适应。",
+        "verdict": {
+          "id": "syn_25",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "少数者博弈框架形式化地阐明，在竞争性适应市场中相互作用的有限理性归纳型主体，如何在没有外生信息冲击的情况下产生内生的总体波动性。在迭代情境中，主体运用有限的启发式策略集合来预测并加入二元决策池中的少数一方，其集体动力学由历史记忆深度与主体总数之比所支配。当该控制参数降至临界阈值以下时，主体策略变得集体相关，引发严重的羊群行为以及以超额方差和厚尾收益分布为特征的灾难性市场无效率。相反，当该参数达到临界性时，系统自组织为使资源利用最大化的信息有效状态。少数者博弈表明，金融市场的动荡从根本上源于竞争性的归纳适应。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_26",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Algorithmic Information Dynamics and Market Entropy",
+    "english": "Market entropy metrics apply algorithmic information theory and non-equilibrium statistical mechanics to quantify the rate of information dissipation across financial order flows. By evaluating the Shannon entropy and Kolmogorov complexity of high-frequency transaction sequences, analysts determine whether quote streams reflect genuine price discovery or deterministic microstructure noise. When institutional informed traders execute stealth algorithmic slicing schedules, the localized algorithmic entropy of the order book drops precipitously, signaling a state of heightened predictability and impending price impact. However, the subsequent collective dispersion of informational advantages throughout uninformed liquidity pools rapidly restores high thermodynamic market entropy, equalizing cross-venue pricing differentials. Information processing across distributed exchanges therefore operates as an open dissipative system, where localized informational order continuously dissolves into aggregate market efficiency.",
+    "chinese": "市场熵度量将算法信息论与非平衡统计力学应用于量化金融订单流中信息耗散的速率。通过评估高频交易序列的香农熵与柯尔莫哥洛夫复杂度，分析者判定报价流反映的是真实的价格发现，还是确定性的微观结构噪声。当机构知情交易者执行隐蔽的算法拆单计划时，订单簿的局部算法熵急剧下降，预示着可预测性的增强与即将到来的价格冲击。然而，随后信息优势在非知情流动性池中的集体扩散，迅速恢复较高的热力学市场熵，并使跨场所的价差趋于均等。因此，跨分布式交易所的信息处理作为一个开放的耗散系统而运作，其中局部的信息秩序持续消解为总体的市场效率。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "市场熵度量指标将算法信息论与非平衡统计力学结合，量化金融订单流中的信息耗散速率。通过评估高频交易序列的香农熵与科尔莫戈罗夫复杂度，分析师可判定报价流反映真实价格发现抑或确定性微观结构噪声。当机构知情交易者执行隐蔽式算法分切计划时，订单簿局部算法熵骤降，暗示高度可预测性与价格冲击即将发生。然而，随后信息优势在未获信息的流动性池中集体扩散，迅速恢复高热力学市场熵并消除跨场所定价差异。分布式交易所的信息处理因此构成开放耗散系统，局部信息秩序持续溶解为总体市场效率。",
+        "verdict": {
+          "id": "syn_26",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "市场熵度量指标将算法信息论与非平衡统计力学结合，量化金融订单流中的信息耗散速率。通过评估高频交易序列的香农熵与科尔莫戈罗夫复杂度，分析师可判定报价流反映真实价格发现抑或确定性微观结构噪声。当机构知情交易者执行隐蔽式算法分切计划时，订单簿局部算法熵骤降，暗示高度可预测性与价格冲击即将发生。然而，随后信息优势在未获信息的流动性池中集体扩散，迅速恢复高热力学市场熵并消除跨场所定价差异。分布式交易所的信息处理因此构成开放耗散系统，局部信息秩序持续溶解为总体市场效率。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "市场熵度量将算法信息论与非平衡统计力学应用于量化金融订单流中信息耗散的速率。通过评估高频交易序列的香农熵与柯尔莫哥洛夫复杂度，分析者判定报价流反映的是真实的价格发现，还是确定性的微观结构噪声。当机构知情交易者执行隐蔽的算法拆单计划时，订单簿的局部算法熵急剧下降，预示着可预测性的增强与即将到来的价格冲击。然而，随后信息优势在非知情流动性池中的集体扩散，迅速恢复较高的热力学市场熵，并使跨场所的价差趋于均等。因此，跨分布式交易所的信息处理作为一个开放的耗散系统而运作，其中局部的信息秩序持续消解为总体的市场效率。",
+        "verdict": {
+          "id": "syn_26",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "市场熵度量将算法信息论与非平衡统计力学应用于量化金融订单流中信息耗散的速率。通过评估高频交易序列的香农熵与柯尔莫哥洛夫复杂度，分析者判定报价流反映的是真实的价格发现，还是确定性的微观结构噪声。当机构知情交易者执行隐蔽的算法拆单计划时，订单簿的局部算法熵急剧下降，预示着可预测性的增强与即将到来的价格冲击。然而，随后信息优势在非知情流动性池中的集体扩散，迅速恢复较高的热力学市场熵，并使跨场所的价差趋于均等。因此，跨分布式交易所的信息处理作为一个开放的耗散系统而运作，其中局部的信息秩序持续消解为总体的市场效率。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_27",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Structural Controllability and Minimum Driver Nodes",
+    "english": "Structural controllability theory evaluates the capacity of directed complex networks to be steered from an arbitrary initial state to any desired terminal state through external input signals applied to a minimal subset of driver nodes. By mapping linear dynamical state equations onto the network’s underlying digraph topology, the minimum number of driver nodes is analytically determined via the maximum matching algorithm of graph theory. Unmatched nodes in the maximal matching configuration represent the essential entry points where independent control trajectories must be injected to prevent control signal dilation and ensure full structural rank. Counterintuitively, highly dense networks with pronounced degree heterogeneity and central hubs often require more driver nodes than sparse, uniform architectures, because hub saturation creates dynamical bottlenecks that impede the linear dissemination of external control vectors.",
+    "chinese": "结构可控性理论评估有向复杂网络的以下能力：通过对最小驱动节点子集施加外部输入信号，使网络由任意初始状态被引导至任意期望的终端状态。通过将线性动力学状态方程映射到网络的底层有向图拓扑上，借助图论的最大匹配算法可解析地确定驱动节点的最小数目。最大匹配构型中的未匹配节点代表必须注入独立控制轨迹的必要入口，以防止控制信号稀释并确保满结构秩。反直觉的是，具有显著度异质性与中心枢纽的高密度网络，往往比稀疏、均匀的架构需要更多驱动节点，因为枢纽饱和会造成动力学瓶颈，阻碍外部控制向量的线性扩散。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "结构性可控性理论评估有向复杂网络通过将外部输入信号施加于最小驱动节点子集上，从任意初始状态导向任一目标终端状态的能力。通过将线性动态状态方程映射至网络的拓扑基础图中，图论的最大匹配算法可解析确定最小驱动节点数量。最大匹配构型中的非匹配节点代表必须注入独立控制轨迹的关键入口点，以避免控制信号扩散并确保结构满秩。值得注意的是，高稠密网络若存在显著度异质性及中心枢纽结构，往往比稀疏均匀架构需要更多驱动节点——因枢纽节点饱和会产生动力瓶颈，阻碍外部控制向量的线性传播。",
+        "verdict": {
+          "id": "syn_27",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "结构性可控性理论评估有向复杂网络通过将外部输入信号施加于最小驱动节点子集上，从任意初始状态导向任一目标终端状态的能力。通过将线性动态状态方程映射至网络的拓扑基础图中，图论的最大匹配算法可解析确定最小驱动节点数量。最大匹配构型中的非匹配节点代表必须注入独立控制轨迹的关键入口点，以避免控制信号扩散并确保结构满秩。值得注意的是，高稠密网络若存在显著度异质性及中心枢纽结构，往往比稀疏均匀架构需要更多驱动节点——因枢纽节点饱和会产生动力瓶颈，阻碍外部控制向量的线性传播。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "结构可控性理论评估有向复杂网络的以下能力：通过对最小驱动节点子集施加外部输入信号，使网络由任意初始状态被引导至任意期望的终端状态。通过将线性动力学状态方程映射到网络的底层有向图拓扑上，借助图论的最大匹配算法可解析地确定驱动节点的最小数目。最大匹配构型中的未匹配节点代表必须注入独立控制轨迹的必要入口，以防止控制信号稀释并确保满结构秩。反直觉的是，具有显著度异质性与中心枢纽的高密度网络，往往比稀疏、均匀的架构需要更多驱动节点，因为枢纽饱和会造成动力学瓶颈，阻碍外部控制向量的线性扩散。",
+        "verdict": {
+          "id": "syn_27",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "结构可控性理论评估有向复杂网络的以下能力：通过对最小驱动节点子集施加外部输入信号，使网络由任意初始状态被引导至任意期望的终端状态。通过将线性动力学状态方程映射到网络的底层有向图拓扑上，借助图论的最大匹配算法可解析地确定驱动节点的最小数目。最大匹配构型中的未匹配节点代表必须注入独立控制轨迹的必要入口，以防止控制信号稀释并确保满结构秩。反直觉的是，具有显著度异质性与中心枢纽的高密度网络，往往比稀疏、均匀的架构需要更多驱动节点，因为枢纽饱和会造成动力学瓶颈，阻碍外部控制向量的线性扩散。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_28",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Information Cascades and Fragile Social Consensus",
+    "english": "Information cascades model how rational social agents interacting in sequential decision networks abandon their private signals to imitate aggregate precursor actions, producing widespread informational conformity. When early actors happen to make decisions favoring an inferior alternative, subsequent observers rationally infer that the accumulated public history outweighs their individual private evidence, locking the collective population into a uniform behavioral path. Although such cascades achieve rapid coordination and give the illusion of overwhelming consensus, the resulting collective state is exceedingly fragile because it rests upon an epistemically thin informational foundation. Consequently, the release of even a marginal quantity of reliable public information or a single high-credibility exogenous announcement can abruptly shatter the consensus, triggering an instantaneous systemic reversal of collective social behavior.",
+    "chinese": "信息级联刻画了在序贯决策网络中相互作用的理性社会主体如何放弃其私人信号而模仿先前行动的总体，从而产生广泛的信息性从众。当早期行动者碰巧作出有利于劣势选项的决策时，后续观察者会理性地推断，累积的公共历史重于其个体私人证据，从而将整个群体锁定于统一的行为路径。尽管此类级联实现了快速协调，并造成压倒性共识的假象，但由此形成的集体状态极为脆弱，因为它建立在认识上单薄的信息基础之上。因此，哪怕只释放少量可靠的公共信息，或一则高可信度的外生公告，也能骤然打破这一共识，引发集体社会行为瞬时的系统性逆转。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "信息级联模型描述理性社会主体在序列决策网络互动中舍弃私人信号而模仿群体先行行为，形成广泛信息从众现象的机制。当早期行为主体碰巧做出劣质选择时，后续观察者会理性推断累积的公共历史权重超过个体私人证据，从而锁定群体统一的行为路径。尽管此类级联实现了快速协调并营造出压倒性共识的表象，但由此形成的集体状态极为脆弱——因其依赖知识薄弱的信息基础。因此，即使发布少量可靠公共信息或单一高可信度的外生公告，即可突发打破共识，触发集体社会行为的系统性逆转。",
+        "verdict": {
+          "id": "syn_28",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "信息级联模型描述理性社会主体在序列决策网络互动中舍弃私人信号而模仿群体先行行为，形成广泛信息从众现象的机制。当早期行为主体碰巧做出劣质选择时，后续观察者会理性推断累积的公共历史权重超过个体私人证据，从而锁定群体统一的行为路径。尽管此类级联实现了快速协调并营造出压倒性共识的表象，但由此形成的集体状态极为脆弱——因其依赖知识薄弱的信息基础。因此，即使发布少量可靠公共信息或单一高可信度的外生公告，即可突发打破共识，触发集体社会行为的系统性逆转。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "信息级联刻画了在序贯决策网络中相互作用的理性社会主体如何放弃其私人信号而模仿先前行动的总体，从而产生广泛的信息性从众。当早期行动者碰巧作出有利于劣势选项的决策时，后续观察者会理性地推断，累积的公共历史重于其个体私人证据，从而将整个群体锁定于统一的行为路径。尽管此类级联实现了快速协调，并造成压倒性共识的假象，但由此形成的集体状态极为脆弱，因为它建立在认识上单薄的信息基础之上。因此，哪怕只释放少量可靠的公共信息，或一则高可信度的外生公告，也能骤然打破这一共识，引发集体社会行为瞬时的系统性逆转。",
+        "verdict": {
+          "id": "syn_28",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "信息级联刻画了在序贯决策网络中相互作用的理性社会主体如何放弃其私人信号而模仿先前行动的总体，从而产生广泛的信息性从众。当早期行动者碰巧作出有利于劣势选项的决策时，后续观察者会理性地推断，累积的公共历史重于其个体私人证据，从而将整个群体锁定于统一的行为路径。尽管此类级联实现了快速协调，并造成压倒性共识的假象，但由此形成的集体状态极为脆弱，因为它建立在认识上单薄的信息基础之上。因此，哪怕只释放少量可靠的公共信息，或一则高可信度的外生公告，也能骤然打破这一共识，引发集体社会行为瞬时的系统性逆转。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_29",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Dynamic Criticality in Synaptic Neural Avalanches",
+    "english": "The critical brain hypothesis asserts that cortical networks operate in the vicinity of a non-equilibrium phase transition separating sub-critical quiescence from runaway, super-critical epileptic synchrony. Within this marginally stable dynamical regime, spontaneous bursts of multi-neuronal firing organize into scale-free neuronal avalanches whose event sizes and durations obey universal power-law distributions characterized by specific branching ratios. Operating at this critical point optimizes computational performance across sensory cortices, maximizing dynamic range, information transmission capacity, and the diversity of stored functional memory states. Homeostatic plasticity and activity-dependent synaptic depression serve as decentralized tuning mechanisms that autonomously restore network parameters to criticality following external perturbations. The presence of universal scaling exponents confirms that cortical computation relies on self-organized criticality rather than fine-tuned, localized pacemaker circuits.",
+    "chinese": "临界脑假说主张，皮层网络运行于一个非平衡相变的附近，该相变将亚临界静息与失控的超临界癫痫样同步分隔开来。在这一边缘稳定的动力学区间内，多神经元放电的自发性爆发组织成无标度的神经元雪崩，其事件规模与持续时间服从以特定分支比为特征的普适幂律分布。在这一临界点运行可优化各感觉皮层的计算性能，使动态范围、信息传输容量以及所存储功能性记忆状态的多样性最大化。稳态可塑性与活动依赖性突触抑制充当去中心化的调节机制，在外部扰动之后自主地使网络参数恢复至临界状态。普适标度指数的存在证实，皮层计算依赖于自组织临界性，而非经精细调节的局部起搏回路。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "临界大脑假说认为，大脑皮层网络在分离亚临界静息与超临界癫痫同步的非平衡相变临界区域附近运作。在该接近稳定性的动态范围内，自发性的多神经元放电突发组织为无标度神经历险，其事件规模与持续时间服从由特定分支比表征的普遍幂律分布。在此临界点运行可优化感官皮层的计算性能，最大化动态范围、信息传输容量及储存功能性记忆状态的多样性。稳态可塑性与活动依赖性突触抑制作为去中心化调节机制，在外部扰动后自主恢复网络参数至临界状态。普遍标度指数的存在证明大脑计算依赖自组织临界现象而非精调的局部节律生成回路。",
+        "verdict": {
+          "id": "syn_29",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "临界大脑假说认为，大脑皮层网络在分离亚临界静息与超临界癫痫同步的非平衡相变临界区域附近运作。在该接近稳定性的动态范围内，自发性的多神经元放电突发组织为无标度神经历险，其事件规模与持续时间服从由特定分支比表征的普遍幂律分布。在此临界点运行可优化感官皮层的计算性能，最大化动态范围、信息传输容量及储存功能性记忆状态的多样性。稳态可塑性与活动依赖性突触抑制作为去中心化调节机制，在外部扰动后自主恢复网络参数至临界状态。普遍标度指数的存在证明大脑计算依赖自组织临界现象而非精调的局部节律生成回路。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "临界脑假说主张，皮层网络运行于一个非平衡相变的附近，该相变将亚临界静息与失控的超临界癫痫样同步分隔开来。在这一边缘稳定的动力学区间内，多神经元放电的自发性爆发组织成无标度的神经元雪崩，其事件规模与持续时间服从以特定分支比为特征的普适幂律分布。在这一临界点运行可优化各感觉皮层的计算性能，使动态范围、信息传输容量以及所存储功能性记忆状态的多样性最大化。稳态可塑性与活动依赖性突触抑制充当去中心化的调节机制，在外部扰动之后自主地使网络参数恢复至临界状态。普适标度指数的存在证实，皮层计算依赖于自组织临界性，而非经精细调节的局部起搏回路。",
+        "verdict": {
+          "id": "syn_29",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "临界脑假说主张，皮层网络运行于一个非平衡相变的附近，该相变将亚临界静息与失控的超临界癫痫样同步分隔开来。在这一边缘稳定的动力学区间内，多神经元放电的自发性爆发组织成无标度的神经元雪崩，其事件规模与持续时间服从以特定分支比为特征的普适幂律分布。在这一临界点运行可优化各感觉皮层的计算性能，使动态范围、信息传输容量以及所存储功能性记忆状态的多样性最大化。稳态可塑性与活动依赖性突触抑制充当去中心化的调节机制，在外部扰动之后自主地使网络参数恢复至临界状态。普适标度指数的存在证实，皮层计算依赖于自组织临界性，而非经精细调节的局部起搏回路。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_30",
+    "source_type": "synthetic",
+    "domain": "complex_systems",
+    "topic": "Mutually Exciting Hawkes Processes in Market Microstructure",
+    "english": "Multivariate self- and cross-exciting Hawkes point processes model the endogenous clustering of order book events across high-frequency financial markets. Because the arrival of an aggressive market order instantaneously increases the conditional intensity of future orders across both sides of the book, transaction timestamps exhibit severe temporal autocorrelation and heavy-tailed inter-arrival intervals. By parameterizing the causal kernel matrix governing interactions between aggressive orders, limit order cancellations, and price changes, Hawkes formalisms disentangle exogenous economic news from self-generated endogenous liquidity feedback. When the spectral radius of the transition kernel matrix approaches unity, the market dynamics near a critical branch point where reflexive feedback cascades dominate price volatility. This econometric framework proves that microstructural volatility spikes represent endogenous chain reactions rather than exogenous adjustments to fundamental valuation.",
+    "chinese": "多元自激与互激霍克斯点过程对高频金融市场中订单簿事件的内生聚集进行建模。由于一笔激进市价订单的到达会瞬时提高订单簿双侧未来订单的条件强度，交易时间戳表现出严重的时间自相关与厚尾的到达间隔。通过对支配激进订单、限价单撤销与价格变动之间相互作用的因果核矩阵进行参数化，霍克斯形式体系将外生经济消息与自生的内生流动性反馈区分开来。当转移核矩阵的谱半径趋近于一时，市场动力学接近一个临界分支点，在该点反身性反馈级联主导价格波动。这一计量经济学框架证明，微观结构波动尖峰代表内生的连锁反应，而非对基本面估值的外生调整。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "多元自激励与互激励Hawkes点过程模型刻画了高频金融市场交易簿事件的内生聚集现象。由于一个激进市场订单的到达会瞬时提升交易簿双侧未来订单的条件强度，交易时间戳表现出显著的瞬时自相关与厚尾到达间隔。通过参数化调控激进订单、限价单撤销与价格变动的因果核矩阵，Hawkes框架可解耦外生经济新闻与自生成内生流动性反馈。当转移核矩阵的谱半径接近单位值时，市场动力学逼近一个临界分叉点，反映性反馈级联主导价格波动。该计量经济学框架证明微观结构波动尖峰代表内生连锁反应，而非对基本价值评估的外生调整。",
+        "verdict": {
+          "id": "syn_30",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "多元自激励与互激励Hawkes点过程模型刻画了高频金融市场交易簿事件的内生聚集现象。由于一个激进市场订单的到达会瞬时提升交易簿双侧未来订单的条件强度，交易时间戳表现出显著的瞬时自相关与厚尾到达间隔。通过参数化调控激进订单、限价单撤销与价格变动的因果核矩阵，Hawkes框架可解耦外生经济新闻与自生成内生流动性反馈。当转移核矩阵的谱半径接近单位值时，市场动力学逼近一个临界分叉点，反映性反馈级联主导价格波动。该计量经济学框架证明微观结构波动尖峰代表内生连锁反应，而非对基本价值评估的外生调整。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "多元自激与互激霍克斯点过程对高频金融市场中订单簿事件的内生聚集进行建模。由于一笔激进市价订单的到达会瞬时提高订单簿双侧未来订单的条件强度，交易时间戳表现出严重的时间自相关与厚尾的到达间隔。通过对支配激进订单、限价单撤销与价格变动之间相互作用的因果核矩阵进行参数化，霍克斯形式体系将外生经济消息与自生的内生流动性反馈区分开来。当转移核矩阵的谱半径趋近于一时，市场动力学接近一个临界分支点，在该点反身性反馈级联主导价格波动。这一计量经济学框架证明，微观结构波动尖峰代表内生的连锁反应，而非对基本面估值的外生调整。",
+        "verdict": {
+          "id": "syn_30",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "多元自激与互激霍克斯点过程对高频金融市场中订单簿事件的内生聚集进行建模。由于一笔激进市价订单的到达会瞬时提高订单簿双侧未来订单的条件强度，交易时间戳表现出严重的时间自相关与厚尾的到达间隔。通过对支配激进订单、限价单撤销与价格变动之间相互作用的因果核矩阵进行参数化，霍克斯形式体系将外生经济消息与自生的内生流动性反馈区分开来。当转移核矩阵的谱半径趋近于一时，市场动力学接近一个临界分支点，在该点反身性反馈级联主导价格波动。这一计量经济学框架证明，微观结构波动尖峰代表内生的连锁反应，而非对基本面估值的外生调整。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_31",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Cross-Border Intellectual Property Indemnification Frameworks",
+    "english": "The Licensor shall defend, indemnify, and hold harmless the Licensee and its respective corporate affiliates against any third-party claims, liabilities, damages, or statutory adjudications arising directly from allegations that the licensed enterprise software infringes upon any registered patent, copyright, or trade secret within the authorized territory. This indemnity obligation remains strictly conditioned upon the Licensee providing prompt written notice of any asserted infringement action within ten business days of receipt, granting the Licensor sole and unencumbered control over the defense and subsequent settlement negotiations, and fully cooperating in all reasonable evidentiary proceedings. Under no circumstances shall the Licensor enter into any settlement agreement that imposes non-reimbursable financial liabilities, injunctive restrictions, or admissions of fault upon the Licensee without securing prior, express written authorization from the Licensee’s designated legal counsel.",
+    "chinese": "许可方应就任何第三方因下述指控而产生的索赔、责任、损害赔偿或法定裁决，为被许可方及其各自的关联公司进行抗辩、予以赔偿并使其免受损害：该指控称所许可的企业软件在授权地域内侵犯任何已注册专利、著作权或商业秘密。该赔偿义务严格以下列条件为前提：被许可方在收到任何侵权主张之日起十个工作日内及时向许可方发出书面通知，授予许可方对抗辩及后续和解谈判的唯一且不受限制的控制权，并在所有合理的取证程序中予以充分配合。在任何情况下，未事先取得被许可方指定法律顾问明确的书面授权，许可方均不得订立任何对被许可方施加不可补偿的财务责任、禁令性限制或过错承认的和解协议。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "许可方应为被许可方及其各自所属企业附属机构对抗任何第三方主张，就因被许可企业软件在被授权地域内被指控侵犯任何注册专利、著作权或商业秘密而直接引起的责任、损害或法定裁判进行赔偿，并使其免受损害。此赔偿义务严格以被许可方在收到侵权指控后十个工作日内及时书面通知许可方为前提，且许可方对防御及后续和解谈判拥有完整和无限制的控制权，被许可方须全面配合所有合理取证程序。在任何情况下，许可方不得在未获得被许可方指定法律顾问事先明确书面授权的情况下，与被许可方达成需其承担不可报销财务责任、禁令限制或认错过失的和解协议。",
+        "verdict": {
+          "id": "syn_31",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "许可方应为被许可方及其各自所属企业附属机构对抗任何第三方主张，就因被许可企业软件在被授权地域内被指控侵犯任何注册专利、著作权或商业秘密而直接引起的责任、损害或法定裁判进行赔偿，并使其免受损害。此赔偿义务严格以被许可方在收到侵权指控后十个工作日内及时书面通知许可方为前提，且许可方对防御及后续和解谈判拥有完整和无限制的控制权，被许可方须全面配合所有合理取证程序。在任何情况下，许可方不得在未获得被许可方指定法律顾问事先明确书面授权的情况下，与被许可方达成需其承担不可报销财务责任、禁令限制或认错过失的和解协议。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "许可方应就任何第三方因下述指控而产生的索赔、责任、损害赔偿或法定裁决，为被许可方及其各自的关联公司进行抗辩、予以赔偿并使其免受损害：该指控称所许可的企业软件在授权地域内侵犯任何已注册专利、著作权或商业秘密。该赔偿义务严格以下列条件为前提：被许可方在收到任何侵权主张之日起十个工作日内及时向许可方发出书面通知，授予许可方对抗辩及后续和解谈判的唯一且不受限制的控制权，并在所有合理的取证程序中予以充分配合。在任何情况下，未事先取得被许可方指定法律顾问明确的书面授权，许可方均不得订立任何对被许可方施加不可补偿的财务责任、禁令性限制或过错承认的和解协议。",
+        "verdict": {
+          "id": "syn_31",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "许可方应就任何第三方因下述指控而产生的索赔、责任、损害赔偿或法定裁决，为被许可方及其各自的关联公司进行抗辩、予以赔偿并使其免受损害：该指控称所许可的企业软件在授权地域内侵犯任何已注册专利、著作权或商业秘密。该赔偿义务严格以下列条件为前提：被许可方在收到任何侵权主张之日起十个工作日内及时向许可方发出书面通知，授予许可方对抗辩及后续和解谈判的唯一且不受限制的控制权，并在所有合理的取证程序中予以充分配合。在任何情况下，未事先取得被许可方指定法律顾问明确的书面授权，许可方均不得订立任何对被许可方施加不可补偿的财务责任、禁令性限制或过错承认的和解协议。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_32",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Regulatory Compliance and Data Governance Mandates",
+    "english": "Pursuant to applicable data sovereignty frameworks and supervisory regulatory standards, the Data Processor must implement and continuously maintain verifiable technical and organizational security controls capable of preserving the confidentiality, integrity, and resilience of all processed personal information. In the event of an unauthorized security incident resulting in unlawful exfiltration, destructive modification, or accidental exposure of protected records, the Data Processor shall notify the designated Data Controller without undue delay and strictly within twenty-four hours of forensic confirmation. Such formal notification must detail the scope of the exfiltrated categories, the approximate volume of affected data subjects, and the specific mitigation remediations enacted. Continued statutory compliance requires rigorous biennial third-party vulnerability audits, immutable audit log preservation, and immediate cessation of unauthorized cross-border transmissions lacking approved standard contractual clauses.",
+    "chinese": "依据适用的数据主权框架与监管标准，数据处理者必须实施并持续维持可验证的技术性与组织性安全控制措施，使其能够保持所有被处理个人信息的保密性、完整性与韧性。如发生未经授权的安全事件，导致受保护记录被非法外泄、破坏性篡改或意外暴露，数据处理者应在取证确认后不得无故迟延，且严格在二十四小时内通知指定的数据控制者。该正式通知必须详述被外泄数据类别的范围、受影响数据主体的大致数量，以及已采取的具体缓解与补救措施。持续的法定合规要求进行严格的每两年一次的第三方漏洞审计、保存不可篡改的审计日志，并立即停止缺乏经批准的标准合同条款的未经授权的跨境传输。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "根据适用的数据主权框架及监管合规标准，数据处理方须实施并持续维护可验证的技术及组织安全控制措施，以确保所有处理的个人信息的机密性、完整性及弹性。若发生未经授权的安全事件，导致保护性记录的非法泄露、破坏性修改或意外暴露，数据处理方须在技术验证确认后二十四小时内立即通知指定数据控制方，且不得延误。该正式通知必须具体说明泄露数据类别的范围、受影响数据主体的大致数量及已实施的具体缓解整改措施。持续的法定合规要求包括严格的每两年一次第三方漏洞审计、不可变审计日志保存，以及立即终止未经授权的跨境传输，除非此类传输符合经批准的标准合同条款。",
+        "verdict": {
+          "id": "syn_32",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "根据适用的数据主权框架及监管合规标准，数据处理方须实施并持续维护可验证的技术及组织安全控制措施，以确保所有处理的个人信息的机密性、完整性及弹性。若发生未经授权的安全事件，导致保护性记录的非法泄露、破坏性修改或意外暴露，数据处理方须在技术验证确认后二十四小时内立即通知指定数据控制方，且不得延误。该正式通知必须具体说明泄露数据类别的范围、受影响数据主体的大致数量及已实施的具体缓解整改措施。持续的法定合规要求包括严格的每两年一次第三方漏洞审计、不可变审计日志保存，以及立即终止未经授权的跨境传输，除非此类传输符合经批准的标准合同条款。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "依据适用的数据主权框架与监管标准，数据处理者必须实施并持续维持可验证的技术性与组织性安全控制措施，使其能够保持所有被处理个人信息的保密性、完整性与韧性。如发生未经授权的安全事件，导致受保护记录被非法外泄、破坏性篡改或意外暴露，数据处理者应在取证确认后不得无故迟延，且严格在二十四小时内通知指定的数据控制者。该正式通知必须详述被外泄数据类别的范围、受影响数据主体的大致数量，以及已采取的具体缓解与补救措施。持续的法定合规要求进行严格的每两年一次的第三方漏洞审计、保存不可篡改的审计日志，并立即停止缺乏经批准的标准合同条款的未经授权的跨境传输。",
+        "verdict": {
+          "id": "syn_32",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "依据适用的数据主权框架与监管标准，数据处理者必须实施并持续维持可验证的技术性与组织性安全控制措施，使其能够保持所有被处理个人信息的保密性、完整性与韧性。如发生未经授权的安全事件，导致受保护记录被非法外泄、破坏性篡改或意外暴露，数据处理者应在取证确认后不得无故迟延，且严格在二十四小时内通知指定的数据控制者。该正式通知必须详述被外泄数据类别的范围、受影响数据主体的大致数量，以及已采取的具体缓解与补救措施。持续的法定合规要求进行严格的每两年一次的第三方漏洞审计、保存不可篡改的审计日志，并立即停止缺乏经批准的标准合同条款的未经授权的跨境传输。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_33",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "ISO/IEC 27001 Information Security Management Certification Controls",
+    "english": "The Certified Organization shall systematically design, implement, and maintain an Information Security Management System compliant with the Annex A control objectives specified under ISO/IEC 27001. All identified technical vulnerabilities and risk treatments must be formalized within an approved Statement of Applicability, documenting explicit justifications for any excluded security controls. The Organization must execute mandatory quarterly internal audits and annual independent surveillance assessments to verify that cryptography standards, multi-factor access protocols, and continuous intrusion monitoring mechanisms function effectively against external threat vectors. Any material non-conformity identified during surveillance reviews mandates immediate corrective action within thirty calendar days, failure of which shall constitute sufficient grounds for the accredited certification registrar to suspend or formally revoke the Organization’s statutory certification status.",
+    "chinese": "认证组织应当系统地设计、实施并维护符合ISO/IEC 27001附录A所规定控制目标的信息安全管理体系。所有已识别的技术漏洞与风险处置措施，均须在经批准的适用性声明中予以形式化，并对任何被排除的安全控制措施记载明确的理由。组织必须执行强制性的季度内部审核与年度独立监督评审，以验证密码学标准、多因素访问协议与持续入侵监测机制能够有效抵御外部威胁向量。在监督审查中发现的任何重大不符合项，均要求在三十个日历日内立即采取纠正措施；未能做到者，应构成经认可的认证注册机构暂停或正式撤销该组织法定认证资格的充分理由。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "认证组织应当系统设计并实施符合ISO/IEC 27001第A附件所规定的控制目标的信息安全管理体系，并将所有已识别的技术漏洞及风险处置措施在获批准的适用性声明中予以正式确认，同时记录任何被排除的安全控制措施的具体排除理由。组织必须执行强制性的季度内部审计及年度独立监督评估，以验证加密标准、多因素访问协议及连续入侵监测机制对外部威胁的有效性。在监督审查中发现任何重大不符合项，应当立即在三十个自然日内采取纠正措施；若未能履行该义务，认证注册机构将视为充分依据，暂停或正式撤销组织的法定认证状态。",
+        "verdict": {
+          "id": "syn_33",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "认证组织应当系统设计并实施符合ISO/IEC 27001第A附件所规定的控制目标的信息安全管理体系，并将所有已识别的技术漏洞及风险处置措施在获批准的适用性声明中予以正式确认，同时记录任何被排除的安全控制措施的具体排除理由。组织必须执行强制性的季度内部审计及年度独立监督评估，以验证加密标准、多因素访问协议及连续入侵监测机制对外部威胁的有效性。在监督审查中发现任何重大不符合项，应当立即在三十个自然日内采取纠正措施；若未能履行该义务，认证注册机构将视为充分依据，暂停或正式撤销组织的法定认证状态。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "认证组织应当系统地设计、实施并维护符合ISO/IEC 27001附录A所规定控制目标的信息安全管理体系。所有已识别的技术漏洞与风险处置措施，均须在经批准的适用性声明中予以形式化，并对任何被排除的安全控制措施记载明确的理由。组织必须执行强制性的季度内部审核与年度独立监督评审，以验证密码学标准、多因素访问协议与持续入侵监测机制能够有效抵御外部威胁向量。在监督审查中发现的任何重大不符合项，均要求在三十个日历日内立即采取纠正措施；未能做到者，应构成经认可的认证注册机构暂停或正式撤销该组织法定认证资格的充分理由。",
+        "verdict": {
+          "id": "syn_33",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "认证组织应当系统地设计、实施并维护符合ISO/IEC 27001附录A所规定控制目标的信息安全管理体系。所有已识别的技术漏洞与风险处置措施，均须在经批准的适用性声明中予以形式化，并对任何被排除的安全控制措施记载明确的理由。组织必须执行强制性的季度内部审核与年度独立监督评审，以验证密码学标准、多因素访问协议与持续入侵监测机制能够有效抵御外部威胁向量。在监督审查中发现的任何重大不符合项，均要求在三十个日历日内立即采取纠正措施；未能做到者，应构成经认可的认证注册机构暂停或正式撤销该组织法定认证资格的充分理由。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_34",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Reciprocal Patent Non-Assertion and Cross-Licensing Covenants",
+    "english": "Each Party hereby grants to the other Party a perpetual, irrevocable, non-exclusive, fully paid-up, worldwide license under its respective Licensed Patent Portfolio to make, have made, use, offer to sell, sell, and import Licensed Products within the defined Fields of Use. Furthermore, each Party covenants not to assert any patent infringement litigation, administrative injunction, or exclusion proceeding against the other Party, its commercial subsidiaries, or its direct customers based upon the manufacturing or distribution of covered implementations. This reciprocal patent non-assertion covenant shall terminate immediately and automatically with respect to any Party that initiates a formal judicial patent infringement claim against the other Party, thereby re-establishing all statutory intellectual property enforcement remedies and claims for past damages without prejudice or prior waiver.",
+    "chinese": "各方特此根据其各自的被许可专利组合，授予另一方在约定使用领域内制造、委托制造、使用、许诺销售、销售及进口被许可产品的永久的、不可撤销的、非独占的、已全额付清的全球性许可。此外，各方承诺，不就涵盖实施方案的制造或分销，对另一方、其商业子公司或其直接客户主张任何专利侵权诉讼、行政禁令或排除程序。对于向另一方提起正式司法专利侵权诉讼的任何一方，该互惠专利不主张承诺应立即并自动终止，从而重新确立所有法定的知识产权执行救济及对既往损害的索赔，且不受任何损害，亦不构成事先放弃。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "各方向另一方授予其各自被许可专利组合项下永久的、不可撤销的、非独占的、已全额支付的、全球范围内的许可权利，以便在约定的使用领域内制造、委托他人制造、使用、销售、进口及提供销售被许可产品。各方进一步承诺不得针对另一方、其商业子公司或直接客户，就受规范实施的制造或分销活动提出专利侵权诉讼、行政禁令申请或排除程序。若任一方就合同另一方提起正式司法专利侵权诉讼，上述互惠专利不主张保证将立即且自动终止，重新确立所有法定的知识产权执行补救措施与历史损害赔偿请求，且不影响任何既往权利的放弃。",
+        "verdict": {
+          "id": "syn_34",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "各方向另一方授予其各自被许可专利组合项下永久的、不可撤销的、非独占的、已全额支付的、全球范围内的许可权利，以便在约定的使用领域内制造、委托他人制造、使用、销售、进口及提供销售被许可产品。各方进一步承诺不得针对另一方、其商业子公司或直接客户，就受规范实施的制造或分销活动提出专利侵权诉讼、行政禁令申请或排除程序。若任一方就合同另一方提起正式司法专利侵权诉讼，上述互惠专利不主张保证将立即且自动终止，重新确立所有法定的知识产权执行补救措施与历史损害赔偿请求，且不影响任何既往权利的放弃。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "各方特此根据其各自的被许可专利组合，授予另一方在约定使用领域内制造、委托制造、使用、许诺销售、销售及进口被许可产品的永久的、不可撤销的、非独占的、已全额付清的全球性许可。此外，各方承诺，不就涵盖实施方案的制造或分销，对另一方、其商业子公司或其直接客户主张任何专利侵权诉讼、行政禁令或排除程序。对于向另一方提起正式司法专利侵权诉讼的任何一方，该互惠专利不主张承诺应立即并自动终止，从而重新确立所有法定的知识产权执行救济及对既往损害的索赔，且不受任何损害，亦不构成事先放弃。",
+        "verdict": {
+          "id": "syn_34",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "各方特此根据其各自的被许可专利组合，授予另一方在约定使用领域内制造、委托制造、使用、许诺销售、销售及进口被许可产品的永久的、不可撤销的、非独占的、已全额付清的全球性许可。此外，各方承诺，不就涵盖实施方案的制造或分销，对另一方、其商业子公司或其直接客户主张任何专利侵权诉讼、行政禁令或排除程序。对于向另一方提起正式司法专利侵权诉讼的任何一方，该互惠专利不主张承诺应立即并自动终止，从而重新确立所有法定的知识产权执行救济及对既往损害的索赔，且不受任何损害，亦不构成事先放弃。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_35",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Cross-Border Regulatory Mandates and Anti-Money Laundering Protocols",
+    "english": "Pursuant to applicable statutory frameworks governing anti-money laundering and the suppression of terrorist financing, the Covered Financial Institution shall establish, maintain, and enforce an enterprise-wide risk-based customer due diligence program. Prior to onboarding any cross-border corporate entity, the Institution must systematically verify the ultimate beneficial ownership structure to identify any natural person holding an equity interest exceeding twenty-five percent. In instances involving designated politically exposed persons or high-risk jurisdictions, mandatory enhanced due diligence procedures require verifying source-of-wealth documentation and obtaining senior management authorization. The Institution shall maintain continuous automated transaction screening mechanisms, retaining all comprehensive audit records, verification dossiers, and suspicious activity filings for a minimum statutory period of five years following account closure, subject to immediate supervisory inspection.",
+    "chinese": "依据适用的规制反洗钱与遏制恐怖主义融资的法定框架，受涵盖金融机构应建立、维持并执行全企业范围的风险为本的客户尽职调查计划。在接纳任何跨境公司实体之前，机构必须系统地核实最终受益所有权结构，以识别持有超过百分之二十五股权的任何自然人。在涉及被指定的政治公众人物或高风险司法辖区的情形下，强制性的强化尽职调查程序要求核实财富来源证明文件，并取得高级管理层的授权。机构应维持持续的自动化交易筛查机制，并将所有完整的审计记录、核实档案与可疑活动报告，自账户关闭后至少保存法定的五年期间，且须接受监管机构的即时检查。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "根据适用的反洗钱及打击资助恐怖主义法定框架，受监管的金融机构应建立、保持并执行全企业范围的风险导向型客户尽职调查计划。在接纳任一跨境公司实体前，机构应系统性地核实最终受益所有权结构，以识别任何持有超过百分之二十五权益的自然人。倘若涉及指名的政治上重要的个人或高风险司法管辖区，法定的强化尽职调查程序将强制要求核实财富来源的文件资料，并取得高级管理层的授权。机构须持续维护自动化交易筛查机制，并至少在账户关闭后的法定五年期间，完整保存所有审计记录、核实档案及可疑活动报告，以供主管机关随时检查。",
+        "verdict": {
+          "id": "syn_35",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "根据适用的反洗钱及打击资助恐怖主义法定框架，受监管的金融机构应建立、保持并执行全企业范围的风险导向型客户尽职调查计划。在接纳任一跨境公司实体前，机构应系统性地核实最终受益所有权结构，以识别任何持有超过百分之二十五权益的自然人。倘若涉及指名的政治上重要的个人或高风险司法管辖区，法定的强化尽职调查程序将强制要求核实财富来源的文件资料，并取得高级管理层的授权。机构须持续维护自动化交易筛查机制，并至少在账户关闭后的法定五年期间，完整保存所有审计记录、核实档案及可疑活动报告，以供主管机关随时检查。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "依据适用的规制反洗钱与遏制恐怖主义融资的法定框架，受涵盖金融机构应建立、维持并执行全企业范围的风险为本的客户尽职调查计划。在接纳任何跨境公司实体之前，机构必须系统地核实最终受益所有权结构，以识别持有超过百分之二十五股权的任何自然人。在涉及被指定的政治公众人物或高风险司法辖区的情形下，强制性的强化尽职调查程序要求核实财富来源证明文件，并取得高级管理层的授权。机构应维持持续的自动化交易筛查机制，并将所有完整的审计记录、核实档案与可疑活动报告，自账户关闭后至少保存法定的五年期间，且须接受监管机构的即时检查。",
+        "verdict": {
+          "id": "syn_35",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "依据适用的规制反洗钱与遏制恐怖主义融资的法定框架，受涵盖金融机构应建立、维持并执行全企业范围的风险为本的客户尽职调查计划。在接纳任何跨境公司实体之前，机构必须系统地核实最终受益所有权结构，以识别持有超过百分之二十五股权的任何自然人。在涉及被指定的政治公众人物或高风险司法辖区的情形下，强制性的强化尽职调查程序要求核实财富来源证明文件，并取得高级管理层的授权。机构应维持持续的自动化交易筛查机制，并将所有完整的审计记录、核实档案与可疑活动报告，自账户关闭后至少保存法定的五年期间，且须接受监管机构的即时检查。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_36",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Limitation of Liability and Consequential Damages Exclusion",
+    "english": "To the maximum extent permitted by applicable governing law, neither party shall be liable to the other party or any third party under any legal, contractual, or tort theory for any indirect, incidental, consequential, special, punitive, or exemplary damages arising out of or related to this Agreement. This comprehensive exclusion encompasses, without limitation, damages for loss of anticipated commercial profits, business interruption, loss of goodwill, system downtime, or corruption of digital data, regardless of whether such damages were reasonably foreseeable. Furthermore, each party's aggregate cumulative liability for any and all claims, disputes, or causes of action arising hereunder shall strictly not exceed the total monetary fees actually paid by the Customer to the Service Provider during the twelve-month period preceding the event giving rise to liability.",
+    "chinese": "在适用的准据法所允许的最大范围内，任何一方均不得依据任何法律、合同或侵权理论，就因本协议引起或与本协议相关的任何间接性、附带性、后果性、特殊性、惩罚性或惩戒性损害赔偿，对另一方或任何第三方承担责任。此项全面排除包括但不限于预期商业利润损失、业务中断、商誉损失、系统停机或数字数据损坏所致的损害赔偿，无论该等损害是否可被合理预见。此外，各方就本协议项下产生的任何及全部索赔、争议或诉因所承担的累计责任总额，严格不得超过客户在引发责任的事件发生前十二个月期间实际向服务提供方支付的费用总额。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "在适用法律许可的最大范围内，任一缔约方因其或第三方对本协议项下或相关之任何间接、附带、后续、特殊、惩罚性或范例性损害不得就任何法律、合同或侵权理论对另一缔约方承担责任。此全面排除条款明示涵盖但不限于预期商业利润损失、业务中断、商誉损害、系统停机或数字数据损坏所致损害，无论此类损害是否合理可预见。此外，任何一方就本协议产生之所有索赔、争议或诉讼的累计总责任严格不得超过客户在责任事件发生前十二个月内实际已向服务提供方支付的费用总额。",
+        "verdict": {
+          "id": "syn_36",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "在适用法律许可的最大范围内，任一缔约方因其或第三方对本协议项下或相关之任何间接、附带、后续、特殊、惩罚性或范例性损害不得就任何法律、合同或侵权理论对另一缔约方承担责任。此全面排除条款明示涵盖但不限于预期商业利润损失、业务中断、商誉损害、系统停机或数字数据损坏所致损害，无论此类损害是否合理可预见。此外，任何一方就本协议产生之所有索赔、争议或诉讼的累计总责任严格不得超过客户在责任事件发生前十二个月内实际已向服务提供方支付的费用总额。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "在适用的准据法所允许的最大范围内，任何一方均不得依据任何法律、合同或侵权理论，就因本协议引起或与本协议相关的任何间接性、附带性、后果性、特殊性、惩罚性或惩戒性损害赔偿，对另一方或任何第三方承担责任。此项全面排除包括但不限于预期商业利润损失、业务中断、商誉损失、系统停机或数字数据损坏所致的损害赔偿，无论该等损害是否可被合理预见。此外，各方就本协议项下产生的任何及全部索赔、争议或诉因所承担的累计责任总额，严格不得超过客户在引发责任的事件发生前十二个月期间实际向服务提供方支付的费用总额。",
+        "verdict": {
+          "id": "syn_36",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "在适用的准据法所允许的最大范围内，任何一方均不得依据任何法律、合同或侵权理论，就因本协议引起或与本协议相关的任何间接性、附带性、后果性、特殊性、惩罚性或惩戒性损害赔偿，对另一方或任何第三方承担责任。此项全面排除包括但不限于预期商业利润损失、业务中断、商誉损失、系统停机或数字数据损坏所致的损害赔偿，无论该等损害是否可被合理预见。此外，各方就本协议项下产生的任何及全部索赔、争议或诉因所承担的累计责任总额，严格不得超过客户在引发责任的事件发生前十二个月期间实际向服务提供方支付的费用总额。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_37",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Enterprise Service Level Agreement and Availability Warranties",
+    "english": "The Service Provider covenants and warrants that the hosted enterprise cloud architecture shall achieve an aggregate Monthly Uptime Percentage of not less than ninety-nine and nine-tenths percent during each calendar month billing cycle. In the event of an unscheduled service interruption exceeding permitted maintenance windows, the Customer shall be entitled to a proportional Service Credit applied against subsequent monthly invoices, calculated pursuant to the tiered downtime schedule set forth in Exhibit B. To claim an eligible Service Credit, the Customer must submit a formal written incident report within thirty calendar days following the occurrence of the triggering outage, accompanied by system diagnostic logs. These Service Credits shall constitute the Customer’s sole and exclusive financial remedy for any failure by the Service Provider to satisfy stipulated uptime availability covenants.",
+    "chinese": "服务提供方承诺并保证，所托管的企业云架构在每个日历月计费周期内，应实现不低于百分之九十九点九的月度正常运行时间百分比总值。如发生超出允许维护窗口的计划外服务中断，客户有权获得按比例计算的服务抵免额，并抵扣后续月度发票，该抵免额依据附件B所载的分级停机时间表计算。为主张符合条件的服务抵免额，客户必须在触发性中断发生后的三十个日历日内，提交正式的书面事件报告，并附系统诊断日志。对于服务提供方未能满足约定的正常运行时间可用性承诺的任何情形，此类服务抵免额应构成客户唯一且排他的经济救济。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "服务提供商承诺并保证托管型企业云架构在每个日历月账单周期内实现累计月度系统可用率不低于百分之九十九点九。若发生超出允许维护时段的非计划服务中断，客户有权按比例获得服务积分补偿，该补偿将依据附件B中规定的分层停机时间表计算并于后续月度账单中抵扣。为申请符合资格的服务积分补偿，客户须在触发性停机事件发生后的三十个日历日内提交正式书面事件报告并附系统诊断日志。此类服务积分应构成客户针对服务提供商未能满足约定系统可用率条款的唯一排他性经济救济途径。",
+        "verdict": {
+          "id": "syn_37",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "服务提供商承诺并保证托管型企业云架构在每个日历月账单周期内实现累计月度系统可用率不低于百分之九十九点九。若发生超出允许维护时段的非计划服务中断，客户有权按比例获得服务积分补偿，该补偿将依据附件B中规定的分层停机时间表计算并于后续月度账单中抵扣。为申请符合资格的服务积分补偿，客户须在触发性停机事件发生后的三十个日历日内提交正式书面事件报告并附系统诊断日志。此类服务积分应构成客户针对服务提供商未能满足约定系统可用率条款的唯一排他性经济救济途径。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "服务提供方承诺并保证，所托管的企业云架构在每个日历月计费周期内，应实现不低于百分之九十九点九的月度正常运行时间百分比总值。如发生超出允许维护窗口的计划外服务中断，客户有权获得按比例计算的服务抵免额，并抵扣后续月度发票，该抵免额依据附件B所载的分级停机时间表计算。为主张符合条件的服务抵免额，客户必须在触发性中断发生后的三十个日历日内，提交正式的书面事件报告，并附系统诊断日志。对于服务提供方未能满足约定的正常运行时间可用性承诺的任何情形，此类服务抵免额应构成客户唯一且排他的经济救济。",
+        "verdict": {
+          "id": "syn_37",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "服务提供方承诺并保证，所托管的企业云架构在每个日历月计费周期内，应实现不低于百分之九十九点九的月度正常运行时间百分比总值。如发生超出允许维护窗口的计划外服务中断，客户有权获得按比例计算的服务抵免额，并抵扣后续月度发票，该抵免额依据附件B所载的分级停机时间表计算。为主张符合条件的服务抵免额，客户必须在触发性中断发生后的三十个日历日内，提交正式的书面事件报告，并附系统诊断日志。对于服务提供方未能满足约定的正常运行时间可用性承诺的任何情形，此类服务抵免额应构成客户唯一且排他的经济救济。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_38",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Export Administration Regulations and Dual-Use Compliance Mandates",
+    "english": "The Licensee agrees to strictly comply with all applicable export control statutes, including the Export Administration Regulations and International Traffic in Arms Regulations administered by relevant governmental regulatory bodies. Under no circumstances shall the Licensee export, re-export, transfer, or disclose any technical data, proprietary blueprints, or dual-use software modules to any embargoed destination, restricted national entity, or sanctioned individual without first obtaining an approved export license from the competent administrative authority. The Licensee warrants that it maintains comprehensive denied-party screening mechanisms and auditable chain-of-custody controls across all distribution channels. Any breach of statutory trade covenants shall be deemed a material non-curable default, entitling the Licensor to immediately terminate this Agreement, revoke technical support, and report the unauthorized export incident directly to regulatory enforcement authorities.",
+    "chinese": "被许可方同意严格遵守所有适用的出口管制法规，包括由相关政府监管机构管理的《出口管理条例》与《国际武器贸易条例》。在任何情况下，未事先取得主管行政机关核发的出口许可，被许可方均不得向任何禁运目的地、受限制的国家实体或受制裁个人出口、再出口、转让或披露任何技术数据、专有设计图纸或军民两用软件模块。被许可方保证，其在所有分销渠道中均维持全面的禁止交易方筛查机制与可审计的保管链控制。任何违反法定贸易承诺的行为，均应视为不可补救的重大违约，使许可方有权立即终止本协议、撤销技术支持，并将未经授权的出口事件直接报告监管执法机关。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "被许可方同意严格遵守所有适用的出口管制法规，包括相关政府监管机构管理的《出口管理条例》和《国际武器贸易条例》。在任何情况下，被许可方未经相关主管部门批准获得有效出口许可证，不得将任何技术数据、专有设计图纸或军民两用软件模块出口、再出口、转让或披露至任何禁运目的地、受限国家实体或受制裁个人。被许可方保证在所有分销渠道中实施全面禁止方筛查机制和可审计的保管链控制。任何违反法定贸易条款的行为均构成重大不可补救违约，许可方有权立即终止本协议、撤销技术支持并向监管执法机构直接报告未经授权的出口事件。",
+        "verdict": {
+          "id": "syn_38",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "被许可方同意严格遵守所有适用的出口管制法规，包括相关政府监管机构管理的《出口管理条例》和《国际武器贸易条例》。在任何情况下，被许可方未经相关主管部门批准获得有效出口许可证，不得将任何技术数据、专有设计图纸或军民两用软件模块出口、再出口、转让或披露至任何禁运目的地、受限国家实体或受制裁个人。被许可方保证在所有分销渠道中实施全面禁止方筛查机制和可审计的保管链控制。任何违反法定贸易条款的行为均构成重大不可补救违约，许可方有权立即终止本协议、撤销技术支持并向监管执法机构直接报告未经授权的出口事件。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "被许可方同意严格遵守所有适用的出口管制法规，包括由相关政府监管机构管理的《出口管理条例》与《国际武器贸易条例》。在任何情况下，未事先取得主管行政机关核发的出口许可，被许可方均不得向任何禁运目的地、受限制的国家实体或受制裁个人出口、再出口、转让或披露任何技术数据、专有设计图纸或军民两用软件模块。被许可方保证，其在所有分销渠道中均维持全面的禁止交易方筛查机制与可审计的保管链控制。任何违反法定贸易承诺的行为，均应视为不可补救的重大违约，使许可方有权立即终止本协议、撤销技术支持，并将未经授权的出口事件直接报告监管执法机关。",
+        "verdict": {
+          "id": "syn_38",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "被许可方同意严格遵守所有适用的出口管制法规，包括由相关政府监管机构管理的《出口管理条例》与《国际武器贸易条例》。在任何情况下，未事先取得主管行政机关核发的出口许可，被许可方均不得向任何禁运目的地、受限制的国家实体或受制裁个人出口、再出口、转让或披露任何技术数据、专有设计图纸或军民两用软件模块。被许可方保证，其在所有分销渠道中均维持全面的禁止交易方筛查机制与可审计的保管链控制。任何违反法定贸易承诺的行为，均应视为不可补救的重大违约，使许可方有权立即终止本协议、撤销技术支持，并将未经授权的出口事件直接报告监管执法机关。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_39",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Open Source Software Inbound Licensing and Reciprocal Obligations",
+    "english": "The Contributor irrevocably grants to the Project Foundation and all subsequent recipients a perpetual, worldwide, royalty-free copyright and patent license to reproduce, prepare derivative works of, publicly display, sublicense, and distribute the Submitted Code within collective software distributions. If the Contribution incorporates any third-party open source software governed by reciprocal copyleft mandates, including the GNU General Public License, the Contributor warrants that such dependencies have been segregated into distinct modular libraries communicating strictly via non-proprietary binary interfaces. Under no circumstances shall the Contributor inject any proprietary modules that would subject the Project Foundation’s core proprietary repositories to mandatory source code disclosure obligations. Any non-compliant code commit shall constitute a material breach, authorizing immediate repository rollback and unilateral revocation of commit privileges.",
+    "chinese": "贡献者不可撤销地向项目基金会及所有后续接收方授予永久的、全球性的、免版税的著作权与专利许可，使其得以在集合性软件发行版中复制、创作衍生作品、公开展示、分许可及分发所提交代码。若该贡献包含受互惠性著佐权要求（包括GNU通用公共许可证）所约束的任何第三方开源软件，贡献者保证，此类依赖项已被隔离至仅通过非专有二进制接口通信的独立模块化库中。在任何情况下，贡献者均不得引入会使项目基金会的核心专有代码库承担强制性源代码披露义务的专有模块。任何不合规的代码提交均构成重大违约，授权项目基金会立即回滚代码仓库并单方面撤销提交权限。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "贡献者不可撤销地授予项目基金会及所有后续接收方永久、全球性、免版税的版权及专利许可，允许其复制、制作衍生作品、公开展示、分授权及分发所提交代码于集合式软件分发中。若该贡献包含受互利强制性版权协议管理的第三方开源软件（包括GNU通用公共许可证），贡献者须保证此类依赖项已严格分割为通过非专有二进制接口通信的独立模块化库。在任何情况下，贡献者不得注入会使项目基金会核心专有代码库触达强制性源代码披露义务的专有模块。任何违反合规要求的代码提交均构成重大违约，授权方有权立即执行代码仓库回滚并单方面撤销提交权限。",
+        "verdict": {
+          "id": "syn_39",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "贡献者不可撤销地授予项目基金会及所有后续接收方永久、全球性、免版税的版权及专利许可，允许其复制、制作衍生作品、公开展示、分授权及分发所提交代码于集合式软件分发中。若该贡献包含受互利强制性版权协议管理的第三方开源软件（包括GNU通用公共许可证），贡献者须保证此类依赖项已严格分割为通过非专有二进制接口通信的独立模块化库。在任何情况下，贡献者不得注入会使项目基金会核心专有代码库触达强制性源代码披露义务的专有模块。任何违反合规要求的代码提交均构成重大违约，授权方有权立即执行代码仓库回滚并单方面撤销提交权限。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "贡献者不可撤销地向项目基金会及所有后续接收方授予永久的、全球性的、免版税的著作权与专利许可，使其得以在集合性软件发行版中复制、创作衍生作品、公开展示、分许可及分发所提交代码。若该贡献包含受互惠性著佐权要求（包括GNU通用公共许可证）所约束的任何第三方开源软件，贡献者保证，此类依赖项已被隔离至仅通过非专有二进制接口通信的独立模块化库中。在任何情况下，贡献者均不得引入会使项目基金会的核心专有代码库承担强制性源代码披露义务的专有模块。任何不合规的代码提交均构成重大违约，授权项目基金会立即回滚代码仓库并单方面撤销提交权限。",
+        "verdict": {
+          "id": "syn_39",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "贡献者不可撤销地向项目基金会及所有后续接收方授予永久的、全球性的、免版税的著作权与专利许可，使其得以在集合性软件发行版中复制、创作衍生作品、公开展示、分许可及分发所提交代码。若该贡献包含受互惠性著佐权要求（包括GNU通用公共许可证）所约束的任何第三方开源软件，贡献者保证，此类依赖项已被隔离至仅通过非专有二进制接口通信的独立模块化库中。在任何情况下，贡献者均不得引入会使项目基金会的核心专有代码库承担强制性源代码披露义务的专有模块。任何不合规的代码提交均构成重大违约，授权项目基金会立即回滚代码仓库并单方面撤销提交权限。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "syn_40",
+    "source_type": "synthetic",
+    "domain": "syntax_baseline",
+    "topic": "Clinical Trial Regulatory Compliance and Pharmacovigilance Mandates",
+    "english": "The Clinical Trial Sponsor must execute and document all investigational pharmacological protocols in rigorous conformity with International Council for Harmonisation Good Clinical Practice guidelines and applicable statutory pharmacovigilance directives. Upon the occurrence of any Serious Unexpected Adverse Drug Reaction during the clinical trial, the Sponsor is legally mandated to furnish formal expedited safety reports to relevant health authorities and institutional ethics committees within seven calendar days for fatal or life-threatening occurrences, and fifteen calendar days for all other serious qualifying events. The Sponsor shall continuously maintain an auditable master trial file containing validated electronic data capture logs, signed subject informed consent forms, and investigational product accountability records. Failure to preserve evidentiary data integrity shall trigger immediate clinical hold sanctions, regulatory inspection penalties, and invalidation of pending marketing authorization dossiers.",
+    "chinese": "临床试验申办者必须严格依照国际人用药品注册技术协调会的《药物临床试验质量管理规范》指南及适用的法定药物警戒指令，执行并记录全部试验性药理学方案。如在临床试验期间发生任何严重的非预期药物不良反应，申办者负有法定义务，就致命或危及生命的事件在七个日历日内、就所有其他符合条件的严重事件在十五个日历日内，向相关卫生主管部门与机构伦理委员会提交正式的加速安全性报告。申办者应持续维护可供审计的试验主文件，其中包含经验证的电子数据采集日志、经签署的受试者知情同意书以及试验用药品管理记录。未能保持证据数据完整性的，将引发立即的临床暂停制裁、监管检查处罚，以及待决上市许可申请档案的失效。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "临床试验申办者须严格按照国际人用药品注册技术协调委员会良好临床实践指南及适用的法定药物警戒指令，执行并记录所有试验性药理学方案。若临床试验期间出现重大异常不良药物反应，申办者须在七日历日内针对致死或危及生命事件，十五日历日内针对其他所有严重合格事件，向相关卫生主管部门及机构伦理委员会提交正式加速安全报告。申办者应持续维护包含验证电子数据采集日志、签署受试者知情同意文件及试验性药品管理记录的独立审计主试验档案。任何未能保証证据数据完整性的行为将触发临床暂停指令、监管检查处罚及待批上市许可申请书的无效裁决。",
+        "verdict": {
+          "id": "syn_40",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "临床试验申办者须严格按照国际人用药品注册技术协调委员会良好临床实践指南及适用的法定药物警戒指令，执行并记录所有试验性药理学方案。若临床试验期间出现重大异常不良药物反应，申办者须在七日历日内针对致死或危及生命事件，十五日历日内针对其他所有严重合格事件，向相关卫生主管部门及机构伦理委员会提交正式加速安全报告。申办者应持续维护包含验证电子数据采集日志、签署受试者知情同意文件及试验性药品管理记录的独立审计主试验档案。任何未能保証证据数据完整性的行为将触发临床暂停指令、监管检查处罚及待批上市许可申请书的无效裁决。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "临床试验申办者必须严格依照国际人用药品注册技术协调会的《药物临床试验质量管理规范》指南及适用的法定药物警戒指令，执行并记录全部试验性药理学方案。如在临床试验期间发生任何严重的非预期药物不良反应，申办者负有法定义务，就致命或危及生命的事件在七个日历日内、就所有其他符合条件的严重事件在十五个日历日内，向相关卫生主管部门与机构伦理委员会提交正式的加速安全性报告。申办者应持续维护可供审计的试验主文件，其中包含经验证的电子数据采集日志、经签署的受试者知情同意书以及试验用药品管理记录。未能保持证据数据完整性的，将引发立即的临床暂停制裁、监管检查处罚，以及待决上市许可申请档案的失效。",
+        "verdict": {
+          "id": "syn_40",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "临床试验申办者必须严格依照国际人用药品注册技术协调会的《药物临床试验质量管理规范》指南及适用的法定药物警戒指令，执行并记录全部试验性药理学方案。如在临床试验期间发生任何严重的非预期药物不良反应，申办者负有法定义务，就致命或危及生命的事件在七个日历日内、就所有其他符合条件的严重事件在十五个日历日内，向相关卫生主管部门与机构伦理委员会提交正式的加速安全性报告。申办者应持续维护可供审计的试验主文件，其中包含经验证的电子数据采集日志、经签署的受试者知情同意书以及试验用药品管理记录。未能保持证据数据完整性的，将引发立即的临床暂停制裁、监管检查处罚，以及待决上市许可申请档案的失效。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_01",
+    "source_type": "human",
+    "domain": "math_physics",
+    "topic": "",
+    "english": "Building on parallels between geometric quantum mechanics and classical mechanics, we explore an alternative basis for quantum thermodynamics that exploits the differential geometry of the underlying state space. We develop both microcanonical and canonical ensembles, introducing continuous mixed states as distributions on the manifold of quantum states. We call out the experimental consequences for a gas of qudits. We define quantum heat and work in an intrinsic way, including single-trajectory work, and reformulate thermodynamic entropy in a way that accords with classical, quantum, and information-theoretic entropies. We give both the First and Second Laws of Thermodynamics and Jarzynki’s Fluctuation Theorem. The result is a more transparent physics, than conventionally available, in which the mathematical structure and physical intuitions underlying classical and quantum dynamics are seen to be closely aligned.",
+    "chinese": "基于几何量子力学与经典力学之间的相似性，我们探索了一种利用底层态空间的微分几何的量子热力学的另一种基础。我们建立了微正则系综与正则系综，并引入连续混合态作为量子态流形上的分布。我们指出了量子d位气体的实验后果。我们以内蕴方式定义量子热与功，包括单轨迹功，并以与经典熵、量子熵和信息论熵相符的方式重新表述热力学熵。我们给出了热力学第一定律与第二定律以及雅尔津斯基涨落定理。其结果是比通常所能获得的更为透明的物理，其中经典动力学与量子动力学所依据的数学结构与物理直觉被视为紧密一致。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "在几何量子力学与经典力学的类比基础上，我们探索了一种利用基础态空间差分几何的替代量子热力学基础。我们构建了微正则系综和正则系综，将连续混合态定义为量子态流形上的分布。我们指出了高维量子位气体的实验后果。我们以内在方式定义量子热与功，包括单轨迹功，并重新表述热力学熵，使其与经典、量子和信息论熵相一致。我们给出了热力学第一、第二定律以及Jarzynski涨落定理。这种方法呈现出比传统方法更清晰的物理图景，其中经典与量子动力学背后的数学结构和物理直觉被明确显示为紧密对应。",
+        "verdict": {
+          "id": "hum_01",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "在几何量子力学与经典力学的类比基础上，我们探索了一种利用基础态空间差分几何的替代量子热力学基础。我们构建了微正则系综和正则系综，将连续混合态定义为量子态流形上的分布。我们指出了高维量子位气体的实验后果。我们以内在方式定义量子热与功，包括单轨迹功，并重新表述热力学熵，使其与经典、量子和信息论熵相一致。我们给出了热力学第一、第二定律以及Jarzynski涨落定理。这种方法呈现出比传统方法更清晰的物理图景，其中经典与量子动力学背后的数学结构和物理直觉被明确显示为紧密对应。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "基于几何量子力学与经典力学之间的相似性，我们探索了一种利用底层态空间的微分几何的量子热力学的另一种基础。我们建立了微正则系综与正则系综，并引入连续混合态作为量子态流形上的分布。我们指出了量子d位气体的实验后果。我们以内蕴方式定义量子热与功，包括单轨迹功，并以与经典熵、量子熵和信息论熵相符的方式重新表述热力学熵。我们给出了热力学第一定律与第二定律以及雅尔津斯基涨落定理。其结果是比通常所能获得的更为透明的物理，其中经典动力学与量子动力学所依据的数学结构与物理直觉被视为紧密一致。",
+        "verdict": {
+          "id": "hum_01",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "基于几何量子力学与经典力学之间的相似性，我们探索了一种利用底层态空间的微分几何的量子热力学的另一种基础。我们建立了微正则系综与正则系综，并引入连续混合态作为量子态流形上的分布。我们指出了量子d位气体的实验后果。我们以内蕴方式定义量子热与功，包括单轨迹功，并以与经典熵、量子熵和信息论熵相符的方式重新表述热力学熵。我们给出了热力学第一定律与第二定律以及雅尔津斯基涨落定理。其结果是比通常所能获得的更为透明的物理，其中经典动力学与量子动力学所依据的数学结构与物理直觉被视为紧密一致。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_02",
+    "source_type": "human",
+    "domain": "math_physics",
+    "topic": "",
+    "english": "Many basis sets for electronic structure calculations evolve with varying external parameters, such as moving atoms in dynamic simulations, giving rise to extra derivative terms in the dynamical equations. Here we revisit these derivatives in the context of differential geometry, thereby obtaining a more transparent formalisation, and a geometrical perspective for better understanding the resulting equations. The effect of the evolution of the basis set within the spanned Hilbert space separates explicitly from the effect of the turning of the space itself when moving in parameter space, as the tangent space turns when moving in a curved space. New insights are obtained using familiar concepts in that context such as the Riemann curvature.",
+    "chinese": "许多用于电子结构计算的基组会随外部参数的变化而演化，例如动力学模拟中移动的原子，这在动力学方程中产生额外的导数项。在此，我们在微分几何的背景下重新审视这些导数，从而获得更为透明的形式化，以及有助于更好地理解所得方程的几何视角。基组在其所张成的希尔伯特空间之内的演化所产生的效应，与在参数空间中移动时空间本身发生转动所产生的效应明确分离，正如在弯曲空间中移动时切空间发生转动一样。借助该背景下的熟悉概念（如黎曼曲率），获得了新的见解。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "许多用于电子结构计算的基函数集会随外部参数的改变而变化，例如动态模拟中移动的原子，这会引发动力学方程中的额外导数项。本文重新审视这些导数项在差分几何框架下的性质，从而获得了更清晰的公理化表述，并通过几何视角深化了对所得方程的理解。基函数集在希尔伯特空间内的演化影响可被明确区分为两部分：一是基函数在参数空间移动时随希尔伯特空间自身旋转产生的切空间转向效应，二是曲率空间中切空间随位置变化的转向效应。通过引入黎曼曲率等熟悉概念，获得了对该问题的新洞见。",
+        "verdict": {
+          "id": "hum_02",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "许多用于电子结构计算的基函数集会随外部参数的改变而变化，例如动态模拟中移动的原子，这会引发动力学方程中的额外导数项。本文重新审视这些导数项在差分几何框架下的性质，从而获得了更清晰的公理化表述，并通过几何视角深化了对所得方程的理解。基函数集在希尔伯特空间内的演化影响可被明确区分为两部分：一是基函数在参数空间移动时随希尔伯特空间自身旋转产生的切空间转向效应，二是曲率空间中切空间随位置变化的转向效应。通过引入黎曼曲率等熟悉概念，获得了对该问题的新洞见。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "许多用于电子结构计算的基组会随外部参数的变化而演化，例如动力学模拟中移动的原子，这在动力学方程中产生额外的导数项。在此，我们在微分几何的背景下重新审视这些导数，从而获得更为透明的形式化，以及有助于更好地理解所得方程的几何视角。基组在其所张成的希尔伯特空间之内的演化所产生的效应，与在参数空间中移动时空间本身发生转动所产生的效应明确分离，正如在弯曲空间中移动时切空间发生转动一样。借助该背景下的熟悉概念（如黎曼曲率），获得了新的见解。",
+        "verdict": {
+          "id": "hum_02",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "许多用于电子结构计算的基组会随外部参数的变化而演化，例如动力学模拟中移动的原子，这在动力学方程中产生额外的导数项。在此，我们在微分几何的背景下重新审视这些导数，从而获得更为透明的形式化，以及有助于更好地理解所得方程的几何视角。基组在其所张成的希尔伯特空间之内的演化所产生的效应，与在参数空间中移动时空间本身发生转动所产生的效应明确分离，正如在弯曲空间中移动时切空间发生转动一样。借助该背景下的熟悉概念（如黎曼曲率），获得了新的见解。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_03",
+    "source_type": "human",
+    "domain": "complex_systems",
+    "topic": "",
+    "english": "We introduce the interrelated replica and cavity methods, which originated in statistical physics as powerful ways to quantitatively analyze large highly heterogeneous systems of many interacting degrees of freedom. We also introduce the closely related notion of message passing in graphical models, which originated in computer science as a distributed algorithm capable of solving large inference and optimization problems involving many coupled variables. We then show how both the statistical physics and computer science perspectives can be applied in a wide diversity of contexts to problems arising in theoretical neuroscience and data analysis. Along the way we discuss spin glasses, learning theory, illusions of structure in noise, random matrices, dimensionality reduction, and compressed sensing, all within the unified formalism of the replica method.",
+    "chinese": "我们介绍相互关联的复本方法与空腔方法，它们起源于统计物理，是定量分析由众多相互作用自由度构成的大型高度异质系统的有力方式。我们还介绍与之密切相关的图模型中的消息传递概念，它起源于计算机科学，是能够求解涉及众多耦合变量的大规模推断与优化问题的分布式算法。随后我们展示，统计物理与计算机科学这两种视角如何能够广泛应用于理论神经科学与数据分析中出现的各类问题。在此过程中，我们讨论自旋玻璃、学习理论、噪声中的结构错觉、随机矩阵、降维与压缩感知，所有这些均在复本方法的统一形式体系之内展开。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "我们介绍了互相关联的复制方法与空腔方法，这些方法起源于统计物理，作为分析大量高度异构系统的强大定量工具。我们还介绍了图模型中密切相关的信息传递概念，该概念起源于计算机科学，作为一个分布式算法，能够解决涉及许多耦合变量的大规模推断与优化问题。接着我们展示了统计物理与计算机科学的视角如何被广泛应用于理论神经科学和数据分析领域的各种问题中。在讨论过程中，我们涵盖了自旋玻璃体、学习理论、噪声中的结构幻觉、随机矩阵、降维和压缩感知等内容，所有这些内容均在复制方法的统一形式主义框架下展开。",
+        "verdict": {
+          "id": "hum_03",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "我们介绍了互相关联的复制方法与空腔方法，这些方法起源于统计物理，作为分析大量高度异构系统的强大定量工具。我们还介绍了图模型中密切相关的信息传递概念，该概念起源于计算机科学，作为一个分布式算法，能够解决涉及许多耦合变量的大规模推断与优化问题。接着我们展示了统计物理与计算机科学的视角如何被广泛应用于理论神经科学和数据分析领域的各种问题中。在讨论过程中，我们涵盖了自旋玻璃体、学习理论、噪声中的结构幻觉、随机矩阵、降维和压缩感知等内容，所有这些内容均在复制方法的统一形式主义框架下展开。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "我们介绍相互关联的复本方法与空腔方法，它们起源于统计物理，是定量分析由众多相互作用自由度构成的大型高度异质系统的有力方式。我们还介绍与之密切相关的图模型中的消息传递概念，它起源于计算机科学，是能够求解涉及众多耦合变量的大规模推断与优化问题的分布式算法。随后我们展示，统计物理与计算机科学这两种视角如何能够广泛应用于理论神经科学与数据分析中出现的各类问题。在此过程中，我们讨论自旋玻璃、学习理论、噪声中的结构错觉、随机矩阵、降维与压缩感知，所有这些均在复本方法的统一形式体系之内展开。",
+        "verdict": {
+          "id": "hum_03",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "我们介绍相互关联的复本方法与空腔方法，它们起源于统计物理，是定量分析由众多相互作用自由度构成的大型高度异质系统的有力方式。我们还介绍与之密切相关的图模型中的消息传递概念，它起源于计算机科学，是能够求解涉及众多耦合变量的大规模推断与优化问题的分布式算法。随后我们展示，统计物理与计算机科学这两种视角如何能够广泛应用于理论神经科学与数据分析中出现的各类问题。在此过程中，我们讨论自旋玻璃、学习理论、噪声中的结构错觉、随机矩阵、降维与压缩感知，所有这些均在复本方法的统一形式体系之内展开。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_04",
+    "source_type": "human",
+    "domain": "complex_systems",
+    "topic": "",
+    "english": "The purpose of this paper is to advance the understanding of the conditions that give rise to flash crash contagion, particularly with respect to overlapping asset portfolio crowding. To this end, we designed, implemented, and assessed a hybrid micro-macro agent-based model, where price impact arises endogenously through the limit order placement activity of algorithmic traders. Our novel hybrid microscopic and macroscopic model allows us to quantify systemic risk not just in terms of system stability, but also in terms of the speed of financial distress propagation over intraday timescales. We find that systemic risk is strongly dependent on the behaviour of algorithmic traders, on leverage management practices, and on network topology. Our results demonstrate that, for high-crowding regimes, contagion speed is a non-monotone function of portfolio diversification.",
+    "chinese": "本文旨在增进对引发闪电崩盘传染之条件的理解，尤其是关于资产组合重叠拥挤的方面。为此，我们设计、实现并评估了一个微观-宏观混合的基于主体的模型，其中价格冲击内生地产生于算法交易者的限价单提交活动。我们新颖的微观与宏观混合模型使我们不仅能够从系统稳定性的角度，而且能够从金融困境在日内时间尺度上的传播速度的角度，量化系统性风险。我们发现，系统性风险强烈依赖于算法交易者的行为、杠杆管理实践以及网络拓扑。我们的结果表明，在高拥挤机制下，传染速度是投资组合多样化程度的非单调函数。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "本文旨在推进对引发闪崩传染条件的理解，尤其是关于资产组合重叠拥挤的情况。为此，我们设计并实现了一个混合微观-宏观的基于代理模型，其中价格冲击通过算法交易者的限价单挂单行为内生性地产生。我们的新型混合微观与宏观模型使我们不仅能够从系统稳定性角度量化系统性风险，还能从金融压力在日内时间尺度上传播速度的角度进行量化。研究发现系统性风险高度依赖于算法交易者的行为、杠杆管理实践以及网络拓扑结构。我们的结果表明，在高拥挤情形下，传染速度是投资组合多样化程度的一个非单调函数。",
+        "verdict": {
+          "id": "hum_04",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "本文旨在推进对引发闪崩传染条件的理解，尤其是关于资产组合重叠拥挤的情况。为此，我们设计并实现了一个混合微观-宏观的基于代理模型，其中价格冲击通过算法交易者的限价单挂单行为内生性地产生。我们的新型混合微观与宏观模型使我们不仅能够从系统稳定性角度量化系统性风险，还能从金融压力在日内时间尺度上传播速度的角度进行量化。研究发现系统性风险高度依赖于算法交易者的行为、杠杆管理实践以及网络拓扑结构。我们的结果表明，在高拥挤情形下，传染速度是投资组合多样化程度的一个非单调函数。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "本文旨在增进对引发闪电崩盘传染之条件的理解，尤其是关于资产组合重叠拥挤的方面。为此，我们设计、实现并评估了一个微观-宏观混合的基于主体的模型，其中价格冲击内生地产生于算法交易者的限价单提交活动。我们新颖的微观与宏观混合模型使我们不仅能够从系统稳定性的角度，而且能够从金融困境在日内时间尺度上的传播速度的角度，量化系统性风险。我们发现，系统性风险强烈依赖于算法交易者的行为、杠杆管理实践以及网络拓扑。我们的结果表明，在高拥挤机制下，传染速度是投资组合多样化程度的非单调函数。",
+        "verdict": {
+          "id": "hum_04",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "本文旨在增进对引发闪电崩盘传染之条件的理解，尤其是关于资产组合重叠拥挤的方面。为此，我们设计、实现并评估了一个微观-宏观混合的基于主体的模型，其中价格冲击内生地产生于算法交易者的限价单提交活动。我们新颖的微观与宏观混合模型使我们不仅能够从系统稳定性的角度，而且能够从金融困境在日内时间尺度上的传播速度的角度，量化系统性风险。我们发现，系统性风险强烈依赖于算法交易者的行为、杠杆管理实践以及网络拓扑。我们的结果表明，在高拥挤机制下，传染速度是投资组合多样化程度的非单调函数。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_05",
+    "source_type": "human",
+    "domain": "philosophy",
+    "topic": "",
+    "english": "The project of analysing knowledge is to state conditions that are individually necessary and jointly sufficient for propositional knowledge, thoroughly answering the question, what does it take to know something? By “propositional knowledge”, we mean knowledge of a proposition—for example, if Susan knows that Alyssa is a musician, she has knowledge of the proposition that Alyssa is a musician. Propositional knowledge should be distinguished from knowledge of “acquaintance”, as obtains when Susan knows Alyssa. The relation between propositional knowledge and the knowledge at issue in other “knowledge” locutions in English, such as knowledge-where (“Susan knows where she is”) and especially knowledge-how (“Susan knows how to ride a bicycle”) is subject to some debate.",
+    "chinese": "分析知识的工程，是陈述命题知识各自必要且共同充分的条件，从而完整地回答“知道某事需要什么”这一问题。我们所说的“命题知识”，是指关于某一命题的知识——例如，若苏珊知道阿莉莎是一位音乐家，则她拥有关于“阿莉莎是一位音乐家”这一命题的知识。命题知识应与“亲知”的知识相区分，后者如苏珊认识阿莉莎时所具有的知识。命题知识与英语中其他“知道”用语所涉及的知识之间的关系，例如“知道何处”（“苏珊知道她在何处”），尤其是“知道如何”（“苏珊知道如何骑自行车”），仍存在一些争论。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "分析知识的课题旨在阐明构成命题知识的条件，这些条件各自必要且共同充分，从而彻底回答‘知道某事需要什么’的问题。所谓‘命题知识’，是指对某一命题的知识——例如，若苏珊知道阿莱莎是一位音乐家，则她具有‘阿莱莎是一位音乐家’这一命题的知识。命题知识应与‘熟识型知识’区别，后者存在于苏珊与阿莱莎相互熟悉的情形中。关于命题知识与其他‘知道’表达式（如‘何处的知识’‘苏珊知道她所在何处’及尤其是‘如何的知识’如‘苏珊知道如何骑自行车’）之间关系的探讨仍存争议。",
+        "verdict": {
+          "id": "hum_05",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "分析知识的课题旨在阐明构成命题知识的条件，这些条件各自必要且共同充分，从而彻底回答‘知道某事需要什么’的问题。所谓‘命题知识’，是指对某一命题的知识——例如，若苏珊知道阿莱莎是一位音乐家，则她具有‘阿莱莎是一位音乐家’这一命题的知识。命题知识应与‘熟识型知识’区别，后者存在于苏珊与阿莱莎相互熟悉的情形中。关于命题知识与其他‘知道’表达式（如‘何处的知识’‘苏珊知道她所在何处’及尤其是‘如何的知识’如‘苏珊知道如何骑自行车’）之间关系的探讨仍存争议。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "分析知识的工程，是陈述命题知识各自必要且共同充分的条件，从而完整地回答“知道某事需要什么”这一问题。我们所说的“命题知识”，是指关于某一命题的知识——例如，若苏珊知道阿莉莎是一位音乐家，则她拥有关于“阿莉莎是一位音乐家”这一命题的知识。命题知识应与“亲知”的知识相区分，后者如苏珊认识阿莉莎时所具有的知识。命题知识与英语中其他“知道”用语所涉及的知识之间的关系，例如“知道何处”（“苏珊知道她在何处”），尤其是“知道如何”（“苏珊知道如何骑自行车”），仍存在一些争论。",
+        "verdict": {
+          "id": "hum_05",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "分析知识的工程，是陈述命题知识各自必要且共同充分的条件，从而完整地回答“知道某事需要什么”这一问题。我们所说的“命题知识”，是指关于某一命题的知识——例如，若苏珊知道阿莉莎是一位音乐家，则她拥有关于“阿莉莎是一位音乐家”这一命题的知识。命题知识应与“亲知”的知识相区分，后者如苏珊认识阿莉莎时所具有的知识。命题知识与英语中其他“知道”用语所涉及的知识之间的关系，例如“知道何处”（“苏珊知道她在何处”），尤其是“知道如何”（“苏珊知道如何骑自行车”），仍存在一些争论。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_06",
+    "source_type": "human",
+    "domain": "philosophy",
+    "topic": "",
+    "english": "Although the term “epistemology” is no more than a couple of centuries old, the field of epistemology is at least as old as any in philosophy. In different parts of its extensive history, different facets of epistemology have attracted attention. Plato’s epistemology was an attempt to understand what it was to know, and how knowledge (unlike mere true opinion) is good for the knower. Locke’s epistemology was an attempt to understand the operations of human understanding, Kant’s epistemology was an attempt to understand the conditions of the possibility of human understanding, and Russell’s epistemology was an attempt to understand how modern science could be justified by appeal to sensory experience.",
+    "chinese": "尽管“认识论”这一术语的历史不过两个世纪左右，但认识论这一领域至少与哲学中的任何领域一样古老。在其漫长历史的不同阶段，认识论的不同侧面曾吸引人们的关注。柏拉图的认识论试图理解知道是怎么一回事，以及知识（不同于单纯的真意见）如何对认识者有益。洛克的认识论试图理解人类理解的运作，康德的认识论试图理解人类理解之可能性的条件，罗素的认识论则试图理解如何通过诉诸感觉经验来证成现代科学。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "尽管‘认识论’这一术语的历史不过数百年，但认识论作为研究领域至少与其他哲学分支同样古老。在其漫长的发展历程中，认识论的各个方面曾相继成为关注焦点。柏拉图的认识论试图阐明知识的本质及为何知识（区别于单纯真信念）对认知主体具有价值；洛克的认识论试图探究人类心智的运作机制；康德的认识论旨在分析人类理解之可能性的条件；而罗素的认识论则旨在阐明现代科学如何通过感官经验获得正当性。",
+        "verdict": {
+          "id": "hum_06",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "尽管‘认识论’这一术语的历史不过数百年，但认识论作为研究领域至少与其他哲学分支同样古老。在其漫长的发展历程中，认识论的各个方面曾相继成为关注焦点。柏拉图的认识论试图阐明知识的本质及为何知识（区别于单纯真信念）对认知主体具有价值；洛克的认识论试图探究人类心智的运作机制；康德的认识论旨在分析人类理解之可能性的条件；而罗素的认识论则旨在阐明现代科学如何通过感官经验获得正当性。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "尽管“认识论”这一术语的历史不过两个世纪左右，但认识论这一领域至少与哲学中的任何领域一样古老。在其漫长历史的不同阶段，认识论的不同侧面曾吸引人们的关注。柏拉图的认识论试图理解知道是怎么一回事，以及知识（不同于单纯的真意见）如何对认识者有益。洛克的认识论试图理解人类理解的运作，康德的认识论试图理解人类理解之可能性的条件，罗素的认识论则试图理解如何通过诉诸感觉经验来证成现代科学。",
+        "verdict": {
+          "id": "hum_06",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "尽管“认识论”这一术语的历史不过两个世纪左右，但认识论这一领域至少与哲学中的任何领域一样古老。在其漫长历史的不同阶段，认识论的不同侧面曾吸引人们的关注。柏拉图的认识论试图理解知道是怎么一回事，以及知识（不同于单纯的真意见）如何对认识者有益。洛克的认识论试图理解人类理解的运作，康德的认识论试图理解人类理解之可能性的条件，罗素的认识论则试图理解如何通过诉诸感觉经验来证成现代科学。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_07",
+    "source_type": "human",
+    "domain": "syntax_baseline",
+    "topic": "",
+    "english": "Article III of the Constitution assigns to the Federal Judiciary the responsibility and power to adjudicate “Cases” and “Controversies”—concrete disputes with consequences for the parties involved. The Framers appreciated that the laws judges would necessarily apply in resolving those disputes would not always be clear. Cognizant of the limits of human language and foresight, they anticipated that “all new laws, though penned with the greatest technical skill, and passed on the fullest and most mature deliberation,” would be “more or less obscure and equivocal, until their meaning” was settled “by a series of particular discussions and adjudications.” The Framers also envisioned that the final “interpretation of the laws” would be “the proper and peculiar province of the courts.",
+    "chinese": "《宪法》第三条赋予联邦司法机关裁决“案件”与“争议”的职责与权力，即对相关当事人具有实际后果的具体纠纷。制宪者意识到，法官在解决这些纠纷时必然适用的法律并不总是清晰的。鉴于人类语言与预见能力的局限，他们预见到“所有新的法律，即便以最精湛的技术起草，并经最充分、最成熟的审议而通过”，也会“或多或少地晦涩而含混，直至其含义”经由“一系列具体的讨论与裁判”而得以确定。制宪者还设想，对法律的最终“解释”将是“法院恰当而特有的职权范围”。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "《宪法》第三条规定，联邦司法机关负责裁决具有明确法律后果之当事人实际争议的“案件”与“争议”。制宪者意识到，法官在解决此类争议时所必然适用的法律未必始终清晰。鉴于对人类语言表达局限性和预见能力不足的认知，他们预见到“即便所有新法律均以最精湛的技术起草并历经最全面与成熟的审议”，也会“在不同程度上存在模糊和歧义，直至通过一系列具体讨论和裁判确定其含义”。制宪者亦设想，对法律的最终“解释”应当是“法庭所专属而正当的职责领域”。",
+        "verdict": {
+          "id": "hum_07",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "《宪法》第三条规定，联邦司法机关负责裁决具有明确法律后果之当事人实际争议的“案件”与“争议”。制宪者意识到，法官在解决此类争议时所必然适用的法律未必始终清晰。鉴于对人类语言表达局限性和预见能力不足的认知，他们预见到“即便所有新法律均以最精湛的技术起草并历经最全面与成熟的审议”，也会“在不同程度上存在模糊和歧义，直至通过一系列具体讨论和裁判确定其含义”。制宪者亦设想，对法律的最终“解释”应当是“法庭所专属而正当的职责领域”。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "《宪法》第三条赋予联邦司法机关裁决“案件”与“争议”的职责与权力，即对相关当事人具有实际后果的具体纠纷。制宪者意识到，法官在解决这些纠纷时必然适用的法律并不总是清晰的。鉴于人类语言与预见能力的局限，他们预见到“所有新的法律，即便以最精湛的技术起草，并经最充分、最成熟的审议而通过”，也会“或多或少地晦涩而含混，直至其含义”经由“一系列具体的讨论与裁判”而得以确定。制宪者还设想，对法律的最终“解释”将是“法院恰当而特有的职权范围”。",
+        "verdict": {
+          "id": "hum_07",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "《宪法》第三条赋予联邦司法机关裁决“案件”与“争议”的职责与权力，即对相关当事人具有实际后果的具体纠纷。制宪者意识到，法官在解决这些纠纷时必然适用的法律并不总是清晰的。鉴于人类语言与预见能力的局限，他们预见到“所有新的法律，即便以最精湛的技术起草，并经最充分、最成熟的审议而通过”，也会“或多或少地晦涩而含混，直至其含义”经由“一系列具体的讨论与裁判”而得以确定。制宪者还设想，对法律的最终“解释”将是“法院恰当而特有的职权范围”。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hum_08",
+    "source_type": "human",
+    "domain": "syntax_baseline",
+    "topic": "",
+    "english": "Procedural due process imposes constraints on governmental decisions which deprive individuals of “liberty” or “property” interests within the meaning of the Due Process Clause of the Fifth or Fourteenth Amendment. The Secretary does not contend that procedural due process is inapplicable to terminations of Social Security disability benefits. He recognizes, as has been implicit in our prior decisions that the interest of an individual in continued receipt of these benefits is a statutorily created “property” interest protected by the Fifth Amendment. Rather, the Secretary contends that the existing administrative procedures, detailed below, provide all the process that is constitutionally due before a recipient can be deprived of that interest.",
+    "chinese": "程序性正当程序对政府的下列决定施加约束：这些决定依《宪法》第五修正案或第十四修正案正当程序条款之含义，剥夺个人的“自由”或“财产”利益。部长并不主张程序性正当程序不适用于社会保障残疾福利的终止。他承认，正如本院此前判决所隐含的那样，个人持续领取这些福利的利益，是受第五修正案保护的、依制定法创设的“财产”利益。毋宁说，部长主张，下文详述的现行行政程序，已提供了在领取人被剥夺该利益之前宪法所要求的全部程序。",
+    "verification_status": "APPROVED_AFTER_REVISION",
+    "revision_rounds": 1,
+    "history": [
+      {
+        "round": 0,
+        "chinese": "程序性正当程序对剥夺个人符合第五修正案和第十四修正案正当程序条款所涵盖的“自由”或“财产”权益的政府决定加以约束。部长并未主张程序性正当程序不适用于社会保障残疾福利的终止决定。他承认，如同我们此前判决所隐含的，个人持续领取此类福利的权益是一种依法创设的“财产”权益，受第五修正案保护。然而，部长主张，下文所述的现存行政程序已为剥夺该权益前提供了宪法要求的全部正当程序。",
+        "verdict": {
+          "id": "hum_08",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": true,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": true,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "",
+          "revised_target_text": "程序性正当程序对剥夺个人符合第五修正案和第十四修正案正当程序条款所涵盖的“自由”或“财产”权益的政府决定加以约束。部长并未主张程序性正当程序不适用于社会保障残疾福利的终止决定。他承认，如同我们此前判决所隐含的，个人持续领取此类福利的权益是一种依法创设的“财产”权益，受第五修正案保护。然而，部长主张，下文所述的现存行政程序已为剥夺该权益前提供了宪法要求的全部正当程序。"
+        }
+      },
+      {
+        "round": 1,
+        "chinese": "程序性正当程序对政府的下列决定施加约束：这些决定依《宪法》第五修正案或第十四修正案正当程序条款之含义，剥夺个人的“自由”或“财产”利益。部长并不主张程序性正当程序不适用于社会保障残疾福利的终止。他承认，正如本院此前判决所隐含的那样，个人持续领取这些福利的利益，是受第五修正案保护的、依制定法创设的“财产”利益。毋宁说，部长主张，下文详述的现行行政程序，已提供了在领取人被剥夺该利益之前宪法所要求的全部程序。",
+        "verdict": {
+          "id": "hum_08",
+          "status": "APPROVED",
+          "semantic_equivalence": {
+            "passed": null,
+            "missing_propositions": []
+          },
+          "regional_neutrality": {
+            "passed": null,
+            "detected_slang_or_jargon": [],
+            "non_neutral_terms": []
+          },
+          "critique": "Manual academic-register revision: strict one-to-one clause mapping to the English source; standard Chinese terminology; colloquial/loose phrasing and structural errors removed. Pending automated re-verification.",
+          "revised_target_text": "程序性正当程序对政府的下列决定施加约束：这些决定依《宪法》第五修正案或第十四修正案正当程序条款之含义，剥夺个人的“自由”或“财产”利益。部长并不主张程序性正当程序不适用于社会保障残疾福利的终止。他承认，正如本院此前判决所隐含的那样，个人持续领取这些福利的利益，是受第五修正案保护的、依制定法创设的“财产”利益。毋宁说，部长主张，下文详述的现行行政程序，已提供了在领取人被剥夺该利益之前宪法所要求的全部程序。"
+        }
+      }
+    ]
+  }
+]
