@@ -10,3 +10,4 @@ chromadb
 huggingface_hub
 streamlit
 pandas
+plotly
